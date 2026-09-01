@@ -3,12 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactCompiler: true,
   images: {
+    unoptimized: true,
     remotePatterns: [
-      // {
-      //   protocol: "https",
-      //   hostname: "everaw.in",
-      //   pathname: "/cdn/**",
-      // },
       {
         protocol: "https",
         hostname: "lh3.googleusercontent.com",
