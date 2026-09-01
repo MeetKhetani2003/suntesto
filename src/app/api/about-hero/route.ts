@@ -4,6 +4,8 @@ import { authOptions } from "@/lib/auth";
 import { connectDB } from "@/lib/mongodb";
 import AboutHero from "@/models/AboutHero";
 
+export const dynamic = 'force-dynamic';
+
 // Public GET route to fetch About Us Hero config
 export async function GET() {
   try {

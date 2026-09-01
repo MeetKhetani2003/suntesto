@@ -4,6 +4,8 @@ import { authOptions } from "@/lib/auth";
 import { connectDB } from "@/lib/mongodb";
 import AboutVideo from "@/models/AboutVideo";
 
+export const dynamic = 'force-dynamic';
+
 // Public GET route to fetch About Us Video section config
 export async function GET() {
   try {

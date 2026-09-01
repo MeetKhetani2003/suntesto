@@ -5,6 +5,8 @@ import { connectDB } from "@/lib/mongodb";
 import FAQ from "@/models/FAQ";
 import Product from "@/models/Product"; // ensure Product model is registered in Mongoose
 
+export const dynamic = 'force-dynamic';
+
 const DEFAULT_GLOBAL_FAQS = [
   {
     question: "What is Sustento all about?",
@@ -32,7 +34,7 @@ const DEFAULT_GLOBAL_FAQS = [
   },
   {
     question: "Who founded Sustento?",
-    answer: "Sustento was founded by a passionate team of food innovators, including Raj Kotadiya, Kanika Kishnani, and Raj Kotadiya, who wanted to solve the compromise between eating healthy and enjoying delicious food.",
+    answer: "Sustento was founded by a passionate team of food innovators, including Raj Kotadiya and Rushit Kotadiya, who wanted to solve the compromise between eating healthy and enjoying delicious food.",
     productId: null,
     order: 4,
   },

@@ -131,7 +131,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full h-screen min-h-[600px] bg-charcoal overflow-hidden group">
+    <section className="relative w-full h-[100dvh] min-h-[600px] bg-charcoal overflow-hidden group">
       {/* ── Slides Container (Horizontal Shift) ──────────────── */}
       <div
         className="flex h-full w-full transition-transform duration-700 ease-in-out"
@@ -274,11 +274,11 @@ export default function Hero() {
       )}
 
       {/* ── Wavy Yellow Bottom Ticker Ribbon ────────────────── */}
-      {/* <div className="absolute left-0 -bottom-30 w-full z-20 pointer-events-none">
+      <div className="absolute left-0 bottom-0 w-full z-20 pointer-events-none translate-y-[1px]">
         <svg
           viewBox="0 0 1440 190"
           preserveAspectRatio="none"
-          className="w-full h-32 md:h-40 xl:h-72 block"
+          className="w-full h-24 sm:h-32 md:h-40 xl:h-48 block"
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
@@ -287,23 +287,27 @@ export default function Hero() {
               d="M -20 110 Q 240 30 480 110 T 960 110 T 1460 110"
               fill="none"
             />
-            <filter id="ribbon-shadow" x="-5%" y="-20%" width="110%" height="140%">
-              <feDropShadow dx="0" dy="4" stdDeviation="4" floodOpacity="0.25" />
-            </filter>
+            <path
+              id="solid-wave"
+              d="M 0 110 Q 240 30 480 110 T 960 110 T 1440 110 L 1440 190 L 0 190 Z"
+            />
           </defs>
 
+          {/* Solid base that matches the next section's background color */}
+          <use href="#solid-wave" fill="#fffff9" />
+
+          {/* The Yellow Ribbon */}
           <use
             href="#text-wave"
-            stroke="#9EAB75"
-            strokeWidth="72"
+            stroke="#FFCC00"
+            strokeWidth="45"
             fill="none"
             strokeLinecap="round"
-            filter="url(#ribbon-shadow)"
           />
 
           <text
-            className="font-primary font-extrabold uppercase fill-dark"
-            style={{ fontSize: "22px", letterSpacing: "1px" }}
+            className="font-primary font-extrabold uppercase fill-black"
+            style={{ fontSize: "16px", letterSpacing: "1px" }}
           >
             <textPath href="#text-wave" startOffset="0%">
               {TICKER_TEXT}
@@ -317,7 +321,7 @@ export default function Hero() {
             </textPath>
           </text>
         </svg>
-      </div> */}
+      </div>
     </section>
   );
 }

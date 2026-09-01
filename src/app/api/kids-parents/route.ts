@@ -4,6 +4,8 @@ import { authOptions } from "@/lib/auth";
 import { connectDB } from "@/lib/mongodb";
 import KidsParents from "@/models/KidsParents";
 
+export const dynamic = 'force-dynamic';
+
 const DEFAULT_CONFIG = {
   headerTitleLine1: "CLEAN LABEL.",
   headerTitleLine2: "FULL DISCLOSURE.",

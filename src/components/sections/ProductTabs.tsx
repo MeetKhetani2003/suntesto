@@ -361,23 +361,23 @@ export default function ProductTabs() {
         <div className="text-center">
           <div className="flex items-center justify-center gap-2 mb-1.5 flex-wrap">
             <div className="relative">
-            <span className="font-accent text-3xl md:text-[38px] font-bold text-body rotate-[-2deg]">
-              We serve
-            </span>
-            {/* Cursive Sunburst Graphic representation */}
-            {/* <div className="w-8 h-8 relative shrink-0">
+              <span className="font-accent text-3xl md:text-[38px] font-bold text-body rotate-[-2deg]">
+                We serve
+              </span>
+              {/* Cursive Sunburst Graphic representation */}
+              {/* <div className="w-8 h-8 relative shrink-0">
               <svg viewBox="0 0 100 100" className="w-full h-full fill-yellow">
                 <path d="M50 15 L55 35 L75 30 L60 45 L78 60 L57 60 L62 80 L50 65 L38 80 L43 60 L22 60 L40 45 L25 30 L45 35 Z" />
               </svg>
             </div> */}
-            <svg
-              viewBox="0 0 40 40"
-              className="absolute -top-4 -right-12 w-12 h-12 text-[#9EAB75] fill-current select-none pointer-events-none transform rotate-12"
-            >
-              <path d="M 8,24 C 7,20 6,15 5,8 C 8,9 11,11 13,13 C 11,17 9,21 8,24 Z" />
-              <path d="M 13,18 C 16,15 21,11 26,7 C 27,10 27,14 27,17 C 22,18 17,18 13,18 Z" />
-              <path d="M 16,21 C 21,21 27,21 32,22 C 31,24 28,26 26,27 C 22,25 19,23 16,21 Z" />
-            </svg>
+              <svg
+                viewBox="0 0 40 40"
+                className="absolute -top-4 -right-12 w-12 h-12 text-[#9EAB75] fill-current select-none pointer-events-none transform rotate-12"
+              >
+                <path d="M 8,24 C 7,20 6,15 5,8 C 8,9 11,11 13,13 C 11,17 9,21 8,24 Z" />
+                <path d="M 13,18 C 16,15 21,11 26,7 C 27,10 27,14 27,17 C 22,18 17,18 13,18 Z" />
+                <path d="M 16,21 C 21,21 27,21 32,22 C 31,24 28,26 26,27 C 22,25 19,23 16,21 Z" />
+              </svg>
             </div>
           </div>
           <h2 className="font-primary font-black text-3xl sm:text-[40px] md:text-[49px] text-charcoal leading-tight uppercase tracking-tight">
@@ -415,8 +415,8 @@ export default function ProductTabs() {
                 key={tab}
                 onClick={() => setActiveTab(tab)}
                 className={`px-6 py-2.5 rounded-full font-primary text-[13px] md:text-[15px] font-black uppercase tracking-wider transition-all duration-300 ${isActive
-                    ? "bg-[#9EAB75] text-dark shadow-md border border-black/5 -rotate-2 scale-105"
-                    : "text-charcoal/80 hover:text-dark hover:border-yellow border-b-2 border-transparent"
+                  ? "bg-[#9EAB75] text-dark shadow-md border border-black/5 -rotate-2 scale-105"
+                  : "text-charcoal/80 hover:text-dark hover:border-yellow border-b-2 border-transparent"
                   }`}
               >
                 {tab}
@@ -428,15 +428,15 @@ export default function ProductTabs() {
 
       {/* ── Product Cards Grid ─────────────────────────────────── */}
       <div className={`flex overflow-x-auto scroll-hide gap-6 pb-6 pt-32 snap-x snap-mandatory px-4 max-w-[1200px] mx-auto lg:overflow-visible ${isCentered
-          ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
-          : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
+        ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
+        : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
         }`}>
         {displayProducts.map((product, idx) => (
           <div
             key={product.id}
             className={`reveal-card reveal-delay-${(idx % 4) * 100} group relative flex flex-col justify-between w-[270px] sm:w-[280px] shrink-0 snap-center min-h-[390px] mx-0 lg:mx-auto rounded-t-3xl rounded-b-3xl shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-black/[0.04] p-4 transition-all duration-500 mt-0 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-[2px] ${isCentered
-                ? "lg:w-[285px] lg:shrink-0 lg:grow-0"
-                : "lg:w-full lg:max-w-[285px] lg:shrink"
+              ? "lg:w-[285px] lg:shrink-0 lg:grow-0"
+              : "lg:w-full lg:max-w-[285px] lg:shrink"
               } ${product.archClass}`}
           >
 
@@ -452,9 +452,9 @@ export default function ProductTabs() {
                   className="object-contain drop-shadow-[0_15px_24px_rgba(0,0,0,0.15)] group-hover/img:drop-shadow-[0_25px_35px_rgba(0,0,0,0.22)] mix-blend-multiply transition-all duration-500"
                   unoptimized={true}
                 />
-                
+
                 {/* Floating Badge Sticker */}
-                <div className={`absolute top-10 -right-2 z-20 rounded-full px-3 py-1.5 text-[10px] md:text-[11px] font-black uppercase tracking-wider rotate-12 shadow-md hover:rotate-6 transition-all duration-300 border border-white/40 flex items-center gap-1 ${product.badgeBg} ${product.badgeText}`}>
+                <div className={`absolute -top-1 -right-2 z-20 rounded-full px-3 py-1.5 text-[10px] md:text-[11px] font-black uppercase tracking-wider rotate-12 shadow-md hover:rotate-6 transition-all duration-300 border border-white/40 flex items-center gap-1 ${product.badgeBg} ${product.badgeText}`}>
                   <span>✦</span>
                   <span>{product.badge}</span>
                 </div>

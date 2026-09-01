@@ -867,7 +867,7 @@ export default function CollectionsAllPage() {
                 )}
               </h2>
               {/* Script tagline */}
-              <p className="mt-5 font-accent font-bold text-[22px] sm:text-[26px] text-[#E8A825] italic leading-snug select-none">
+              <p className="mt-5 font-accent font-bold text-[22px] sm:text-[26px] text-[#9EAB75] italic leading-snug select-none">
                 {lifestyleConfig?.tagline || "Just one ingredient. That's it."}
               </p>
               {/* Optional CTA nudge */}
@@ -1010,8 +1010,9 @@ export default function CollectionsAllPage() {
 
 
           {/* Table */}
-          <div className="max-w-[860px] mx-auto relative z-20">
-            <table className="w-full border-collapse font-primary text-[13px] md:text-[14px]">
+          <div className="max-w-[860px] mx-auto relative z-20 w-full overflow-x-auto pb-2 custom-scrollbar">
+            <div className="min-w-[540px] md:min-w-0 px-1">
+              <table className="w-full border-collapse font-primary text-[13px] md:text-[14px]">
 
               {/* ── Header Row ── */}
               <thead>
@@ -1085,6 +1086,7 @@ export default function CollectionsAllPage() {
                 ))}
               </tbody>
             </table>
+            </div>
           </div>
         </section>
 
