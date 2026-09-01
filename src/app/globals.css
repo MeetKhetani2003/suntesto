@@ -1,0 +1,224 @@
+/* ============================================================
+   EVERAW.IN CLONE — CLEAN TAILWIND v4 DESIGN SYSTEM
+   First Priority: Tailwind CSS Classes
+   Second Priority: Minimal Custom Utility Classes (registered via @utility)
+   ============================================================ */
+
+@import "tailwindcss";
+
+/* ── Tailwind v4 Theme Tokens ───────────────────────────────── */
+@theme {
+  /* ----- Color Palette ----- */
+  --color-dark:           #1e1e1e;   /* headings, buttons, icons */
+  --color-charcoal:       #353534;   /* section headings */
+  --color-body:           #616160;   /* paragraph text */
+  --color-warm-white:     #fafaf8;   /* main background */
+  --color-off-white:      #fffff9;   /* alternate bg, footer, cards */
+  --color-yellow:         #9EAB75;   /* active tabs, ribbons, highlights */
+  --color-yellow-light:   #fff9d6;   /* light tint */
+  --color-logo-orange:    #f49b38;   
+  --color-logo-yellow:    #fff84b;   
+  --color-gold:           #f5c355;   /* review box borders, testimonial outlines */
+  --color-text-accent:    #f5c355;   
+  --color-red:            #c05361;   /* alert red */
+
+  /* ----- Typography ----- */
+  --font-primary:         'Montserrat', sans-serif;
+  --font-accent:          'Kalam', cursive;
+  --font-italic-black:    'Montserrat', sans-serif;
+
+  /* Aliases */
+  --font-display:         'Montserrat', sans-serif;
+  --font-body:            'Montserrat', sans-serif;
+  --font-script:          'Kalam', cursive;
+
+  /* ----- Font Sizes ----- */
+  --text-xs:    12px;
+  --text-sm:    13px;
+  --text-base:  14px;
+  --text-md:    16px;
+  --text-lg:    18px;
+  --text-xl:    22px;
+  --text-2xl:   24px;
+  --text-3xl:   28px;
+  --text-4xl:   32px;
+  --text-5xl:   40px;
+  --text-6xl:   49px;
+  --text-7xl:   60px;
+  --text-8xl:   80px;
+  --text-hero:  100px;
+
+  /* ----- Border Radius ----- */
+  --radius-sm:    5px;
+  --radius-md:    20px;
+  --radius-lg:    60px;
+  --radius-pill:  100px;
+  --radius-full:  9999px;
+  --radius-arch:  500px 500px 0 0;
+}
+
+/* ── Base Styles ────────────────────────────────────────────── */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-warm-white);
+  color: var(--color-body);
+  font-family: var(--font-primary);
+  font-size: var(--text-md);
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* ── Tailwind v4 Custom Utilities (@utility registers them correctly) ── */
+
+/* Container wrapper styling */
+@utility page-width {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Hide scrollbars but keep functionality */
+.scroll-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom radial yellow-gradient matching active tab outlines from everaw.in */
+@utility yellow-gradient {
+  background: radial-gradient(
+    99.21% 338.22% at 0.67% 30.53%,
+    #ffde58, #ffdd58 1.56%, #ffdc58, #ffdb58 7.03%, #9EAB75 9.77% 12.5%,
+    #ffd958 15.23%, #ffd858, #ffd758 19.92%, #ffd658 22.27% 24.61%,
+    #ffd558 26.95%, #ffd458 28.91% 30.86%, #ffd358 32.81%,
+    #ffd258 34.77% 36.72%, #ffd158 38.67% 40.23%, #ffd058 41.8%,
+    #ffcf58 43.36% 44.92%, #ffce58 46.48% 48.05%, #ffcd58 49.61%,
+    #ffcd59 51.17%, #ffcc59, #ffcb59 56.64%, #ffca59 58.98%,
+    #ffc959 61.33% 63.67%, #ffc859 65.62%, #ffc759 67.58% 69.53%,
+    #ffc659 71.09% 72.66%, #ffc559 74.22% 75.78%, #ffc459 78.52%,
+    #ffc359 80.86%, #ffc259 83.2% 85.16%, #ffc159 86.72%,
+    #ffc059 88.28% 91.02%, #ffbf59 92.97%, #ffbe59 94.53%,
+    #ffbd59 97.27% 100%
+  );
+}
+
+/* ── Keyframe Animations ─────────────────────────────────────── */
+
+/* Horizontal marquee scroll for ribbon / ticker elements */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Slow spin for circular stamp badges */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Fade-in and Slide-in drawer animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@utility animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+@utility animate-slide-in {
+  animation: slideIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ── Scroll Reveal Animations ────────────────────────────────── */
+
+.js-enabled .reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.js-enabled .reveal-text {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.js-enabled .reveal-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.js-enabled .reveal-card {
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.js-enabled .reveal-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.js-enabled .reveal-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.js-enabled .reveal.is-visible,
+.js-enabled .reveal-text.is-visible,
+.js-enabled .reveal-section.is-visible,
+.js-enabled .reveal-card.is-visible,
+.js-enabled .reveal-left.is-visible,
+.js-enabled .reveal-right.is-visible {
+  opacity: 1;
+  transform: translate(0) scale(1);
+}
+
+.reveal-delay-100 { transition-delay: 100ms; }
+.reveal-delay-200 { transition-delay: 200ms; }
+.reveal-delay-300 { transition-delay: 300ms; }
+.reveal-delay-400 { transition-delay: 400ms; }
+.reveal-delay-500 { transition-delay: 500ms; }
+

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "6a6497ae6a8dc347fbb69eba",
+    "email": "admin@exploreandunite.com",
+    "__v": 0,
+    "createdAt": "2026-07-25T10:59:19.359Z",
+    "name": "Explore & Unite Admin",
+    "password": "$2b$10$2TRndANPNtEjFvc/AmxbY.Z5fReBRujCg0ydwlaIXlmCCCbZL5QIG",
+    "role": "admin",
+    "updatedAt": "2026-07-27T17:37:45.144Z"
+  },
+  {
+    "_id": "6a64ad88047f0aa9cac47899",
+    "name": "Dish Khant",
+    "email": "dish.khant.dev@gmail.com",
+    "role": "customer",
+    "image": "https://lh3.googleusercontent.com/a/ACg8ocKOqCMzr6sKHPKWl0nzQtUDbbHkI22ozjnpgh59FbS4bxu9AKz1=s96-c",
+    "createdAt": "2026-07-25T12:35:20.496Z",
+    "updatedAt": "2026-07-25T12:35:20.496Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a6da4d778373b0d28985c30",
+    "name": "Kushal Festiviya",
+    "email": "kushalfestiviya@gmail.com",
+    "role": "customer",
+    "image": "https://lh3.googleusercontent.com/a/ACg8ocLMM0l2lOBo6TY5uTU7JNTh_z6ZVaeVMD6CGYNN_m-ahhttmg=s96-c",
+    "createdAt": "2026-08-01T07:48:39.209Z",
+    "updatedAt": "2026-08-01T07:48:39.209Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8738736cf34c29be97d54a",
+    "name": "Jhanvi Kotadiya",
+    "email": "jhanvikotadiya2001@gmail.com",
+    "role": "customer",
+    "image": "https://lh3.googleusercontent.com/a/ACg8ocI-n9wd09WHT-MDd1KEa-kd309XiFeGxJw-Ley-kpPQRziCqA=s96-c",
+    "createdAt": "2026-08-20T17:25:07.742Z",
+    "updatedAt": "2026-08-20T17:25:07.742Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "6a786d03b57d21fd5449b542",
+    "badgeText": "Snacks",
+    "titleLine1": "WORLD'S LIGHTEST",
+    "titleLine2": "WHOLE FRUIT",
+    "titleLine3": "FREEZE-DRIED",
+    "titleHighlight": "Snacks",
+    "backgroundImageUrl": "",
+    "backgroundVideoUrl": "https://player.vimeo.com/external/435674703.sd.mp4?s=7f3747190d5656157e108e4726615b3c5a6104f6&profile_id=139&oauth2_token_id=57447761",
+    "createdAt": "2026-08-09T12:05:23.059Z",
+    "updatedAt": "2026-08-20T17:13:10.136Z",
+    "__v": 7,
+    "autoPlayInterval": 4000,
+    "slides": [
+      {
+        "badgeText": "Snacks",
+        "titleLine1": "WORLD'S LIGHTEST",
+        "titleLine2": "WHOLE FRUIT",
+        "titleLine3": "FREEZE-DRIED",
+        "titleHighlight": "Snacks",
+        "backgroundImageUrl": "",
+        "backgroundVideoUrl": "https://res.cloudinary.com/dgb6durda/video/upload/v1787213353/sustento_products/aysnbhly5oepcnk3ogpk.mp4",
+        "mobileBackgroundImageUrl": "",
+        "mobileBackgroundVideoUrl": "https://res.cloudinary.com/dgb6durda/video/upload/v1787245742/sustento_products/hztt2pqaqpjrzksgpxks.mp4",
+        "_id": "6a786f9d9bc988f97ab4f24c"
+      }
+    ]
+  }
+]

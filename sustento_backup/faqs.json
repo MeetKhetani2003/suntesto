@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "6a7956a8b956008789b292b9",
+    "question": "What is Sustento Nutrition all about?",
+    "answer": "Sustento Nutrition is a clean-label food brand dedicated to making real food smarter. We offer whole fruit snacks made purely from natural, minimally processed ingredients with absolutely zero chemical additives, preservatives, or added sugars.",
+    "productId": null,
+    "order": 0,
+    "__v": 0,
+    "createdAt": "2026-08-10T04:42:16.056Z",
+    "updatedAt": "2026-08-10T04:42:16.056Z"
+  },
+  {
+    "_id": "6a7956a8b956008789b292ba",
+    "question": "What makes Sustento different?",
+    "answer": "Unlike traditional brands, we declare every single ingredient on the front of our packs. We use advanced freeze-drying technology to retain 100% natural nutrients, colours, and flavours, eliminating any need for synthetic flow agents, thickeners, or artificial chemicals.",
+    "productId": null,
+    "order": 1,
+    "__v": 0,
+    "createdAt": "2026-08-10T04:42:16.057Z",
+    "updatedAt": "2026-08-10T04:42:16.057Z"
+  },
+  {
+    "_id": "6a7956a8b956008789b292bb",
+    "question": "Are your products really 100% natural?",
+    "answer": "Yes, 100%. The only ingredients you will ever find in our products are whole fruits and superfoods. We screen for and exclude emulsifiers, preservatives, colouring agents, fat replacers, and artificial sweeteners.",
+    "productId": null,
+    "order": 2,
+    "__v": 0,
+    "createdAt": "2026-08-10T04:42:16.057Z",
+    "updatedAt": "2026-08-10T04:42:16.057Z"
+  },
+  {
+    "_id": "6a7956a8b956008789b292bc",
+    "question": "Who are your products made for?",
+    "answer": "Sustento is made for everyone: busy professionals looking for healthy snacks, fitness enthusiasts needing clean energy, and parents looking for nutrient-dense, clean-label foods they can trust for their kids.",
+    "productId": null,
+    "order": 3,
+    "__v": 0,
+    "createdAt": "2026-08-10T04:42:16.057Z",
+    "updatedAt": "2026-08-10T04:42:16.057Z"
+  },
+  {
+    "_id": "6a7956a8b956008789b292bd",
+    "question": "Who founded Sustento Nutrition?",
+    "answer": "Sustento was founded by a passionate team of food innovators, including Lucky Soni, Kanika Kishnani, and Yash Soni, who wanted to solve the compromise between eating healthy and enjoying delicious food.",
+    "productId": null,
+    "order": 4,
+    "__v": 0,
+    "createdAt": "2026-08-10T04:42:16.057Z",
+    "updatedAt": "2026-08-10T04:42:16.057Z"
+  },
+  {
+    "_id": "6a7956a8b956008789b292be",
+    "question": "What does \"Sustento\" mean?",
+    "answer": "Sustento stands for 'Sustenance' – our promise to preserve the raw, organic integrity of nature's best ingredients using smart, clean technology so you get pure nutrition in every bite.",
+    "productId": null,
+    "order": 5,
+    "__v": 0,
+    "createdAt": "2026-08-10T04:42:16.057Z",
+    "updatedAt": "2026-08-10T04:42:16.057Z"
+  }
+]

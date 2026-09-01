@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "6a86a692a54dbbd77dd560fd",
+    "imageSrc": "/images/hamper.png",
+    "textOverlay": "PURE FRUIT CRUNCH IN EVERY BITE",
+    "likes": 109,
+    "order": 7,
+    "mediaType": "image",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.712Z",
+    "updatedAt": "2026-08-20T07:02:42.712Z"
+  },
+  {
+    "_id": "6a86a692a54dbbd77dd560f9",
+    "imageSrc": "/images/product-dummy.png",
+    "textOverlay": "NO MORE GOODBYES TO MANGO SHAKE",
+    "likes": 95,
+    "order": 3,
+    "mediaType": "image",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.712Z",
+    "updatedAt": "2026-08-20T07:02:42.712Z"
+  },
+  {
+    "_id": "6a86a692a54dbbd77dd560fb",
+    "imageSrc": "/images/real-people.png",
+    "textOverlay": "WE CARE ABOUT EVERY INGREDIENT",
+    "likes": 15,
+    "order": 5,
+    "mediaType": "image",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.712Z",
+    "updatedAt": "2026-08-20T07:02:42.712Z"
+  },
+  {
+    "_id": "6a86a692a54dbbd77dd560fa",
+    "imageSrc": "/images/pineapple-transition.png",
+    "textOverlay": "HEALTHY AND CONVENIENT",
+    "likes": 67,
+    "order": 4,
+    "mediaType": "image",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.712Z",
+    "updatedAt": "2026-08-20T07:02:42.712Z"
+  },
+  {
+    "_id": "6a86a692a54dbbd77dd560f7",
+    "imageSrc": "/images/review-placeholder.png",
+    "textOverlay": "WE WANT SMOOTHIES",
+    "likes": 88,
+    "order": 1,
+    "mediaType": "image",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.712Z",
+    "updatedAt": "2026-08-20T07:02:42.712Z"
+  },
+  {
+    "_id": "6a86a692a54dbbd77dd560fc",
+    "imageSrc": "/images/mother-child.png",
+    "textOverlay": "100% REAL FRUIT SNACKS",
+    "likes": 210,
+    "order": 6,
+    "mediaType": "image",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.712Z",
+    "updatedAt": "2026-08-20T07:02:42.712Z"
+  },
+  {
+    "_id": "6a86a692a54dbbd77dd560f6",
+    "imageSrc": "https://res.cloudinary.com/dgb6durda/video/upload/v1787209353/sustento_products/whl4i9kmtxhl6f14ej0w.mp4",
+    "textOverlay": "Hooked on the colors of nutrition.",
+    "likes": 42,
+    "order": 0,
+    "mediaType": "video",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.711Z",
+    "updatedAt": "2026-08-20T07:02:42.711Z"
+  },
+  {
+    "_id": "6a86a692a54dbbd77dd560f8",
+    "imageSrc": "/images/mother-child.png",
+    "textOverlay": "This is why we do what we do",
+    "likes": 124,
+    "order": 2,
+    "mediaType": "image",
+    "__v": 0,
+    "createdAt": "2026-08-20T07:02:42.712Z",
+    "updatedAt": "2026-08-20T07:02:42.712Z"
+  }
+]

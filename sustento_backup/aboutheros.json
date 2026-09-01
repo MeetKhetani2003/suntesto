@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6a8ad6e0bba95a41e16fe99a",
+    "slides": [
+      {
+        "imageUrl": "/images/sustento-pouch-pineapple.png",
+        "title": "PINEAPPLE \nWHOLE FRUIT",
+        "description": "Lightweight, Crunchy, \nSingle Ingredient",
+        "titleColor": "#a0a054",
+        "_id": "6a8ad6e0bba95a41e16fe99b"
+      },
+      {
+        "imageUrl": "/images/sustento-pouch-strawberry.png",
+        "title": "STRAWBERRY \nWHOLE FRUIT",
+        "description": "Lightweight, Crunchy, \nSingle Ingredient",
+        "titleColor": "#ce8396",
+        "_id": "6a8ad6e0bba95a41e16fe99c"
+      }
+    ],
+    "createdAt": "2026-08-23T11:17:52.783Z",
+    "updatedAt": "2026-08-23T16:11:01.754Z",
+    "__v": 1
+  }
+]

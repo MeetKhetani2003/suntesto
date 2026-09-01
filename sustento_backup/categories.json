@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "6a74c8ea1bf0aa0af5024fbd",
+    "name": "Freeze-dried Fruit Snack",
+    "slug": "freeze-dried-fruit-snack",
+    "__v": 0,
+    "createdAt": "2026-08-06T17:48:26.211Z",
+    "updatedAt": "2026-08-06T17:48:26.211Z"
+  },
+  {
+    "_id": "6a7ef488096c78d2f1eaf300",
+    "name": "FRUITS POWDER",
+    "slug": "fruits-powder",
+    "description": "",
+    "createdAt": "2026-08-14T10:57:12.414Z",
+    "updatedAt": "2026-08-18T06:37:54.884Z",
+    "__v": 0
+  }
+]

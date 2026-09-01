@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustento Media Guidelines & Asset Specifications</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Kalam:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --charcoal: #232321;
+      --yellow: #9EAB75;
+      --yellow-hover: #869360;
+      --bg-warm: #FAF9F5;
+      --white: #FFFFFF;
+      --card-border: rgba(0,0,0,0.06);
+      --text-gray: rgba(35,35,33,0.6);
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--bg-warm);
+      color: var(--charcoal);
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
+
+    header {
+      background-color: var(--charcoal);
+      color: var(--white);
+      padding: 40px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 5px solid var(--yellow);
+    }
+
+    header h1 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: var(--yellow);
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-w: 1200px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+
+    /* ── TABS NAVIGATION ───────────────────────────────────── */
+    .tabs-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 30px;
+      justify-content: center;
+    }
+
+    .tab-btn {
+      background: var(--white);
+      border: 2px solid var(--card-border);
+      color: var(--charcoal);
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--yellow);
+      transform: translateY(-2px);
+    }
+
+    .tab-btn.active {
+      background: var(--yellow);
+      color: var(--charcoal);
+      border-color: var(--yellow);
+      box-shadow: 0 4px 12px rgba(255, 218, 88, 0.35);
+    }
+
+    /* ── TAB CONTENT SECTIONS ──────────────────────────────── */
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.4s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── SECTION CARDS ─────────────────────────────────────── */
+    .section-block {
+      background: var(--white);
+      border: 1px solid var(--card-border);
+      border-radius: 32px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--bg-warm);
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.5px;
+    }
+
+    .location-badge {
+      background-color: var(--bg-warm);
+      color: var(--charcoal);
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 6px 14px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+
+    /* ── ASSET LIST GRID ───────────────────────────────────── */
+    .asset-grid {
+      display: grid;
+      grid-template-cols: 1fr;
+      gap: 20px;
+    }
+
+    .asset-card {
+      background: var(--bg-warm);
+      border-radius: 20px;
+      padding: 24px;
+      border: 1px solid rgba(0,0,0,0.02);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    @media (min-width: 768px) {
+      .asset-card {
+        flex-direction: row;
+      }
+    }
+
+    .asset-visual {
+      flex: 0 0 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--white);
+      border-radius: 16px;
+      padding: 15px;
+      border: 1px solid var(--card-border);
+      position: relative;
+      min-height: 140px;
+    }
+
+    .aspect-box {
+      width: 80px;
+      background: #e2e8f0;
+      border: 2px dashed #94a3b8;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.75rem;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+
+    .aspect-box.ratio-21-9 { width: 140px; height: 60px; }
+    .aspect-box.ratio-16-9 { width: 120px; height: 67px; }
+    .aspect-box.ratio-1-1  { width: 80px; height: 80px; }
+    .aspect-box.ratio-4-5  { width: 80px; height: 100px; }
+    .aspect-box.ratio-9-16 { width: 60px; height: 106px; }
+
+    .format-label {
+      font-size: 0.7rem;
+      font-weight: 900;
+      color: var(--white);
+      background-color: var(--charcoal);
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .format-label.png { background-color: #0284c7; }
+    .format-label.jpg { background-color: #eab308; color: var(--charcoal); }
+    .format-label.mp4 { background-color: #10b981; }
+
+    .asset-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .asset-name {
+      font-size: 1.15rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .type-pill {
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .type-pill.dynamic { background-color: #d1fae5; color: #065f46; }
+    .type-pill.static { background-color: #fee2e2; color: #991b1b; }
+
+    .asset-meta {
+      display: grid;
+      grid-template-cols: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      margin: 10px 0;
+      background: var(--white);
+      padding: 12px;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+    }
+
+    .meta-item {
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .meta-item span {
+      color: var(--text-gray);
+      font-weight: 400;
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+    }
+
+    .asset-description {
+      font-size: 0.85rem;
+      color: var(--text-gray);
+      line-height: 1.5;
+    }
+
+    /* ── IMPORTANT RECOMMENDATIONS ────────────────────────── */
+    .guidelines-callout {
+      background-color: #FEF9C3;
+      border: 2px solid #FDE047;
+      border-radius: 24px;
+      padding: 24px;
+      margin-bottom: 30px;
+    }
+
+    .guidelines-callout h3 {
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .guidelines-callout ul {
+      list-style-position: inside;
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: grid;
+      grid-template-cols: 1fr;
+      gap: 8px;
+    }
+
+    @media (min-width: 768px) {
+      .guidelines-callout ul {
+        grid-template-cols: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Website Media & Assets Checklist</h1>
+    <p>Media Sizing, Layout Aspect Ratios, and Upload Guidelines</p>
+  </header>
+
+  <div class="container">
+
+    <!-- ── CRITICAL RECOMMENDATIONS CALLOUT ────────────────── -->
+    <div class="guidelines-callout">
+      <h3>⚠️ Critical Asset Rules (Please Read Before Creating Media)</h3>
+      <ul>
+        <li><strong>Transparency (PNG):</strong> Product cards/collages MUST use transparent PNG files with no grey/pink box backgrounds, so drop-shadows and color arches align correctly.</li>
+        <li><strong>Crop Bounds:</strong> Crop empty transparent space tightly around products to prevent packaging from appearing smaller than intended.</li>
+        <li><strong>Video Compression:</strong> Compress loop video clips (MP4 format, H.264 codec) under 10MB to maintain rapid page loads.</li>
+        <li><strong>Mobile vs Desktop:</strong> Separate assets are provided for desktop and mobile banner uploads to ensure they fit correctly on tall screens.</li>
+      </ul>
+    </div>
+
+    <!-- ── TABS NAVIGATION ───────────────────────────────────── -->
+    <div class="tabs-nav">
+      <button class="tab-btn active" onclick="switchTab('homepage')">🏠 Homepage Assets</button>
+      <button class="tab-btn" onclick="switchTab('collections')">📦 Collections & Cards</button>
+      <button class="tab-btn" onclick="switchTab('details-about')">✨ Details & About Us</button>
+      <button class="tab-btn" onclick="switchTab('global')">🌐 Logos & Global Settings</button>
+    </div>
+
+    <!-- ── TAB: HOMEPAGE ASSETS ─────────────────────────────── -->
+    <div id="homepage" class="tab-content active">
+      
+      <!-- HERO SLIDER SECTION -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">1. Homepage Hero Slider</h2>
+          <span class="location-badge">Homepage (Top Hero Section)</span>
+        </div>
+        <div class="asset-grid">
+          
+          <!-- Desktop Banner Image -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-21-9">21:9 / 16:5</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Desktop Slide Banner Image <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1920 × 800 px (or 2100 × 900 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Hero Settings)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Background image displayed behind slide text on Desktop. Make sure to use high-quality optimized imagery. Standard gradients or light text contrast work best.
+              </p>
+            </div>
+          </div>
+
+          <!-- Mobile Banner Image -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 / 4:5</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Mobile Slide Banner Image <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1080 × 1080 px (or 1080 × 1350 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Hero Settings)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Mobile-specific background image to prevent text overlapping or awkward scaling on small screens.
+              </p>
+            </div>
+          </div>
+
+          <!-- Background Video -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-16-9">16:9</div>
+              <span class="format-label mp4">MP4 Video</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Background Slide Video <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Compression</span>Maximum 10 MB file size</div>
+                  <div class="meta-item"><span>Codecs</span>H.264 video format with no audio track</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Dynamic looping background video. The website text animates on load first while the video pre-buffers, then plays seamlessly on a loop.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PROMO CARDS -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">2. Promo Video Cards</h2>
+          <span class="location-badge">Homepage (Promo Banner Section)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-9-16">9:16 Vertical</div>
+              <span class="format-label mp4">MP4 Video</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Lifestyle / Product Promo Loops <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Dimensions</span>720 × 1280 px (or 1080 × 1920 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Promo Video Cards)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Short, silent, loopable mobile-friendly portrait videos. Shows floating products, snacking scenarios, or key value propositions inside responsive cards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INGREDIENTS ICONS -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">3. What We Put In (Ingredients)</h2>
+          <span class="location-badge">Homepage (Ingredients Visual Row)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 Square</div>
+              <span class="format-label png">PNG Transparent</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Ingredient Asset Icon <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>200 × 200 px (or 300 × 300 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (What We Put In)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Clean, color-isolated raw fruit or ingredient images. These MUST be transparent PNG files so that they overlay seamlessly on the styled circular card wrappers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KIDS & PARENTS -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">4. Kids & Parents Section</h2>
+          <span class="location-badge">Homepage (Clean Label Banner)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-16-9">16:9 / 4:3</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Kids & Parents Cover Image <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1200 × 900 px (or 1600 × 1200 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Kids & Parents)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Lifestyle photo showing happy children, mother snacking, or general wholesome brand concept matching the clean disclosure values.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INSTAGRAM POSTS -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">5. Instagram Feed Grid</h2>
+          <span class="location-badge">Homepage (Instagram Block)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 Square</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Social Feed Grid Posts <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1080 × 1080 px</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Instagram Feed)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Square images showing branded social posts, community photos, or lifestyle scenes linking users directly to the brand's Instagram profile.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── TAB: COLLECTIONS & CARDS ──────────────────────────── -->
+    <div id="collections" class="tab-content">
+      
+      <!-- COLLECTIONS BANNER -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">1. Collections Landing Banner</h2>
+          <span class="location-badge">Collections Landing & All Page (Top)</span>
+        </div>
+        <div class="asset-grid">
+          
+          <!-- Desktop Banner -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-21-9">21:9 / 16:5</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Collections Landing Desktop Banner <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1920 × 600 px (or 2100 × 700 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Collection Banner)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Horizontal header banner displayed behind collections filters on Desktop. Used to feature seasonal hampers, discount cards, or collection launches.
+              </p>
+            </div>
+          </div>
+
+          <!-- Mobile Banner -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 / 4:5</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Collections Landing Mobile Banner <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1080 × 1080 px (or 1080 × 1350 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Collection Banner)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Mobile vertical layout banner option to ensure promotional links fit correctly on phone viewports.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FRUIT MEETS CRUNCH COLLAGE -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">2. Fruit Meets Crunch Layout</h2>
+          <span class="location-badge">Collections Page (Mid-Page Collage)</span>
+        </div>
+        <div class="asset-grid">
+          
+          <!-- Desktop Collage -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-16-9">4:3 / 16:9</div>
+              <span class="format-label png">PNG Transparent</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Desktop collage graphic <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1000 × 800 px (transparent)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Fruit & Crunch Banner)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Collage of pouches or floating fruits displaying texture. This MUST be a transparent PNG so it sits neatly on top of the soft warm-grey background card.
+              </p>
+            </div>
+          </div>
+
+          <!-- Mobile Collage -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 Square</div>
+              <span class="format-label png">PNG Transparent</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Mobile collage graphic <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>800 × 800 px (transparent)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Fruit & Crunch Banner)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Compact transparent PNG graphic to represent the transition or package collage on mobile columns.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PRODUCT CARD POUCHES -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">3. Product Card Images</h2>
+          <span class="location-badge">All Products Grid & Landing Layouts</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 Square</div>
+              <span class="format-label png">PNG Transparent</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Product Card Pouch/Jar Image <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>800 × 800 px (or 1000 × 1000 px)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Products settings)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                <strong>CRITICAL:</strong> Product pouch pack shots MUST be transparent PNGs, with empty bounds cropped tightly. They scale to 180px and overlap the top edge of cards. The transparent background enables the browser to render beautiful custom drop shadows.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── TAB: DETAILS & ABOUT US ───────────────────────────── -->
+    <div id="details-about" class="tab-content">
+      
+      <!-- PRODUCT CAROUSEL -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">1. Product Detail Carousel</h2>
+          <span class="location-badge">Product Detail Page (Main Gallery)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 Square</div>
+              <span class="format-label png">PNG / JPG</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Product Carousel Slides <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1000 × 1000 px</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Add Product Images)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Multiple images per product. Transparent PNG layout is recommended to overlay correctly with background colors. Includes drag & swipe mouse support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RAW FOOD TRANSITION -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">2. Raw Food Transition Mockup</h2>
+          <span class="location-badge">Product Detail Page (Clean Tech Block)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-16-9">16:9 / 8:3</div>
+              <span class="format-label png">PNG Transparent</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Banana / Fruit Slices Transition <span class="type-pill static">Static / File public/images/raw-food.png</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1000 × 500 px (transparent)</div>
+                  <div class="meta-item"><span>File Path</span><code>/public/images/raw-food.png</code></div>
+                </div>
+              </div>
+              <p class="asset-description">
+                A horizontal graphic showing fresh banana slices shifting into freeze-dried, crispy slices. Must be a clean transparent PNG with NO baked-in text or background box.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT US MOTHER & CHILD -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">3. About Us Clean Label</h2>
+          <span class="location-badge">About Us Page (Declaration Cover)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-16-9">4:3 / 16:9</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Mother & Child Cover Photo <span class="type-pill static">Static / File public/images/mother-child.jpg</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>1200 × 900 px</div>
+                  <div class="meta-item"><span>File Path</span><code>/public/images/mother-child.jpg</code></div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Wholesome cover graphic showing a mother and child enjoying clean fruit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── TAB: LOGOS & GLOBAL ──────────────────────────────── -->
+    <div id="global" class="tab-content">
+      
+      <!-- LOGOS -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">1. Brand Logo Assets</h2>
+          <span class="location-badge">Header, Footer & Admin Layout</span>
+        </div>
+        <div class="asset-grid">
+          
+          <!-- Logo White -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 / Custom</div>
+              <span class="format-label png">PNG / SVG</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Logo White (Header, Admin Sidebar) <span class="type-pill static">Static File</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>File Paths</span><code>/public/images/sustento-logo-white.png</code><br/><code>/public/images/logo-white.svg</code></div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Used in dark backgrounds (Header navigation bar, Admin navigation panels). Must be transparent.
+              </p>
+            </div>
+          </div>
+
+          <!-- Logo Black -->
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 / Custom</div>
+              <span class="format-label png">PNG / SVG</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Logo Black (Footer, Forms) <span class="type-pill static">Static File</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>File Paths</span><code>/public/images/sustento-logo-black.png</code><br/><code>/public/images/logo-dark.svg</code></div>
+                </div>
+              </div>
+              <p class="asset-description">
+                Used on white or light backgrounds (Footer, printable order receipts, invoices, login sheets).
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- REVIEW PLACEHOLDERS -->
+      <div class="section-block">
+        <div class="section-header">
+          <h2 class="section-title">2. Customer Review Avatars</h2>
+          <span class="location-badge">Homepage (Testimonials Section)</span>
+        </div>
+        <div class="asset-grid">
+          <div class="asset-card">
+            <div class="asset-visual">
+              <div class="aspect-box ratio-1-1">1:1 Square</div>
+              <span class="format-label jpg">JPG / WEBP</span>
+            </div>
+            <div class="asset-details">
+              <div>
+                <h4 class="asset-name">Reviewer User Avatar <span class="type-pill dynamic">Dynamic</span></h4>
+                <div class="asset-meta">
+                  <div class="meta-item"><span>Recommended Resolution</span>200 × 200 px (circle-cropped)</div>
+                  <div class="meta-item"><span>Source File</span>Upload via Admin Panel (Product Reviews)</div>
+                </div>
+              </div>
+              <p class="asset-description">
+                User profile photo display. Recommended square crop which gets styled automatically as a circular portrait.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    function switchTab(tabId) {
+      // Hide all tabs
+      const contents = document.querySelectorAll('.tab-content');
+      contents.forEach(content => content.classList.remove('active'));
+      
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      
+      // Show selected tab
+      document.getElementById(tabId).classList.add('active');
+      
+      // Set active button
+      const activeBtn = Array.from(buttons).find(btn => btn.getAttribute('onclick').includes(tabId));
+      if (activeBtn) activeBtn.classList.add('active');
+    }
+  </script>
+</body>
+</html>

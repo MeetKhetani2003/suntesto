@@ -1,0 +1,782 @@
+[
+  {
+    "_id": "6a6dae84ed252ac12b90e945",
+    "title": "Freeze Dried Banana",
+    "slug": "freeze-dried-banana",
+    "subtitle": "",
+    "category": "FREEZE-DRIED FRUIT SNACK",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 25,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "Crispy banana slices made from fresh bananas using advanced freeze-drying technology.\nRich in natural flavor, fiber, and potassium for a healthy anytime snack.",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786703381/sustento_products/dniwhj0g2obatb7nkifw.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786021427/sustento_products/tfoh1q5umdknoejhzi1w.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786021713/sustento_products/gqb5xk08ckhrhb6es20n.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786022005/sustento_products/enozigsce5ff5jqeigpb.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786022028/sustento_products/l44y8l2mxnrcbfooexsl.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786022061/sustento_products/cvbwnkjx7w3yo8zktasr.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "createdAt": "2026-08-01T08:29:56.075Z",
+    "updatedAt": "2026-08-19T08:48:45.747Z",
+    "__v": 0,
+    "ingredientsList": [
+      {
+        "label": "Freeze Dried Banana",
+        "percentage": "100%",
+        "_id": "6a7eee199558d97f05eb05c3"
+      }
+    ],
+    "ingredientsImage": "https://res.cloudinary.com/dgb6durda/image/upload/v1787043172/sustento_products/tzdf7wwwfggw5hqrxkil.png",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a841d5656fea6aa54d7c94c"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a841d5656fea6aa54d7c94d"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a841d5656fea6aa54d7c94e"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a841d5656fea6aa54d7c94f"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a841d5656fea6aa54d7c950"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a6daef4ed252ac12b90e946",
+    "title": "Freeze Dried Mango",
+    "slug": "freeze-dried-mango",
+    "subtitle": "",
+    "category": "FREEZE-DRIED FRUIT SNACK",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 25,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "Made from 100% real ripe mangoes, naturally freeze-dried to lock in sweetness and nutrients.\nA deliciously crunchy snack with no added preservatives or artificial flavors.",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786703331/sustento_products/mlendxz5jzpmplbhuhel.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108767/sustento_products/sexfb4hm0whiqnm5djl4.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108779/sustento_products/qgi00nqwxlbdti6rbxyk.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108793/sustento_products/kjca1v0txi6zbluotjsc.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108803/sustento_products/myjnpmp10opxgsius2ir.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108815/sustento_products/yjsk3han0lgjg0rx1ugf.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "createdAt": "2026-08-01T08:31:48.192Z",
+    "updatedAt": "2026-08-19T08:49:02.307Z",
+    "__v": 0,
+    "ingredientsList": [
+      {
+        "label": "Freeze Dried Mango",
+        "percentage": "100%",
+        "_id": "6a7eedf6d707870f6774aaa5"
+      }
+    ],
+    "ingredientsImage": "https://res.cloudinary.com/dgb6durda/image/upload/v1787043153/sustento_products/dfa5mbeqbuxhgcpc6t7o.png",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a841d423886477c8c5263e1"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a841d423886477c8c5263e2"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a841d423886477c8c5263e3"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a841d423886477c8c5263e4"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a841d423886477c8c5263e5"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a6daf34ed252ac12b90e947",
+    "title": "Freeze Dried Lemon",
+    "slug": "freeze-dried-lemon",
+    "subtitle": "",
+    "category": "Freeze-dried Fruit Snack",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 25,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "Tangy lemon slices carefully freeze-dried to preserve their refreshing citrus taste.\nPerfect for snacking, beverages, desserts, or adding a natural zing to recipes.",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786703253/sustento_products/lcvi1lge4zgp8nutueek.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787129462/sustento_products/ccmfkzdyhn28lze2mt1m.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787129472/sustento_products/vdzxa5hd9tx0al2auoa5.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787129481/sustento_products/b9xnibwck7syjiiduuag.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787129495/sustento_products/ckslrt6ep5sfefewswde.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787129502/sustento_products/iwlnzfqi3nvqmgiljmmf.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "createdAt": "2026-08-01T08:32:52.636Z",
+    "updatedAt": "2026-08-19T08:51:46.872Z",
+    "__v": 0,
+    "ingredientsList": [
+      {
+        "label": "Freeze Dried Lemon",
+        "percentage": "100%",
+        "_id": "6a7eedc79558d97f05eb05be"
+      }
+    ],
+    "ingredientsImage": "https://res.cloudinary.com/dgb6durda/image/upload/v1787043131/sustento_products/xxynf9kengp8uq2jfam2.png",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a841d2f56fea6aa54d7c946"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a841d2f56fea6aa54d7c947"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a841d2f56fea6aa54d7c948"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a841d2f56fea6aa54d7c949"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a841d2f56fea6aa54d7c94a"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a6daf78ed252ac12b90e948",
+    "title": "Freeze Dried Pineapple",
+    "slug": "freeze-dried-pineapple",
+    "subtitle": "",
+    "category": "FREEZE-DRIED FRUIT SNACK",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 24,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "Sweet and tropical pineapple pieces with a light, crunchy texture.\nPacked with natural goodness and vibrant flavor without any added sugar.",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786703123/sustento_products/do5qlhedwpyhwpq1eizz.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108655/sustento_products/njkioxohn6ci4bma1bzm.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108695/sustento_products/at2kphze5204vs814bcx.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108706/sustento_products/rgv6amli6bxifneyd7na.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108726/sustento_products/nllzrftvupo6fwemgtx4.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786108733/sustento_products/j37fpofmq4js3gmyugnz.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "createdAt": "2026-08-01T08:34:00.686Z",
+    "updatedAt": "2026-08-19T08:49:31.419Z",
+    "__v": 0,
+    "ingredientsList": [
+      {
+        "label": "Freeze Dried Pineapple",
+        "percentage": "100%",
+        "_id": "6a7eed2cd707870f6774aaa1"
+      }
+    ],
+    "ingredientsImage": "https://res.cloudinary.com/dgb6durda/image/upload/v1787043111/sustento_products/sxw5tsdazdcjrfegjfti.png",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a841cff3886477c8c526393"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a841cff3886477c8c526394"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a841cff3886477c8c526395"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a841cff3886477c8c526396"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a841cff3886477c8c526397"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a6daf9bed252ac12b90e949",
+    "title": "Freeze Dried Strawberry",
+    "slug": "freeze-dried-strawberry",
+    "subtitle": "",
+    "category": "Freeze-dried Fruit Snack",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 21,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "Premium strawberries freeze-dried to retain their juicy taste, color, and nutrition.\nA crunchy, naturally sweet snack that's perfect for every age.",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786702854/sustento_products/eka5jvx9zmxy152edvin.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786021135/sustento_products/vhpngdmigrc6vh1ehhhb.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786021157/sustento_products/ynbytdb1oelvscon5lo9.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786021170/sustento_products/eayqujtehf0pzrxgvdy2.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786021208/sustento_products/vkszygbidl22oeqmujuy.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786109115/sustento_products/nh9xh6wmvjrjqclcu2f6.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "createdAt": "2026-08-01T08:34:35.660Z",
+    "updatedAt": "2026-08-19T08:49:48.408Z",
+    "__v": 0,
+    "ingredientsList": [
+      {
+        "label": "Freeze Dried Strawberry",
+        "percentage": "100%",
+        "_id": "6a7eeac14bf798e3476e9071"
+      }
+    ],
+    "isBestSeller": true,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal3",
+        "rda": "5%",
+        "_id": "6a834e156429dd26f9401d69"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a834e156429dd26f9401d6a"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a834e156429dd26f9401d6b"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a834e156429dd26f9401d6c"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a834e156429dd26f9401d6d"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)",
+    "ingredientsImage": "https://res.cloudinary.com/dgb6durda/image/upload/v1787042940/sustento_products/bumzpakugv1p62ummhbl.png"
+  },
+  {
+    "_id": "6a7efa378cb8ad30e7ed18b6",
+    "title": "Powdered Strawberry",
+    "slug": "powdered-strawberry",
+    "subtitle": "",
+    "category": "FRUITS POWDER",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 25,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786705956/sustento_products/gm2l0sax1mambpztefqo.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787142879/sustento_products/e0xn3ak5fyqueopdvnfk.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787142900/sustento_products/kbbn5bwvgiaorliumedx.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787142944/sustento_products/h6k4h4ydcg0njdnhjxv4.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787142961/sustento_products/wixxg0dz8rjedngzal56.png",
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1787142992/sustento_products/ybboamdob6yhmqh8i7co.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "ingredientsList": [
+      {
+        "label": "Powdered Strawberry",
+        "percentage": "100%",
+        "_id": "6a7efa378cb8ad30e7ed18b7"
+      }
+    ],
+    "createdAt": "2026-08-14T11:21:27.015Z",
+    "updatedAt": "2026-08-19T12:37:08.349Z",
+    "__v": 0,
+    "ingredientsImage": "",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a83fdeb7edf643d629380d8"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a83fdeb7edf643d629380d9"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a83fdeb7edf643d629380da"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a83fdeb7edf643d629380db"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a83fdeb7edf643d629380dc"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a82b3762f7119fca464e6f9",
+    "title": "Powdered Mango",
+    "slug": "powdered-mango",
+    "subtitle": "",
+    "category": "FRUITS POWDER",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 25,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786950500/sustento_products/rczchkciaxx51cnpuder.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "ingredientsList": [
+      {
+        "label": "Powdered Mango",
+        "percentage": "100",
+        "_id": "6a82b3762f7119fca464e6fa"
+      }
+    ],
+    "createdAt": "2026-08-17T07:08:38.622Z",
+    "updatedAt": "2026-08-18T06:43:12.848Z",
+    "__v": 0,
+    "ingredientsImage": "",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a83fef8aef7604c89d369ab"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a83fef8aef7604c89d369ac"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a83fef8aef7604c89d369ad"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a83fef8aef7604c89d369ae"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a83fef8aef7604c89d369af"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a82b3a62f7119fca464e702",
+    "title": "Powdered Banana",
+    "slug": "powdered-banana",
+    "subtitle": "",
+    "category": "FRUITS POWDER",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 25,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786950546/sustento_products/lc0ocqfa9xe6s4wee2eg.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "ingredientsList": [
+      {
+        "label": "Powdered Banana",
+        "percentage": "100",
+        "_id": "6a82b3a62f7119fca464e703"
+      }
+    ],
+    "createdAt": "2026-08-17T07:09:26.935Z",
+    "updatedAt": "2026-08-18T06:42:52.446Z",
+    "__v": 0,
+    "ingredientsImage": "",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a83fed8aef7604c89d3695d"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a83fed8aef7604c89d3695e"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a83fed8aef7604c89d3695f"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a83fed8aef7604c89d36960"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a83fed8aef7604c89d36961"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a82b4c92f7119fca464e70c",
+    "title": "Powdered Pineapple",
+    "slug": "powdered-pineapple",
+    "subtitle": "",
+    "category": "FRUITS POWDER",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 24,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786950593/sustento_products/xr9ja0rlpik8vd3fo1ja.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "ingredientsList": [
+      {
+        "label": "Powdered Pineapple",
+        "percentage": "100",
+        "_id": "6a82b4c92f7119fca464e70d"
+      }
+    ],
+    "createdAt": "2026-08-17T07:14:17.110Z",
+    "updatedAt": "2026-08-22T07:58:42.791Z",
+    "__v": 0,
+    "ingredientsImage": "",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a83fec3d053daa7140ddbda"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a83fec3d053daa7140ddbdb"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a83fec3d053daa7140ddbdc"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a83fec3d053daa7140ddbdd"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a83fec3d053daa7140ddbde"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  },
+  {
+    "_id": "6a82b4fc2f7119fca464e717",
+    "title": "Powdered Lemon",
+    "slug": "powdered-lemon",
+    "subtitle": "",
+    "category": "FRUITS POWDER",
+    "weight": "30G",
+    "weightGrams": 100,
+    "dimensions": {
+      "length": 15,
+      "breadth": 10,
+      "height": 5
+    },
+    "costPrice": 60,
+    "originalPrice": 180,
+    "price": 149,
+    "stockQuantity": 25,
+    "inStock": true,
+    "lowStockThreshold": 5,
+    "description": "",
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1786950883/sustento_products/iamcbmdyfty4szvqwpwl.png"
+    ],
+    "badge": "Fresh Pack",
+    "archClass": "bg-[#FCE2EC]",
+    "bgClass": "bg-[#FCE2EC]/40",
+    "rating": 4.8,
+    "reviewsCount": 12,
+    "ingredientsList": [
+      {
+        "label": "Powdered Lemon",
+        "percentage": "100",
+        "_id": "6a82b4fc2f7119fca464e718"
+      }
+    ],
+    "createdAt": "2026-08-17T07:15:08.012Z",
+    "updatedAt": "2026-08-18T06:42:05.710Z",
+    "__v": 0,
+    "ingredientsImage": "",
+    "isBestSeller": false,
+    "isTrending": false,
+    "nutritionList": [
+      {
+        "name": "Energy",
+        "value": "112 Kcal",
+        "rda": "5%",
+        "_id": "6a83fe89b868d36fe9f1d673"
+      },
+      {
+        "name": "Proteins",
+        "value": "0.8g",
+        "rda": "1.5%",
+        "_id": "6a83fe89b868d36fe9f1d674"
+      },
+      {
+        "name": "Carbohydrates",
+        "value": "26g",
+        "rda": "8%",
+        "_id": "6a83fe89b868d36fe9f1d675"
+      },
+      {
+        "name": "Added Sugars",
+        "value": "0g",
+        "rda": "0%",
+        "_id": "6a83fe89b868d36fe9f1d676"
+      },
+      {
+        "name": "Fats",
+        "value": "0.1g",
+        "rda": "0.1%",
+        "_id": "6a83fe89b868d36fe9f1d677"
+      }
+    ],
+    "nutritionServingSize": "Per Serving (30G)"
+  }
+]

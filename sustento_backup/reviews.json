@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "6a787ac5144e0852bc25463f",
+    "productId": "6a6daf9bed252ac12b90e949",
+    "name": "Dish Khant",
+    "email": "dish.khant.dev@gmail.com",
+    "rating": 5,
+    "comment": "Test...",
+    "isApproved": true,
+    "createdAt": "2026-08-09T13:04:05.219Z",
+    "updatedAt": "2026-08-09T13:04:14.549Z",
+    "__v": 0
+  }
+]

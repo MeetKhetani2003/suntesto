@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "6a6cd10ad92235e958dba5c0",
+    "bookingReference": "EAU/2026/0001",
+    "bookingDate": "2026-07-31T00:00:00.000Z",
+    "leadTraveler": {
+      "name": "dfg",
+      "phone": "09624483906",
+      "email": "dish.khant.dev@gmail.com"
+    },
+    "totalTravelers": "2 Adults",
+    "destination": "fghfg",
+    "travelDates": "hfg",
+    "duration": "6",
+    "inclusions": [
+      "7 Nights Accommodation with Daily Breakfast",
+      "Airport Transfers & All Tours",
+      "Sightseeing as per Itinerary",
+      "All Ferry Transfers",
+      "English Speaking Guide",
+      "All Taxes & Service Charges",
+      "Travel Assistance"
+    ],
+    "tripDetails": {
+      "packageName": "gfhfg",
+      "hotelCategory": "3 Star Comfort",
+      "travelers": "2 Adults",
+      "checkIn": "02:00 PM",
+      "checkOut": "11:00 AM",
+      "packageType": "International Leisure",
+      "travelStyle": "Leisure / Group Tour"
+    },
+    "importantNotes": [
+      "Please carry a valid passport.",
+      "Check-in time: 02:00 PM | Check-out time: 11:00 AM",
+      "Itinerary is subject to change due to weather or unforeseen circumstances.",
+      "Keep this confirmation handy during your travel.",
+      "For any support during your trip, our team is just a call away."
+    ],
+    "thankYouNote": "Your journey is confirmed. Get ready to create unforgettable memories!",
+    "contactInfo": {
+      "phone": "9082069477",
+      "email": "info@exploreandunite.com",
+      "website": "exploreandunite.com",
+      "instagram": "@exploreandunite_"
+    },
+    "createdAt": "2026-07-31T16:44:58.038Z",
+    "updatedAt": "2026-07-31T16:44:58.038Z",
+    "__v": 0
+  }
+]

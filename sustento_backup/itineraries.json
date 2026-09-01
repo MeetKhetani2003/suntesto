@@ -1,0 +1,91 @@
+[
+  {
+    "_id": "6a70ecb1f661d6f705178149",
+    "itineraryNumber": "ITN/2026/0001",
+    "packageName": "Test Name",
+    "subtitle": "Your Journey, Your Way",
+    "durationText": "6 DAYS | 5 NIGHTS",
+    "price": "₹ 49,999",
+    "priceSuffix": "PER PERSON",
+    "priceValidity": "31 Oct 2026",
+    "days": [
+      {
+        "dayNum": 1,
+        "title": "ARRIVAL - WELCOME TO YOUR DESTINATION",
+        "description": "Arrival at the airport. Meet & greet and private transfer to your hotel. Check-in and relax. Evening free for leisure or local exploration.",
+        "image": "https://images.unsplash.com/photo-1616091093714-c64882e9ab55?q=80&w=600",
+        "_id": "6a70ecb1f661d6f70517814a"
+      },
+      {
+        "dayNum": 2,
+        "title": "CITY TOUR & LOCAL ATTRACTIONS",
+        "description": "After breakfast, enjoy a guided city tour covering the top attractions, local culture, and scenic spots. Evening free for shopping or leisure.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600",
+        "_id": "6a70ecb1f661d6f70517814b"
+      },
+      {
+        "dayNum": 3,
+        "title": "ISLAND TOUR & WATER ACTIVITIES",
+        "description": "Enjoy a full-day island tour with breathtaking views, beaches, and exciting water activities. Lunch included during the tour.",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=600",
+        "_id": "6a70ecb1f661d6f70517814c"
+      },
+      {
+        "dayNum": 4,
+        "title": "NATURE & CULTURAL EXPERIENCE",
+        "description": "Visit beautiful natural and cultural sites. Experience the local traditions, temples, and viewpoints. Evening at leisure.",
+        "image": "https://images.unsplash.com/photo-1544811096-89a14f806d55?q=80&w=600",
+        "_id": "6a70ecb1f661d6f70517814d"
+      },
+      {
+        "dayNum": 5,
+        "title": "LEISURE DAY",
+        "description": "Day free for you to relax, explore on your own, or enjoy optional activities.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=600",
+        "_id": "6a70ecb1f661d6f70517814e"
+      },
+      {
+        "dayNum": 6,
+        "title": "DEPARTURE",
+        "description": "After breakfast, check-out from the hotel. Private transfer to the airport for your return journey with wonderful memories.",
+        "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=600",
+        "_id": "6a70ecb1f661d6f70517814f"
+      }
+    ],
+    "whatsIncluded": {
+      "stay": "Comfortable accommodation on twin sharing basis as per itinerary",
+      "meals": "Daily breakfast at the hotel",
+      "transfers": "All transfers & sightseeing by private AC vehicle",
+      "tours": "All tours & activities as per itinerary",
+      "entries": "Entry fees to all attractions mentioned in the itinerary",
+      "support": "Assistance during the trip 24/7 support"
+    },
+    "inclusions": [
+      "Entry fees to all attractions mentioned in the itinerary",
+      "Daily Breakfast at the hotel",
+      "All transfers & sightseeing by private AC vehicle",
+      "All tours & activities as per itinerary",
+      "Entry fees to all attractions mentioned in the itinerary",
+      "Assistance during the trip 24/7 support",
+      "All applicable taxes except TCS",
+      "Accommodation on twin sharing basis as per itinerary",
+      "Daily Breakfast at the hotel"
+    ],
+    "exclusions": [
+      "Airfare / Train fare",
+      "Visa fees & Travel insurance",
+      "Lunch & Dinner unless specified",
+      "Personal expenses (shopping, tips, laundry, calls, etc.)",
+      "Any optional activities not mentioned in the inclusions",
+      "Anything not mentioned in the inclusions"
+    ],
+    "notes": [
+      "Rates are subject to availability at the time of booking and may change without prior notice.",
+      "Check-in time is typically 02:00 PM and check-out is 11:00 AM.",
+      "Standard child policies apply based on hotel rules."
+    ],
+    "createdAt": "2026-08-03T19:32:01.223Z",
+    "updatedAt": "2026-08-03T19:32:01.223Z",
+    "__v": 0
+  }
+]

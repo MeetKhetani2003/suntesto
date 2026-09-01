@@ -1,0 +1,78 @@
+[
+  {
+    "_id": "6a6cd0f3d92235e958dba5b6",
+    "invoiceNumber": "123",
+    "invoiceDate": "2026-07-31T00:00:00.000Z",
+    "dueDate": "2026-08-30T00:00:00.000Z",
+    "billedTo": {
+      "name": "abc",
+      "phone": "9999999999",
+      "email": "dish.khant.dev@gmail.com"
+    },
+    "bookingReference": "456",
+    "paymentStatus": "Paid",
+    "tripDetails": {
+      "destination": "ertgd bg",
+      "travelDates": "dfg dfg",
+      "duration": "4",
+      "travelers": "2 Adults",
+      "packageName": "hggdgfh",
+      "hotelCategory": "3 Star Comfort"
+    },
+    "items": [
+      {
+        "description": "7 Nights Accommodation with Daily Breakfast (3 Star Comfort)",
+        "qty": 2,
+        "unitPrice": 18000,
+        "amount": 36000,
+        "_id": "6a6cd0f3d92235e958dba5b7"
+      },
+      {
+        "description": "Airport Transfers & All Tours",
+        "qty": 2,
+        "unitPrice": 1000,
+        "amount": 2000,
+        "_id": "6a6cd0f3d92235e958dba5b8"
+      },
+      {
+        "description": "Sightseeing, Ferry Transfers, Guide & Taxes",
+        "qty": 2,
+        "unitPrice": 20000,
+        "amount": 4000,
+        "_id": "6a6cd0f3d92235e958dba5b9"
+      }
+    ],
+    "priceSummary": {
+      "subtotal": 42000,
+      "discount": 2000,
+      "totalAmount": 40000,
+      "amountPaid": 35000,
+      "balanceDue": 5000
+    },
+    "inclusions": [
+      "7 Nights Accommodation with Daily Breakfast",
+      "Airport Transfers & All Tours",
+      "Sightseeing as per Itinerary",
+      "All Ferry Transfers",
+      "English Speaking Guide",
+      "All Taxes & Service Charges",
+      "Travel Assistance"
+    ],
+    "importantNotes": [
+      "Please carry a valid passport.",
+      "Check-in time: 02:00 PM | Check-out time: 11:00 AM",
+      "Itinerary is subject to change due to weather or unforeseen circumstances.",
+      "Keep this invoice safe for your records."
+    ],
+    "thankYouNote": "We can't wait to be part of your journey!",
+    "contactInfo": {
+      "phone": "9082069477",
+      "email": "info@exploreandunite.com",
+      "website": "exploreandunite.com",
+      "instagram": "@exploreandunite_"
+    },
+    "createdAt": "2026-07-31T16:44:35.076Z",
+    "updatedAt": "2026-07-31T16:44:35.076Z",
+    "__v": 0
+  }
+]

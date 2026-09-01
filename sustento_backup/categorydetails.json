@@ -1,0 +1,1024 @@
+[
+  {
+    "_id": "6a68d80750f25dbb202a5aca",
+    "slug": "outdoor-balcony-sets",
+    "name": "Outdoor Balcony Sets",
+    "tagline": "Compact & Luxurious Balcony Furniture in Delhi",
+    "description": "Avail a premium collection of outdoor balcony sets designed specifically to elevate compact spaces.",
+    "features": [
+      "Space Saving Designs",
+      "Weather Resistant Cushions",
+      "Rust-free Frame"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png"
+    ],
+    "products": [
+      {
+        "id": "royal-2-seater",
+        "name": "Royal 2-Seater Balcony Set",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+        "specs": [
+          "Table: 60cm Diameter, 75cm Height",
+          "Chairs: 58cm x 56cm x 84cm",
+          "Tempered Glass top included"
+        ],
+        "description": "Elegant 2-seater configuration with hand-woven PE wicker chairs and a compact round glass-top coffee table.",
+        "_id": "6a68e47950f25dbb202a5f26"
+      },
+      {
+        "id": "modern-round-bistro",
+        "name": "Modern Round Wicker Bistro Set",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Table: 70cm Diameter, 75cm Height",
+          "Nesting chairs with premium padding",
+          "UV-stabilized wicker wrapping"
+        ],
+        "description": "A contemporary sleek bistro set featuring two high-backed nesting chairs that wrap into the table profile.",
+        "_id": "6a68e47950f25dbb202a5f27"
+      },
+      {
+        "id": "classic-terrace-coffee",
+        "name": "Classic Compact Terrace Set",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Table: 50cm x 50cm, 50cm Height",
+          "Chairs: Lightweight Alu frame",
+          "Removable washable covers"
+        ],
+        "description": "Minimalist layout with square side table and ergonomic synthetic rope chairs, designed for open terraces.",
+        "_id": "6a68d80750f25dbb202a5acd"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.095Z",
+    "updatedAt": "2026-07-28T17:18:49.822Z",
+    "__v": 1
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5ace",
+    "slug": "outdoor-dining-sets",
+    "name": "Outdoor Dining Sets",
+    "tagline": "Luxury Dining Under the Skies",
+    "description": "Dine in style with our handcrafted outdoor dining sets. Perfect for lawns, pool decks, and large terraces.",
+    "features": [
+      "Tempered Glass Tops",
+      "Teak Wood Accents",
+      "UV Protected Synthetic Cane"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "elite-6-seater",
+        "name": "Elite 6-Seater Glass Top Dining Set",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Table: 180cm x 90cm x 75cm",
+          "6 High-backed armchairs",
+          "8mm Tempered safety glass"
+        ],
+        "description": "Luxury 6-seater dining set with a wide rectangular woven table and armchairs featuring matching off-white cushions.",
+        "_id": "6a68e47a50f25dbb202a5f2b"
+      },
+      {
+        "id": "teak-wood-garden-dining",
+        "name": "Timeless Teak Wood Garden Dining Set",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Table: 150cm Diameter, Round",
+          "4 Solid teak folding armchairs",
+          "Natural sanded finish",
+          "Stainless steel hardware fittings"
+        ],
+        "description": "Classic round garden dining set made of grade-A plantation teak, providing high weather resistance and natural wood elegance.",
+        "_id": "6a68d80750f25dbb202a5ad0"
+      },
+      {
+        "id": "imperial-4-seater",
+        "name": "Imperial 4-Seater Wicker Dining",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+        "specs": [
+          "Table: 100cm x 100cm, Square",
+          "4 Stackable chairs",
+          "Dark charcoal wicker finish"
+        ],
+        "description": "Space-saving square patio dining set with stackable armchairs, ideal for villas and boutique hotel terraces.",
+        "_id": "6a68d80750f25dbb202a5ad1"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.174Z",
+    "updatedAt": "2026-07-28T17:18:50.234Z",
+    "__v": 1
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5ad2",
+    "slug": "outdoor-sofa-sets",
+    "name": "Outdoor Sofa Sets",
+    "tagline": "Vibrant Lounge & Sofa Sets for Patios",
+    "description": "Transform your outdoor seating with our weather-proof sofa sets. Ideal for high-end villas, resort lounges, and garden patios, these sofas feature luxurious deep cushions upholstered with quick-dry foam and water-repellent outdoor fabric.",
+    "features": [
+      "Deep Comfort Cushions",
+      "Quick Dry Foam Structure",
+      "Customizable Modular Grid",
+      "High Tensile Cane Weave"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "imperial-3-seater-sofa",
+        "name": "Imperial 3-Seater Garden Sofa",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Dimensions: 210cm x 85cm x 72cm",
+          "12cm thickness quick-dry foam",
+          "Powder-coated alu frame interior"
+        ],
+        "description": "Spacious 3-seater garden sofa featuring a thick, rounded wicker armrest design and deep comfortable cushioning.",
+        "_id": "6a68d80750f25dbb202a5ad3"
+      },
+      {
+        "id": "sleek-l-shape-lounge",
+        "name": "Sleek L-Shape Sectional Lounge",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Total Span: 240cm x 240cm",
+          "Modular configuration corners",
+          "Water-repellent acrylic cover fabric"
+        ],
+        "description": "Modular sectional outdoor sofa that can be configured to fit your patio corner. Includes a low-profile matching coffee table.",
+        "_id": "6a68d80750f25dbb202a5ad4"
+      },
+      {
+        "id": "crescent-curved-sofa",
+        "name": "Crescent Curved Outdoor Sofa",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+        "specs": [
+          "Total Span: 280cm diameter arch",
+          "Premium synthetic rope backing",
+          "Round central coffee table"
+        ],
+        "description": "Stunning semi-circular curved sofa configuration with contemporary woven rope backing, perfect for bonfire fire-pits.",
+        "_id": "6a68d80750f25dbb202a5ad5"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.244Z",
+    "updatedAt": "2026-07-28T16:25:43.244Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5ad6",
+    "slug": "outdoor-day-beds",
+    "name": "Outdoor Day Beds",
+    "tagline": "Ultimate Relaxation for Gardens & Pools",
+    "description": "Relax in style with our range of luxury outdoor day beds. Designed with a blend of privacy domes and wide sun beds, these daybeds are the pinnacle of luxury lounging for private residences, hotel poolside decks, and resort lawns.",
+    "features": [
+      "Retractable Sun Shading",
+      "High Weight Capacity",
+      "UV Resistant Weaving",
+      "Plush Cushions"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png"
+    ],
+    "products": [
+      {
+        "id": "serene-shade-daybed",
+        "name": "Serene Shade Poolside Daybed",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Dimensions: 160cm x 160cm x 80cm",
+          "Waterproof canopy dome shell",
+          "Premium plush mattress cushioning"
+        ],
+        "description": "Premium rotatable pool daybed with custom adjustable matching canopy for perfect shade coverage during hot summer afternoons.",
+        "_id": "6a68d80750f25dbb202a5ad7"
+      },
+      {
+        "id": "rotatable-dome-sunbed",
+        "name": "Rotatable Dome Sunbed",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Diameter: 180cm",
+          "Retractable folding canopy cover",
+          "4 Scatter accent pillows included"
+        ],
+        "description": "Circular daybed with high-tensile wicker weave and retractable fabric cover, offering the ultimate resort-style relaxation experience.",
+        "_id": "6a68d80750f25dbb202a5ad8"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.316Z",
+    "updatedAt": "2026-07-28T16:25:43.316Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5ad9",
+    "slug": "outdoor-bar-sets",
+    "name": "Outdoor Bar Sets",
+    "tagline": "Premium Outdoor Bar Sets in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Outdoor Bar Sets. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "outdoor-bar-sets-model-1",
+        "name": "Royal Outdoor Bar Sets Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Outdoor Bar Sets collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80750f25dbb202a5ada"
+      },
+      {
+        "id": "outdoor-bar-sets-model-2",
+        "name": "Elite Outdoor Bar Sets Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Outdoor Bar Sets line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80750f25dbb202a5adb"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.395Z",
+    "updatedAt": "2026-07-28T16:25:43.395Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5adc",
+    "slug": "outdoor-swingers",
+    "name": "Outdoor Swingers",
+    "tagline": "Playful Comfort Swings for Lawns",
+    "description": "Experience the joy of gentle swaying with our premium outdoor swing chairs and nests. Built with heavy-duty metal support frames and beautifully woven synthetic nests, they are perfect for children and adults alike.",
+    "features": [
+      "Reinforced Steel Spring Hooks",
+      "Soft Nested Cushioning",
+      "UV Protected PE Rattan",
+      "Durable Chain Hangings"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "royal-single-nest",
+        "name": "Royal Single Nest Swinger",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Basket: 95cm x 75cm x 120cm",
+          "Stand: 105cm Base, 195cm Height",
+          "Load capacity: Up to 120 kg"
+        ],
+        "description": "Egg-shaped single seater swing chair hanging from a heavy-duty steel stand, featuring soft tufted cushioning for maximum comfort.",
+        "_id": "6a68d80750f25dbb202a5add"
+      },
+      {
+        "id": "duet-double-swing",
+        "name": "Duet Double Cushioned Swing",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Basket: 135cm x 80cm x 125cm",
+          "Stand: 120cm Base, 200cm Height",
+          "Load capacity: Up to 200 kg"
+        ],
+        "description": "Wide double-seater swing nest with dual suspension spring hooks, designed for shared relaxing moments on lawns and balconies.",
+        "_id": "6a68d80750f25dbb202a5ade"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.475Z",
+    "updatedAt": "2026-07-28T16:25:43.475Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5adf",
+    "slug": "outdoor-teak-furniture",
+    "name": "Outdoor Teak Furniture",
+    "tagline": "Premium Outdoor Teak Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Outdoor Teak Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "outdoor-teak-furniture-model-1",
+        "name": "Royal Outdoor Teak Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Outdoor Teak Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80750f25dbb202a5ae0"
+      },
+      {
+        "id": "outdoor-teak-furniture-model-2",
+        "name": "Elite Outdoor Teak Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Outdoor Teak Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80750f25dbb202a5ae1"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.717Z",
+    "updatedAt": "2026-07-28T16:25:43.717Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5ae2",
+    "slug": "outdoor-accessories",
+    "name": "Outdoor Accessories",
+    "tagline": "Premium Outdoor Accessories in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Outdoor Accessories. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "outdoor-accessories-model-1",
+        "name": "Royal Outdoor Accessories Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Outdoor Accessories collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80750f25dbb202a5ae3"
+      },
+      {
+        "id": "outdoor-accessories-model-2",
+        "name": "Elite Outdoor Accessories Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Outdoor Accessories line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80750f25dbb202a5ae4"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.795Z",
+    "updatedAt": "2026-07-28T16:25:43.795Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5ae5",
+    "slug": "outdoor-pool-umbrella",
+    "name": "Outdoor Pool Umbrella",
+    "tagline": "Premium Shading Solutions in Delhi",
+    "description": "Stay cool under our heavy-duty pool and patio umbrellas. Made with heavy granite bases, double-pulley operating cords, and high-performance sun-shading canvas, these umbrellas are essential for poolside relaxation.",
+    "features": [
+      "Waterproof Canvas fabric",
+      "Wind Vent Canopy Openings",
+      "Polished Wooden & Alu Poles",
+      "Granite Weight Bases"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png"
+    ],
+    "products": [
+      {
+        "id": "granite-base-side-pole",
+        "name": "Granite Base Side Pole Umbrella",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+        "specs": [
+          "Umbrella Span: 3.0 Meters, Round",
+          "Granite Base: 60 kg with wheels",
+          "Hand crank tilt mechanism",
+          "300gsm Acrylic canvas canopy"
+        ],
+        "description": "Cantilever side-pole umbrella that rotates 360 degrees to cover dining sets and pool loungers, keeping poles out of your way.",
+        "_id": "6a68d80750f25dbb202a5ae6"
+      },
+      {
+        "id": "classic-center-pole-garden",
+        "name": "Classic Center Pole Garden Umbrella",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Umbrella Span: 2.5 Meters, Octagonal",
+          "Center Pole: 38mm Hardwood pole",
+          "Double-pulley rope lift"
+        ],
+        "description": "Timeless octagonal center-pole umbrella made with polished sal wood spars and waterproof canvas, designed to fit standard dining tables.",
+        "_id": "6a68d80750f25dbb202a5ae7"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.854Z",
+    "updatedAt": "2026-07-28T16:25:43.854Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80750f25dbb202a5ae8",
+    "slug": "outdoor-luxury-furniture",
+    "name": "Outdoor Luxury Furniture",
+    "tagline": "Premium Outdoor Luxury Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Outdoor Luxury Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "outdoor-luxury-furniture-model-1",
+        "name": "Royal Outdoor Luxury Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Outdoor Luxury Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80750f25dbb202a5ae9"
+      },
+      {
+        "id": "outdoor-luxury-furniture-model-2",
+        "name": "Elite Outdoor Luxury Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Outdoor Luxury Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80750f25dbb202a5aea"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:43.953Z",
+    "updatedAt": "2026-07-28T16:25:43.953Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5aeb",
+    "slug": "restaurant-furniture",
+    "name": "Restaurant Furniture",
+    "tagline": "Premium Restaurant Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Restaurant Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "restaurant-furniture-model-1",
+        "name": "Royal Restaurant Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Restaurant Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5aec"
+      },
+      {
+        "id": "restaurant-furniture-model-2",
+        "name": "Elite Restaurant Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Restaurant Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5aed"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.035Z",
+    "updatedAt": "2026-07-28T16:25:44.035Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5aee",
+    "slug": "rattan-chairs",
+    "name": "Rattan Chairs",
+    "tagline": "Premium Rattan Chairs in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Rattan Chairs. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "rattan-chairs-model-1",
+        "name": "Royal Rattan Chairs Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Rattan Chairs collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5aef"
+      },
+      {
+        "id": "rattan-chairs-model-2",
+        "name": "Elite Rattan Chairs Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Rattan Chairs line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5af0"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.111Z",
+    "updatedAt": "2026-07-28T16:25:44.111Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5af1",
+    "slug": "club-furniture",
+    "name": "Club Furniture",
+    "tagline": "Premium Club Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Club Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "club-furniture-model-1",
+        "name": "Royal Club Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Club Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5af2"
+      },
+      {
+        "id": "club-furniture-model-2",
+        "name": "Elite Club Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Club Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5af3"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.193Z",
+    "updatedAt": "2026-07-28T16:25:44.193Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5af4",
+    "slug": "resort-furniture",
+    "name": "Resort Furniture",
+    "tagline": "Premium Resort Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Resort Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "resort-furniture-model-1",
+        "name": "Royal Resort Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Resort Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5af5"
+      },
+      {
+        "id": "resort-furniture-model-2",
+        "name": "Elite Resort Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Resort Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5af6"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.352Z",
+    "updatedAt": "2026-07-28T16:25:44.352Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5af7",
+    "slug": "cafeteria-furniture",
+    "name": "Cafeteria Furniture",
+    "tagline": "Premium Cafeteria Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Cafeteria Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "cafeteria-furniture-model-1",
+        "name": "Royal Cafeteria Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Cafeteria Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5af8"
+      },
+      {
+        "id": "cafeteria-furniture-model-2",
+        "name": "Elite Cafeteria Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Cafeteria Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5af9"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.434Z",
+    "updatedAt": "2026-07-28T16:25:44.434Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5afa",
+    "slug": "braided-furniture",
+    "name": "Braided Furniture",
+    "tagline": "Premium Braided Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Braided Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "braided-furniture-model-1",
+        "name": "Royal Braided Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Braided Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5afb"
+      },
+      {
+        "id": "braided-furniture-model-2",
+        "name": "Elite Braided Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Braided Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5afc"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.512Z",
+    "updatedAt": "2026-07-28T16:25:44.512Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5afd",
+    "slug": "bistro-furniture",
+    "name": "Bistro Furniture",
+    "tagline": "Premium Bistro Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Bistro Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "bistro-furniture-model-1",
+        "name": "Royal Bistro Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Bistro Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5afe"
+      },
+      {
+        "id": "bistro-furniture-model-2",
+        "name": "Elite Bistro Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Bistro Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5aff"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.591Z",
+    "updatedAt": "2026-07-28T16:25:44.591Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5b00",
+    "slug": "indoor-furniture",
+    "name": "Indoor Furniture",
+    "tagline": "Premium Indoor Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Indoor Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "indoor-furniture-model-1",
+        "name": "Royal Indoor Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Indoor Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5b01"
+      },
+      {
+        "id": "indoor-furniture-model-2",
+        "name": "Elite Indoor Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Indoor Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5b02"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.655Z",
+    "updatedAt": "2026-07-28T16:25:44.655Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5b03",
+    "slug": "modular-furniture",
+    "name": "Modular Furniture",
+    "tagline": "Premium Modular Furniture in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Modular Furniture. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "modular-furniture-model-1",
+        "name": "Royal Modular Furniture Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Modular Furniture collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5b04"
+      },
+      {
+        "id": "modular-furniture-model-2",
+        "name": "Elite Modular Furniture Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Modular Furniture line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5b05"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.752Z",
+    "updatedAt": "2026-07-28T16:25:44.752Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68d80850f25dbb202a5b06",
+    "slug": "recliners",
+    "name": "Recliners",
+    "tagline": "Premium Recliners in Delhi",
+    "description": "Enter the world of Cane India's luxury outdoor collections and discover our premium range of Recliners. Handcrafted using weather-proof synthetic wicker, rust-resistant aluminum frames, and UV-resistant outdoor fabrics, designed for exceptional beauty and longevity.",
+    "features": [
+      "Rust-Resistant Frame",
+      "Low Maintenance",
+      "Rain and Weather Resistant",
+      "Luxury Aesthetic Finish"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture32_27.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png"
+    ],
+    "products": [
+      {
+        "id": "recliners-model-1",
+        "name": "Royal Recliners Model-101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png",
+        "specs": [
+          "Heavy-duty powder coated frame",
+          "Premium weather-resistant fabric",
+          "Customizable weaving designs"
+        ],
+        "description": "Our premium flagship model in the Recliners collection, showcasing our designers' commitment to comfort and reliability.",
+        "_id": "6a68d80850f25dbb202a5b07"
+      },
+      {
+        "id": "recliners-model-2",
+        "name": "Elite Recliners Model-202",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Compact and space saving design",
+          "UV resistant HDPE wicker wrapping",
+          "Available in dark brown, white & charcoal"
+        ],
+        "description": "Modern design variant of our Recliners line, perfect for balconies, poolsides, and garden lawns.",
+        "_id": "6a68d80850f25dbb202a5b08"
+      }
+    ],
+    "createdAt": "2026-07-28T16:25:44.881Z",
+    "updatedAt": "2026-07-28T16:25:44.881Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a68dac250f25dbb202a5db9",
+    "slug": "test",
+    "name": "test",
+    "tagline": "test",
+    "description": "test",
+    "features": [
+      "test"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dgb6durda/image/upload/v1785256807/cane_india_furniture/i2kkhilyirhlaupfaymp.png"
+    ],
+    "products": [
+      {
+        "id": "test",
+        "name": "test",
+        "image": "https://res.cloudinary.com/dgb6durda/image/upload/v1785256832/cane_india_furniture/ciagx81xjtgfm94xrj6k.png",
+        "specs": [],
+        "description": "test",
+        "_id": "6a68dadc50f25dbb202a5dba"
+      }
+    ],
+    "createdAt": "2026-07-28T16:37:22.192Z",
+    "updatedAt": "2026-07-28T16:37:48.751Z",
+    "__v": 1
+  },
+  {
+    "_id": "6a68deb250f25dbb202a5e6b",
+    "slug": "testing-category",
+    "name": "Testing Category",
+    "features": [
+      "High Durability",
+      "UV Resistant",
+      "Rust Proof"
+    ],
+    "images": [
+      "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture.png"
+    ],
+    "products": [
+      {
+        "id": "testing-model-101",
+        "name": "Testing Model 101",
+        "image": "https://www.caneindia.com/uploaded-files/category-images/thumbs/outdoor-furniture27.png",
+        "specs": [
+          "Specification Bullet A",
+          "Specification Bullet B"
+        ],
+        "description": "This is a testing product model description.",
+        "_id": "6a68decc50f25dbb202a5ec8"
+      }
+    ],
+    "tagline": "Premium Testing Collection in Delhi",
+    "description": "This is a testing category created via bulk CSV import validation.",
+    "createdAt": "2026-07-28T16:54:10.690Z",
+    "updatedAt": "2026-07-28T16:54:36.925Z",
+    "__v": 0
+  }
+]

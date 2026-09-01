@@ -1,0 +1,2197 @@
+[
+  {
+    "_id": "6a6497ae6a8dc347fbb69ebb",
+    "id": "fd-bhutan",
+    "__v": 0,
+    "badge": "Fixed Departure",
+    "bestTimeToVisit": "March to May & September to November",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.408Z",
+    "description": "Immerse yourself in Bhutan's serene monasteries, majestic fortress Dzongs, and untouched Himalayan valleys. Known for its philosophy of Gross National Happiness, ancient Buddhist heritage, and spectacular alpine vistas.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "International flights or train fare to Bagdogra / Hasimara",
+      "Travel Insurance and emergency medical expenses",
+      "Personal expenses such as laundry, phone calls, and shopping",
+      "Tips & gratuities for drivers and local guides",
+      "Any activities not explicitly mentioned in the itinerary"
+    ],
+    "faqs": [
+      {
+        "question": "Do Indian citizens need a visa for Bhutan?",
+        "answer": "Indian passport holders do not require a visa, but MUST possess a valid passport (minimum 6 months validity) or Voter ID card to obtain an entry permit.",
+        "_id": "6a679769fcec4604df4b8fee"
+      },
+      {
+        "question": "How difficult is the Tiger's Nest hike?",
+        "answer": "The hike takes approximately 4-5 hours round trip. It is of moderate difficulty with well-defined trails, and ponies are available for hire on the lower section.",
+        "_id": "6a679769fcec4604df4b8fef"
+      }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1544811096-89a14f806d55?q=80&w=800",
+      "https://images.unsplash.com/photo-1578637387939-43c525550085?q=80&w=800",
+      "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=800"
+    ],
+    "groupSize": "12 - 18 Travelers (Small Group)",
+    "highlights": [
+      "Phuentsholing",
+      "Punakha Dzong",
+      "Thimphu Valley",
+      "Tiger's Nest Monastery"
+    ],
+    "image": "https://images.unsplash.com/photo-1544811096-89a14f806d55?q=80&w=1200",
+    "included": [
+      "3★ / 4★ Deluxe Hotel Accommodations on twin-sharing basis",
+      "All meals included (Daily Breakfast, Buffet Lunch & Dinner)",
+      "Bhutan Sustainable Development Fee (SDF) included",
+      "Private AC tourist vehicle for all internal transfers & sightseeing",
+      "English-speaking licensed Bhutanese Tour Guide",
+      "Entry permits & monument fees for all listed Dzongs & Monasteries",
+      "Complimentary Explore & Unite Trip Captain support"
+    ],
+    "isFixedDeparture": true,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Phuentsholing & Immigration Clearance",
+        "description": "Reach the border town of Phuentsholing via Bagdogra/Hasimara. Complete immigration formalities with your trip captain. Check in to hotel, relax, and explore local Bhutanese night markets.",
+        "highlights": [],
+        "meals": "Dinner included",
+        "stay": "Hotel in Phuentsholing",
+        "_id": "6a679769fcec4604df4b8fe8"
+      },
+      {
+        "day": 2,
+        "title": "Scenic Drive to Thimphu - Capital City of Bhutan",
+        "description": "Enjoy a scenic mountain drive through pine forests and mist-covered river valleys to Thimphu (alt. 2,320m). Visit Buddha Dordenma statue overlooking the capital and National Memorial Chorten.",
+        "highlights": [],
+        "meals": "Breakfast, Lunch & Dinner",
+        "stay": "Deluxe Hotel in Thimphu",
+        "_id": "6a679769fcec4604df4b8fe9"
+      },
+      {
+        "day": 3,
+        "title": "Thimphu Sightseeing & Dochula Pass to Punakha",
+        "description": "Morning tour of Simply Bhutan Museum and Takin Preserve. Afternoon drive to Punakha over the breathtaking Dochula Pass (3,100m) with 108 memorial stupas and views of snow-capped peaks.",
+        "highlights": [],
+        "meals": "Breakfast, Lunch & Dinner",
+        "stay": "Resort in Punakha",
+        "_id": "6a679769fcec4604df4b8fea"
+      },
+      {
+        "day": 4,
+        "title": "Punakha Dzong & Suspension Bridge to Paro Valley",
+        "description": "Visit Punakha Dzong, the fortress of great happiness situated at the confluence of Pho Chhu & Mo Chhu rivers. Walk across the longest suspension bridge in Bhutan before driving to Paro.",
+        "highlights": [],
+        "meals": "Breakfast, Lunch & Dinner",
+        "stay": "Traditional Hotel in Paro",
+        "_id": "6a679769fcec4604df4b8feb"
+      },
+      {
+        "day": 5,
+        "title": "The Ultimate Hike to Taktsang (Tiger's Nest) Monastery",
+        "description": "Embark on the iconic trek to Tiger's Nest Monastery perched precariously on a cliff 900 meters above Paro valley. Celebrate your summit accomplishment with a traditional Bhutanese hot stone bath evening.",
+        "highlights": [],
+        "meals": "Breakfast, Lunch & Traditional Dinner",
+        "stay": "Traditional Hotel in Paro",
+        "_id": "6a679769fcec4604df4b8fec"
+      },
+      {
+        "day": 6,
+        "title": "Farewell Bhutan & Onward Journey Home",
+        "description": "Post breakfast, check out from Paro hotel and transfer back to Phuentsholing / Bagdogra Airport with heartwarming memories of the Last Shangri-La.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "_id": "6a679769fcec4604df4b8fed"
+      }
+    ],
+    "location": "Paro, Thimphu, Punakha & Phuentsholing, Bhutan",
+    "name": "Bhutan",
+    "price": "₹ 42,300 PP",
+    "rawPrice": 42300,
+    "slogan": "Kingdom of Gross National Happiness & Sacred Himalayan Monasteries",
+    "title": "Bhutan - Land of the Thunder Dragon",
+    "updatedAt": "2026-07-27T17:37:45.200Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ebc",
+    "id": "fd-thai-pb",
+    "__v": 0,
+    "badge": "Fixed Departure",
+    "bestTimeToVisit": "November to April",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.481Z",
+    "description": "Experience Thailand's bustling cityscapes, vibrant night markets, floating bazaars, and crystal-clear beach waters in Pattaya and Bangkok with fellow group explorers.",
+    "duration": "4N / 5D",
+    "excluded": [
+      "International Flight tickets",
+      "Thailand Tourist Visa Fees (if applicable)",
+      "Personal water sports (Parasailing, Jet Skiing on Coral Island)",
+      "Laundry, phone charges, and personal shopping expenses"
+    ],
+    "faqs": [
+      {
+        "question": "Is visa on arrival available for Thailand?",
+        "answer": "Yes! Indian passport holders can obtain Visa on Arrival or E-Visa. Check current exemption promos before booking.",
+        "_id": "6a679769fcec4604df4b8ffd"
+      }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=800",
+      "https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=800"
+    ],
+    "groupSize": "15 - 25 Travelers",
+    "highlights": [
+      "Pattaya Beach",
+      "Coral Island Speedboat",
+      "Alcazar Cabaret",
+      "Bangkok Temples"
+    ],
+    "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=1200",
+    "included": [
+      "4 Nights accommodation in 4★ Hotels with Daily Breakfast",
+      "Coral Island tour by speedboat with local Thai lunch",
+      "Alcazar World-Class Cabaret Show VIP ticket",
+      "Bangkok City & Temple Tour (Wat Traimit & Golden Buddha)",
+      "Chao Phraya Princess Luxury Dinner Cruise in Bangkok",
+      "All airport & inter-city transfers in private AC Coach"
+    ],
+    "isFixedDeparture": true,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Bangkok & Drive to Pattaya Beach",
+        "description": "Landing at Bangkok SUV / DMK Airport, meet your Explore & Unite tour lead. Private transfer to Pattaya. Evening check-in at resort followed by famous Alcazar Cabaret Show.",
+        "highlights": [],
+        "meals": "Dinner included",
+        "stay": "4★ Resort in Pattaya",
+        "_id": "6a679769fcec4604df4b8ff8"
+      },
+      {
+        "day": 2,
+        "title": "Coral Island Speedboat Tour & Water Sports",
+        "description": "Board a high-speed catamaran to Koh Larn (Coral Island). Enjoy parasailing, underwater sea walking, and snorkeling in clear turquoise water. Return to hotel for relaxed beach evening.",
+        "highlights": [],
+        "meals": "Breakfast & Indian Buffet Lunch",
+        "stay": "4★ Resort in Pattaya",
+        "_id": "6a679769fcec4604df4b8ff9"
+      },
+      {
+        "day": 3,
+        "title": "Pattaya to Bangkok Transfer & Chao Phraya Cruise",
+        "description": "Check out after breakfast and drive to Bangkok. En route visit Gems Gallery. Evening board the luxury Chao Phraya Princess river cruise with international buffet and live music performance.",
+        "highlights": [],
+        "meals": "Breakfast & Cruise Dinner",
+        "stay": "4★ Hotel in Bangkok City",
+        "_id": "6a679769fcec4604df4b8ffa"
+      },
+      {
+        "day": 4,
+        "title": "Bangkok Temple Tour & Shopping Extravaganza",
+        "description": "Guided tour of Wat Traimit (Golden Buddha) and Wat Pho (Reclining Buddha). Spend your afternoon shopping at MBK Center, Platinum Fashion Mall, and Pratunam street night markets.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "4★ Hotel in Bangkok City",
+        "_id": "6a679769fcec4604df4b8ffb"
+      },
+      {
+        "day": 5,
+        "title": "Departure from Bangkok",
+        "description": "Post breakfast, check out from hotel. Transfer to Suvarnabhumi Airport for your return flight back to India.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "_id": "6a679769fcec4604df4b8ffc"
+      }
+    ],
+    "location": "Pattaya & Bangkok, Thailand",
+    "name": "Thailand (Pattaya & Bangkok)",
+    "price": "₹ 31,200 PP",
+    "rawPrice": 31200,
+    "slogan": "Land of Smiles – Golden Temples, Coral Islands & Electric Nightlife",
+    "title": "Thailand Coastal & City Spectacle",
+    "updatedAt": "2026-07-27T17:37:45.421Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ebd",
+    "id": "fd-thai-pk",
+    "__v": 0,
+    "badge": "Fixed Departure",
+    "bestTimeToVisit": "November to April",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.528Z",
+    "description": "Island hop across Phi Phi, speed through emerald karst island lagoons, swim in Maya Bay, and relax on sun-kissed Andaman beaches.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "International airfare",
+      "National Park Entry Fees payable at islands (~400 THB)",
+      "Personal kayaking & scuba diving gear rentals"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=800",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800"
+    ],
+    "groupSize": "12 - 20 Travelers",
+    "highlights": [
+      "Phi Phi Island",
+      "Maya Bay",
+      "Krabi 4 Islands",
+      "Phuket Old Town"
+    ],
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200",
+    "included": [
+      "5 Nights 4★ Beachfront Hotel Accommodation",
+      "Phi Phi Island Speedboat Cruise with Maya Bay & Lunch",
+      "Krabi 4-Island Tour including Phra Nang Cave Beach",
+      "Phuket City Sightseeing & Big Buddha Viewpoint",
+      "Ferry / AC vehicle transfers between Phuket & Krabi"
+    ],
+    "isFixedDeparture": true,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Phuket & Patong Beach Walk",
+        "description": "Arrive at Phuket International Airport. Transfer to your Patong hotel. Sunset stroll along Patong beach and Bangla Road night market.",
+        "highlights": [],
+        "meals": "Welcome Dinner",
+        "stay": "4★ Hotel in Patong, Phuket",
+        "_id": "6a679769fcec4604df4b9004"
+      },
+      {
+        "day": 2,
+        "title": "Phi Phi Islands & Maya Bay Speedboat Odyssey",
+        "description": "Cruise across Andaman Sea to Phi Phi Don & Phi Phi Leh. Swim in Emerald Lagoon, photograph Maya Bay (featured in 'The Beach'), and snorkel among coral reefs.",
+        "highlights": [],
+        "meals": "Breakfast & Buffet Lunch",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a679769fcec4604df4b9005"
+      },
+      {
+        "day": 3,
+        "title": "Phuket City Tour & Transfer to Krabi",
+        "description": "Visit Big Buddha statue, Wat Chalong, and Sino-Portuguese architecture in Phuket Old Town. Scenic road transfer around Phang Nga Bay to Krabi.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "4★ Resort in Ao Nang, Krabi",
+        "_id": "6a679769fcec4604df4b9006"
+      },
+      {
+        "day": 4,
+        "title": "Krabi 4 Islands Longtail Boat Tour",
+        "description": "Visit Tup Island, Chicken Island, Poda Island, and Phra Nang Cave. Enjoy beach picnics and swimming in clear turquoise waters.",
+        "highlights": [],
+        "meals": "Breakfast & Beach Lunch",
+        "stay": "4★ Resort in Krabi",
+        "_id": "6a679769fcec4604df4b9007"
+      },
+      {
+        "day": 5,
+        "title": "Krabi Leisure & Emerald Pool Excursion",
+        "description": "Optional morning visit to Emerald Pool & Hot Springs, or unwind with a traditional Thai herbal spa massage along Ao Nang Beach.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "4★ Resort in Krabi",
+        "_id": "6a679769fcec4604df4b9008"
+      },
+      {
+        "day": 6,
+        "title": "Departure from Krabi / Phuket Airport",
+        "description": "Post breakfast, transfer to Krabi or Phuket Airport for your return flight home.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "_id": "6a679769fcec4604df4b9009"
+      }
+    ],
+    "location": "Phuket & Krabi, Thailand",
+    "name": "Thailand (Phuket & Krabi)",
+    "price": "₹ 39,300 PP",
+    "rawPrice": 39300,
+    "slogan": "Tropical Island Fantasy of Turquoise Lagoons & Majestic Cliffs",
+    "title": "Tropical Paradise of Phuket & Krabi Islands",
+    "updatedAt": "2026-07-27T17:37:45.521Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ebe",
+    "id": "fd-srilanka",
+    "__v": 0,
+    "badge": "Fixed Departure",
+    "bestTimeToVisit": "December to April",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.588Z",
+    "description": "Discover lush tea estates, whale watching in Mirissa, sacred Buddhist temples, and scenic train rides through Nuwara Eliya.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "Flight tickets to Colombo (CMB)",
+      "ETA Tourist Visa fee ($20 approx)",
+      "Lunch & personal beverages"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1546708973-b339540b5162?q=80&w=800"
+    ],
+    "groupSize": "10 - 18 Travelers",
+    "highlights": [
+      "Kandy Temple",
+      "Nuwara Eliya Train",
+      "Bentota Watersports",
+      "Colombo City"
+    ],
+    "image": "https://images.unsplash.com/photo-1546708973-b339540b5162?q=80&w=1200",
+    "included": [
+      "5 Nights accommodation in handpicked resorts",
+      "Daily Breakfast & Dinner",
+      "Kandy Temple of Tooth Relic & Cultural Dance Performance",
+      "Scenic Train Ride through Nuwara Eliya Tea Gardens",
+      "Bentota River Safari & Turtle Hatchery visit",
+      "All transfers in private air-conditioned coach"
+    ],
+    "isFixedDeparture": true,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Colombo & Drive to Kandy",
+        "description": "Arrive at Bandaranaike International Airport. Drive to cultural capital Kandy. Visit Pinnawala Elephant Orphanage en route.",
+        "highlights": [],
+        "meals": "Dinner included",
+        "stay": "Hotel in Kandy",
+        "_id": "6a679769fcec4604df4b9010"
+      },
+      {
+        "day": 2,
+        "title": "Kandy Temple & Scenic Train to Nuwara Eliya",
+        "description": "Visit Temple of the Sacred Tooth Relic. Board the iconic blue train to Nuwara Eliya, passing misty tea plantations and roaring waterfalls.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hill Resort in Nuwara Eliya",
+        "_id": "6a679769fcec4604df4b9011"
+      },
+      {
+        "day": 3,
+        "title": "Tea Factory Tour & Drive to Bentota Beach",
+        "description": "Explore Damro Tea Plantation and processing factory. Scenic drive down the hills to coastal beach paradise Bentota.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Beachfront Resort in Bentota",
+        "_id": "6a679769fcec4604df4b9012"
+      },
+      {
+        "day": 4,
+        "title": "Bentota River Safari & Water Sports",
+        "description": "Boat ride along Madu River mangrove forests. Visit Kosgoda Turtle Conservation Project. Free afternoon for beach jet skiing.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Beachfront Resort in Bentota",
+        "_id": "6a679769fcec4604df4b9013"
+      },
+      {
+        "day": 5,
+        "title": "Colombo City Tour & Shopping",
+        "description": "Drive to capital Colombo. Guided tour of Independence Square, Gangaramaya Temple, and Pettah Market shopping.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "City Hotel in Colombo",
+        "_id": "6a679769fcec4604df4b9014"
+      },
+      {
+        "day": 6,
+        "title": "Departure from Colombo",
+        "description": "Breakfast at hotel, check out and airport transfer for flight home.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "_id": "6a679769fcec4604df4b9015"
+      }
+    ],
+    "location": "Kandy, Nuwara Eliya, Bentota & Colombo, Sri Lanka",
+    "name": "Sri Lanka",
+    "price": "₹ 43,100 PP",
+    "rawPrice": 43100,
+    "slogan": "The Wonder of Asia – Ancient Empires, Misty Tea Hills & Wild Safaris",
+    "title": "Wonder of Asia Heritage & Coastline",
+    "updatedAt": "2026-07-27T17:37:45.600Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ebf",
+    "id": "fd-malaysia",
+    "__v": 0,
+    "badge": "Fixed Departure",
+    "bestTimeToVisit": "Year-Round",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.644Z",
+    "description": "Marvel at the iconic Petronas Twin Towers, explore ancient Batu Caves, take the Genting SkyWay cable car, and escape to Langkawi's tropical archipelago.",
+    "duration": "4N / 5D",
+    "excluded": [
+      "International flights & internal flight to Langkawi",
+      "Malaysia Tourism Tax (MYR 10 per room/night)",
+      "Lunch, Dinner & personal expenses"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=800"
+    ],
+    "groupSize": "12 - 22 Travelers",
+    "highlights": [
+      "Petronas Towers",
+      "Batu Caves",
+      "Genting Cable Car",
+      "Langkawi Island"
+    ],
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=1200",
+    "included": [
+      "4 Nights in 4★ Hotels (Kuala Lumpur & Langkawi)",
+      "Petronas Twin Towers Skybridge entry ticket",
+      "Batu Caves & Genting Highlands Day Tour with Cable Car ticket",
+      "Langkawi Island Hopping Boat Tour",
+      "Daily Breakfast & Airport/Hotel Transfers"
+    ],
+    "isFixedDeparture": true,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Kuala Lumpur & City Lights Tour",
+        "description": "Welcome to KL. Transfer to downtown hotel. Evening photo stop at illuminated Petronas Twin Towers and KL Tower.",
+        "highlights": [],
+        "meals": "Welcome Dinner",
+        "stay": "4★ Hotel in Kuala Lumpur",
+        "_id": "6a679769fcec4604df4b901c"
+      },
+      {
+        "day": 2,
+        "title": "Batu Caves & Genting Highlands Resort",
+        "description": "Climb the colorful 272 steps of Batu Caves Lord Murugan temple. Ride the Genting SkyWay cable car to indoor theme park and resort complex.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "4★ Hotel in Kuala Lumpur",
+        "_id": "6a679769fcec4604df4b901d"
+      },
+      {
+        "day": 3,
+        "title": "Flight to Langkawi Island & SkyBridge",
+        "description": "Short morning flight to Langkawi archipelago. Ride Langkawi Cable Car to the world's longest curved SkyBridge.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "Beach Resort in Langkawi",
+        "_id": "6a679769fcec4604df4b901e"
+      },
+      {
+        "day": 4,
+        "title": "Langkawi Island Hopping Boat Excursion",
+        "description": "Speedboat tour to Pregnant Maiden Lake, Beras Basah Island for swimming, and eagle feeding at Singa Besar Island.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "Beach Resort in Langkawi",
+        "_id": "6a679769fcec4604df4b901f"
+      },
+      {
+        "day": 5,
+        "title": "Departure from Langkawi / KL",
+        "description": "Check out post breakfast, airport drop-off for flight home.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "_id": "6a679769fcec4604df4b9020"
+      }
+    ],
+    "location": "Kuala Lumpur & Langkawi, Malaysia",
+    "name": "Malaysia",
+    "price": "₹ 34,100 PP",
+    "rawPrice": 34100,
+    "slogan": "Truly Asia – Cosmopolitan Towers, Cultural Tapestries & Pristine Islands",
+    "title": "Cosmopolitan Malaysia & Langkawi Archipelago",
+    "updatedAt": "2026-07-27T17:37:45.679Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ec0",
+    "id": "fd-dubai",
+    "__v": 0,
+    "badge": "Fixed Departure",
+    "bestTimeToVisit": "October to April",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.704Z",
+    "description": "Ascend Burj Khalifa, race through desert dunes on a 4x4 safari, shop in world-class souks, and visit Grand Sheikh Zayed Mosque.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "International flights to Dubai (DXB)",
+      "Tourism Dirham Fee (AED 15 per room/night)",
+      "Personal shopping and extra beverages"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800"
+    ],
+    "groupSize": "10 - 20 Travelers",
+    "highlights": [
+      "Burj Khalifa",
+      "Desert Safari 4x4",
+      "Dubai Marina Dhow Cruise",
+      "Abu Dhabi Mosque"
+    ],
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200",
+    "included": [
+      "5 Nights accommodation in 4★ Central Dubai Hotel",
+      "Burj Khalifa 124th Floor At-The-Top Ticket with Dubai Mall Fountain Show",
+      "Desert Safari with 4x4 Dune Bashing, Camel Ride, Belly Dance & BBQ Dinner",
+      "Luxury Dhow Cruise Dinner at Dubai Marina",
+      "Full Day Abu Dhabi Tour with Sheikh Zayed Grand Mosque & BAPS Hindu Mandir",
+      "UAE Tourist Visa & Dubai Airport Transfers"
+    ],
+    "isFixedDeparture": true,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Dubai & Marina Dhow Cruise Dinner",
+        "description": "Arrive at Dubai International Airport. Transfer to luxury 4★ hotel. Evening board a illuminated wooden Dhow cruise at Dubai Marina with buffet dinner.",
+        "highlights": [],
+        "meals": "Dinner included",
+        "stay": "4★ Hotel in Dubai",
+        "_id": "6a679769fcec4604df4b9026"
+      },
+      {
+        "day": 2,
+        "title": "Dubai City Tour & Burj Khalifa At-The-Top",
+        "description": "Explore Gold & Spice Souk, Jumeirah Beach, and Atlantis Palm photo stop. Afternoon visit Dubai Mall and ascend 124th floor of Burj Khalifa for panoramic sunset views.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "4★ Hotel in Dubai",
+        "_id": "6a679769fcec4604df4b9027"
+      },
+      {
+        "day": 3,
+        "title": "Morning Free & Thrilling Desert Safari",
+        "description": "Morning leisure for Dubai Frame or Miracle Garden. Afternoon 4x4 Land Cruiser desert dune bashing, sandboarding, camel rides, and Arabic BBQ night show.",
+        "highlights": [],
+        "meals": "Breakfast & BBQ Dinner",
+        "stay": "4★ Hotel in Dubai",
+        "_id": "6a679769fcec4604df4b9028"
+      },
+      {
+        "day": 4,
+        "title": "Full Day Abu Dhabi Tour & Grand Mosque",
+        "description": "Day trip to UAE capital Abu Dhabi. Visit the magnificent Sheikh Zayed Grand Mosque, Emirates Palace photo stop, and new BAPS Mandir.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "4★ Hotel in Dubai",
+        "_id": "6a679769fcec4604df4b9029"
+      },
+      {
+        "day": 5,
+        "title": "Global Village & Shopping Extravaganza",
+        "description": "Visit Museum of the Future (photo stop) and spend afternoon / evening exploring cultures of 90+ countries at Global Village Dubai.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "stay": "4★ Hotel in Dubai",
+        "_id": "6a679769fcec4604df4b902a"
+      },
+      {
+        "day": 6,
+        "title": "Farewell Dubai & Return Flight",
+        "description": "Post breakfast, check out from hotel and private transfer to Dubai Airport for return flight.",
+        "highlights": [],
+        "meals": "Breakfast included",
+        "_id": "6a679769fcec4604df4b902b"
+      }
+    ],
+    "location": "Dubai & Abu Dhabi, UAE",
+    "name": "Dubai",
+    "price": "₹ 78,600 PP",
+    "rawPrice": 78600,
+    "slogan": "City of Superlatives – Futuristic Horizons, Golden Dunes & Luxury Magic",
+    "title": "Dubai Futuristic Horizons & Desert Wonders",
+    "updatedAt": "2026-07-27T17:37:45.761Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ec1",
+    "id": "pkg-thailand",
+    "__v": 0,
+    "badge": "Group Departure",
+    "bestTimeToVisit": "November to May",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.751Z",
+    "description": "Unwind in Thailand's finest coastal havens. Includes island cruises, luxury beach resorts, curated cultural tours, and authentic Thai spa experiences.",
+    "duration": "7N / 8D",
+    "excluded": [
+      "International Airfare",
+      "Thailand Visa Fee",
+      "Personal Shopping"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800"
+    ],
+    "groupSize": "10 - 18 Travelers",
+    "highlights": [
+      "Island Hopping Tour",
+      "Phi Phi Speedboat",
+      "Thai Massage Session",
+      "Floating Market Visit"
+    ],
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1200",
+    "included": [
+      "7 Nights 4★ / 5★ Beach Resort Stays",
+      "Daily Breakfast & Selected Seafood Dinners",
+      "Phi Phi Islands Speedboat Tour with Lunch",
+      "Krabi Emerald Pool & Hot Springs Tour",
+      "Thai Massage Session included",
+      "All Speedboat & Airport Transfers"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Phuket & Beach Relaxation",
+        "description": "Airport pickup & transfer to luxury beach resort.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Phuket Beach Resort",
+        "_id": "6a679769fcec4604df4b9032"
+      },
+      {
+        "day": 2,
+        "title": "Phi Phi Islands Speedboat Cruise",
+        "description": "Explore Maya Bay, Monkey Beach, and Bamboo Island.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "Phuket Beach Resort",
+        "_id": "6a679769fcec4604df4b9033"
+      },
+      {
+        "day": 3,
+        "title": "Phuket to Krabi Scenic Transfer",
+        "description": "Road trip along Phang Nga coast to Krabi.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Krabi Resort",
+        "_id": "6a679769fcec4604df4b9034"
+      },
+      {
+        "day": 4,
+        "title": "Krabi 4-Island Tour",
+        "description": "Snorkel in turquoise lagoons and visit Phra Nang Cave.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "Krabi Resort",
+        "_id": "6a679769fcec4604df4b9035"
+      },
+      {
+        "day": 5,
+        "title": "Fly to Koh Samui",
+        "description": "Short flight to Koh Samui island.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Koh Samui Villa",
+        "_id": "6a679769fcec4604df4b9036"
+      },
+      {
+        "day": 6,
+        "title": "Ang Thong National Marine Park",
+        "description": "Kayaking and lagoon views in marine park.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "Koh Samui Villa",
+        "_id": "6a679769fcec4604df4b9037"
+      },
+      {
+        "day": 7,
+        "title": "Koh Samui Sunset & Fisherman's Village",
+        "description": "Leisure day and sunset beach dinner.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Koh Samui Villa",
+        "_id": "6a679769fcec4604df4b9038"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "description": "Transfer to Koh Samui Airport.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a679769fcec4604df4b9039"
+      }
+    ],
+    "location": "Phuket, Krabi & Koh Samui, Thailand",
+    "name": "Thailand Serenity Escape",
+    "price": "₹ 58,000",
+    "rawPrice": 58000,
+    "slogan": "Phuket - Krabi - Koh Samui Coastal Retreat",
+    "title": "Thailand Serenity Escape (Phuket • Krabi • Koh Samui)",
+    "updatedAt": "2026-07-27T17:37:45.838Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ec2",
+    "id": "pkg-maldives",
+    "__v": 0,
+    "badge": "Group Departure",
+    "bestTimeToVisit": "November to April",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.794Z",
+    "description": "Experience ultimate luxury in private ocean villas over turquoise lagoons. Ideal for romantic couples and serene escapes with all-inclusive island dining.",
+    "duration": "4N / 5D",
+    "excluded": [
+      "International Airfare",
+      "Spa treatments & Scuba Diving"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=800"
+    ],
+    "groupSize": "Couples & Small Groups",
+    "highlights": [
+      "Overwater Villa Stay",
+      "Snorkeling with Turtles",
+      "Sunset Dolphin Cruise",
+      "All-Inclusive Dining"
+    ],
+    "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1200",
+    "included": [
+      "2 Nights Beach Villa + 2 Nights Water Villa",
+      "All-Inclusive Dining (Breakfast, Lunch, Dinner & Unlimited Drinks)",
+      "Roundtrip Speedboat Airport Transfers",
+      "Sunset Dolphin Cruise excursion",
+      "Complimentary Snorkeling & Kayaking equipment"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Male & Speedboat to Resort",
+        "description": "Warm island welcome & check-in to beachfront villa.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Beach Villa",
+        "_id": "6a679769fcec4604df4b9042"
+      },
+      {
+        "day": 2,
+        "title": "Coral Reef Snorkeling & Island Exploration",
+        "description": "Guided snorkeling with sea turtles and stingrays.",
+        "highlights": [],
+        "meals": "All-Inclusive",
+        "stay": "Beach Villa",
+        "_id": "6a679769fcec4604df4b9043"
+      },
+      {
+        "day": 3,
+        "title": "Check-in to Overwater Villa & Dolphin Cruise",
+        "description": "Move to luxury overwater bungalow with direct ocean access.",
+        "highlights": [],
+        "meals": "All-Inclusive",
+        "stay": "Water Villa",
+        "_id": "6a679769fcec4604df4b9044"
+      },
+      {
+        "day": 4,
+        "title": "Leisure, Water Sports & Candlelit Beach Dinner",
+        "description": "Kayak across lagoon and private sunset dinner.",
+        "highlights": [],
+        "meals": "All-Inclusive",
+        "stay": "Water Villa",
+        "_id": "6a679769fcec4604df4b9045"
+      },
+      {
+        "day": 5,
+        "title": "Farewell Maldives",
+        "description": "Speedboat transfer back to Male International Airport.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a679769fcec4604df4b9046"
+      }
+    ],
+    "location": "South Male Atoll, Maldives",
+    "name": "Maldives Bliss",
+    "price": "₹ 89,900",
+    "rawPrice": 89900,
+    "slogan": "Sun • Sand • Serenity Overwater Villas",
+    "title": "Maldives Luxury Overwater Paradise",
+    "updatedAt": "2026-07-27T17:37:45.918Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ec3",
+    "id": "pkg-rajasthan",
+    "__v": 0,
+    "badge": "Group Departure",
+    "bestTimeToVisit": "October to March",
+    "category": "domestic",
+    "createdAt": "2026-07-25T10:59:19.838Z",
+    "description": "Explore the royal heritage of India. Travel through golden deserts, grand fortresses, and sparkling lakes of Rajasthan with cultural campfires and folk dances.",
+    "duration": "7N / 8D",
+    "excluded": [
+      "Train / Flight tickets to Jodhpur / Udaipur",
+      "Monument entry fees & camera tickets"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800"
+    ],
+    "groupSize": "12 - 20 Travelers",
+    "highlights": [
+      "Thar Desert Camping",
+      "Camel Safari & Folk Dance",
+      "Mehrangarh Fort Tour",
+      "Udaipur Lake Cruise"
+    ],
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=1200",
+    "included": [
+      "7 Nights 3★ / 4★ Heritage Hotel & Swiss Tent Stay",
+      "Daily Breakfast & Dinner",
+      "Thar Desert Sam Sand Dunes Camping with Camel Safari",
+      "Rajasthani Folk Dance & Cultural Show with BBQ",
+      "Lake Pichola Boat Cruise in Udaipur",
+      "All inter-city transfers in AC Tempo Traveler / Coach"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Blue City Jodhpur",
+        "description": "Pick up at Jodhpur Railway / Airport. Visit Umaid Bhawan Palace.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Heritage Hotel in Jodhpur",
+        "_id": "6a67976afcec4604df4b904c"
+      },
+      {
+        "day": 2,
+        "title": "Mehrangarh Fort & Drive to Golden City Jaisalmer",
+        "description": "Tour Mehrangarh Fort and Jaswant Thada. Scenic desert drive to Jaisalmer.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Jaisalmer",
+        "_id": "6a67976afcec4604df4b904d"
+      },
+      {
+        "day": 3,
+        "title": "Jaisalmer Fort & Sam Desert Dunes Camping",
+        "description": "Explore Golden Fort and Patwon Ki Haveli. Evening camel safari & luxury desert camp stay.",
+        "highlights": [],
+        "meals": "Breakfast & Camp Dinner",
+        "stay": "Swiss Tent in Sam Dunes",
+        "_id": "6a67976afcec4604df4b904e"
+      },
+      {
+        "day": 4,
+        "title": "Drive to City of Lakes Udaipur",
+        "description": "Scenic drive through Aravalli hills to Udaipur.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Udaipur",
+        "_id": "6a67976afcec4604df4b904f"
+      },
+      {
+        "day": 5,
+        "title": "Udaipur City Palace & Lake Pichola Boat Cruise",
+        "description": "Visit City Palace, Saheliyon Ki Bari, and sunset boat ride.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Udaipur",
+        "_id": "6a67976afcec4604df4b9050"
+      },
+      {
+        "day": 6,
+        "title": "Kumbhalgarh Fort Day Trip",
+        "description": "Visit the world's second-longest wall at Kumbhalgarh Fort.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Udaipur",
+        "_id": "6a67976afcec4604df4b9051"
+      },
+      {
+        "day": 7,
+        "title": "Shopping & Local Craft Bazaars",
+        "description": "Explore Hathi Pol markets for handicrafts & textiles.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Udaipur",
+        "_id": "6a67976afcec4604df4b9052"
+      },
+      {
+        "day": 8,
+        "title": "Departure from Udaipur",
+        "description": "Check out post breakfast for onward journey.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b9053"
+      }
+    ],
+    "location": "Jodhpur, Jaisalmer & Udaipur, Rajasthan",
+    "name": "Rajasthan Discovery",
+    "price": "₹ 29,999",
+    "rawPrice": 29999,
+    "slogan": "Jodhpur - Jaisalmer - Udaipur Royal Journey",
+    "title": "Royal Heritage of Rajasthan",
+    "updatedAt": "2026-07-27T17:37:45.999Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ec4",
+    "id": "pkg-kalsubai",
+    "__v": 0,
+    "badge": "Treks & Events",
+    "bestTimeToVisit": "June to March",
+    "category": "trek",
+    "createdAt": "2026-07-25T10:59:19.884Z",
+    "description": "Conquer Everest of Maharashtra! Trek through scenic iron ladders, starry night skies, and breathtaking sunrise views over Kalsubai Harishchandragad Wildlife Sanctuary.",
+    "duration": "1N / 2D",
+    "excluded": [
+      "Personal trekking shoes & gear",
+      "Personal snacks"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800"
+    ],
+    "groupSize": "20 - 35 Trek Enthusiasts",
+    "highlights": [
+      "Sunrise Above Clouds",
+      "Certified Trek Leaders",
+      "Local Maharashtrian Meals",
+      "Night Camping & Bonfire"
+    ],
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200",
+    "included": [
+      "AC Bus Transport from Mumbai & Pune pick-up points",
+      "Certified & Safety-Equipped Trek Leaders",
+      "Authentic Village Breakfast, Lunch & Evening Tea",
+      "Forest Department Entry Permits & First Aid",
+      "Trek completion certificate"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Night Travel from Mumbai / Pune to Bari Village",
+        "description": "Board private AC bus from central pickup points (Dadard/Thane/Vashi/Shivajinagar). Reach base village Bari by midnight.",
+        "highlights": [],
+        "meals": "Travel snacks",
+        "stay": "Overnight Bus Journey",
+        "_id": "6a67976afcec4604df4b905c"
+      },
+      {
+        "day": 2,
+        "title": "Night Climb, Sunrise at Summit & Return",
+        "description": "Start trekking at 3:00 AM under starlit sky. Reach 5,400 ft summit for golden sunrise at 6:15 AM. Visit Kalsubai temple, descend for traditional village lunch, and return to Mumbai/Pune by evening.",
+        "highlights": [],
+        "meals": "Breakfast & Village Lunch",
+        "_id": "6a67976afcec4604df4b905d"
+      }
+    ],
+    "location": "Bari Village, Igatpuri, Maharashtra",
+    "name": "Kalsubai Peak Trek",
+    "price": "₹ 1,499",
+    "rawPrice": 1499,
+    "slogan": "Maharashtra's Highest Peak Climb & Cloud Sunrise",
+    "title": "Kalsubai Peak Weekend Trek (5,400 ft)",
+    "updatedAt": "2026-07-27T17:37:46.089Z"
+  },
+  {
+    "_id": "6a6497ae6a8dc347fbb69ec5",
+    "id": "pkg-kashmir",
+    "__v": 0,
+    "badge": "Bestseller",
+    "bestTimeToVisit": "March to October (Summer) & Dec to Feb (Snow)",
+    "category": "domestic",
+    "createdAt": "2026-07-25T10:59:19.925Z",
+    "description": "Discover paradise on earth. Enjoy snowy alpine peaks, serene Dal Lake houseboats, Gondola rides in Gulmarg, and vibrant tulip garden breezes.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "Airfare to Srinagar (SXR)",
+      "Pony rides & Phase 2 Gondola tickets"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1598091383021-15ddea10925d?q=80&w=800"
+    ],
+    "groupSize": "10 - 18 Travelers",
+    "highlights": [
+      "Shikara Ride on Dal Lake",
+      "Gulmarg Gondola Ride",
+      "Houseboat Stay",
+      "Betaab Valley Excursion"
+    ],
+    "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?q=80&w=1200",
+    "included": [
+      "1 Night Luxury Houseboat Stay + 4 Nights Hotel Stay",
+      "Daily Breakfast & Hot Kashmiri Dinner (MAP Plan)",
+      "Complimentary 1-Hour Shikara Ride on Dal Lake",
+      "Gulmarg Gondola Ride Phase 1 Ticket included",
+      "Excursion to Pahalgam & Betaab Valley",
+      "All transfers in private non-AC / heated vehicle"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Srinagar & Dal Lake Houseboat",
+        "description": "Airport pick up. Check in to traditional wooden houseboat on Dal Lake. Enjoy evening sunset Shikara ride.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Dal Lake Houseboat",
+        "_id": "6a67976afcec4604df4b9060"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Mughal Gardens & Drive to Gulmarg",
+        "description": "Visit Nishat Bagh & Shalimar Bagh. Drive to snow meadow Gulmarg.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Gulmarg",
+        "_id": "6a67976afcec4604df4b9061"
+      },
+      {
+        "day": 3,
+        "title": "Gulmarg Gondola Ride & Snow Activities",
+        "description": "Ride Asia's highest cable car (Gondola) up to Kongdoori mountain peak. Afternoon ski & snow games.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Gulmarg",
+        "_id": "6a67976afcec4604df4b9062"
+      },
+      {
+        "day": 4,
+        "title": "Drive to Valley of Shepherds Pahalgam",
+        "description": "Scenic drive past saffron fields to Pahalgam. Visit Betaab Valley & Aru Valley.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Resort in Pahalgam",
+        "_id": "6a67976afcec4604df4b9063"
+      },
+      {
+        "day": 5,
+        "title": "Return to Srinagar & Local Souvenir Shopping",
+        "description": "Drive back to Srinagar. Shop for authentic Pashmina shawls, saffron & dry fruits.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Srinagar",
+        "_id": "6a67976afcec4604df4b9064"
+      },
+      {
+        "day": 6,
+        "title": "Departure from Srinagar Airport",
+        "description": "Check out post breakfast, airport drop-off.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b9065"
+      }
+    ],
+    "location": "Srinagar, Gulmarg & Pahalgam, Jammu & Kashmir",
+    "name": "Kashmir Heaven Tour",
+    "price": "₹ 34,500",
+    "rawPrice": 34500,
+    "slogan": "Srinagar - Gulmarg - Pahalgam Alpine Paradise",
+    "title": "Kashmir Heaven on Earth Tour",
+    "updatedAt": "2026-07-27T17:37:46.159Z"
+  },
+  {
+    "_id": "6a6497af6a8dc347fbb69ec6",
+    "id": "pkg-vietnam",
+    "__v": 0,
+    "badge": "Trending",
+    "bestTimeToVisit": "October to April",
+    "category": "international",
+    "createdAt": "2026-07-25T10:59:19.970Z",
+    "description": "Immerse yourself in rich history, limestone karst bays, glowing lantern towns, Golden Hands Bridge in Ba Na Hills, and world-renowned Vietnamese cuisine.",
+    "duration": "6N / 7D",
+    "excluded": [
+      "International flights & domestic flight Hanoi to Da Nang",
+      "E-Visa Fee ($25)"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=800"
+    ],
+    "groupSize": "12 - 20 Travelers",
+    "highlights": [
+      "Overnight Ha Long Cruise",
+      "Golden Hands Bridge",
+      "Ancient Hoi An Lantern Night",
+      "Street Food Odyssey"
+    ],
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200",
+    "included": [
+      "6 Nights Accommodation (including 1 Night 5★ Ha Long Bay Cruise)",
+      "Daily Breakfast, 3 Cruise Lunches & 2 Seafood Dinners",
+      "Ha Long Bay Cruise with Kayaking & Cave Exploration",
+      "Ba Na Hills Cable Car & Golden Hands Bridge Entry Ticket",
+      "Hoi An Ancient Lantern Town walking tour",
+      "All airport, inter-city & boat transfers"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Hanoi & Old Quarter Walk",
+        "description": "Landing in Hanoi. Explore historic Old Quarter and Hoan Kiem Lake.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Hotel in Hanoi",
+        "_id": "6a67976afcec4604df4b906c"
+      },
+      {
+        "day": 2,
+        "title": "Board Luxury 5★ Ha Long Bay Cruise",
+        "description": "Drive to Ha Long Bay. Board luxury cruise vessel among 1,600 limestone islets. Kayak in Sung Sot cave.",
+        "highlights": [],
+        "meals": "Breakfast, Lunch & Seafood Dinner",
+        "stay": "5★ Ha Long Bay Cruise Ship",
+        "_id": "6a67976afcec4604df4b906d"
+      },
+      {
+        "day": 3,
+        "title": "Tai Chi on Deck, Return to Hanoi & Fly to Da Nang",
+        "description": "Morning Tai Chi on sun deck. Disembark cruise and fly to coastal Da Nang.",
+        "highlights": [],
+        "meals": "Breakfast & Brunch",
+        "stay": "Beach Resort in Da Nang",
+        "_id": "6a67976afcec4604df4b906e"
+      },
+      {
+        "day": 4,
+        "title": "Ba Na Hills & Golden Hands Bridge",
+        "description": "Cable car ride up Ba Na Hills. Walk across the world-famous Golden Hands Bridge.",
+        "highlights": [],
+        "meals": "Breakfast & Buffet Lunch",
+        "stay": "Beach Resort in Da Nang",
+        "_id": "6a67976afcec4604df4b906f"
+      },
+      {
+        "day": 5,
+        "title": "Ancient Hoi An Lantern Town",
+        "description": "Visit Japanese Covered Bridge and night market glowing with thousands of silk lanterns.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Resort in Hoi An",
+        "_id": "6a67976afcec4604df4b9070"
+      },
+      {
+        "day": 6,
+        "title": "Coconut Basket Boat Tour in Cam Thanh",
+        "description": "Spin in traditional bamboo basket boats through nipa palm coconut canals.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "Resort in Hoi An",
+        "_id": "6a67976afcec4604df4b9071"
+      },
+      {
+        "day": 7,
+        "title": "Departure from Da Nang Airport",
+        "description": "Transfer to Da Nang Airport for return flight home.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b9072"
+      }
+    ],
+    "location": "Hanoi, Ha Long Bay, Da Nang & Hoi An, Vietnam",
+    "name": "Vietnam Heritage Express",
+    "price": "₹ 49,999",
+    "rawPrice": 49999,
+    "slogan": "Hanoi - Ha Long Bay - Da Nang - Hoi An",
+    "title": "Vietnam Heritage & Karst Bay Odyssey",
+    "updatedAt": "2026-07-27T17:37:46.249Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce492",
+    "id": "pkg-andaman",
+    "__v": 0,
+    "badge": "Best Seller",
+    "bestTimeToVisit": "October to May",
+    "category": "domestic",
+    "createdAt": "2026-07-27T17:37:46.317Z",
+    "description": "Discover the breathtaking beauty of the Andaman archipelago. From the historical Cellular Jail in Port Blair to the pristine white sands of Radhanagar Beach in Havelock and the gorgeous coral reefs of Neil Island.",
+    "duration": "4N / 5D",
+    "excluded": [
+      "Airfare / Train fare to Port Blair",
+      "5% GST extra",
+      "Lunch & Dinner meals (unless upgraded to MAP plan)",
+      "Personal expenses, laundry, tipping, and additional water sports"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between CP and MAP plans?",
+        "answer": "CP (Continental Plan) includes accommodation and daily buffet breakfast. MAP (Modified American Plan) includes accommodation, daily breakfast, and daily dinner.",
+        "_id": "6a67976afcec4604df4b907f"
+      },
+      {
+        "question": "Is mobile network available in Andaman?",
+        "answer": "Airtel, BSNL, and Jio provide connectivity, but internet speeds can be slow and unstable on outer islands like Havelock and Neil. Relish the digital detox!",
+        "_id": "6a67976afcec4604df4b9080"
+      }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=800",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800"
+    ],
+    "groupSize": "2 - 12 Travelers",
+    "highlights": [
+      "Cellular Jail Light & Sound",
+      "Radhanagar Beach (Havelock)",
+      "Natural Coral Bridge (Neil)",
+      "Chidiya Tapu Sunset"
+    ],
+    "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200",
+    "included": [
+      "4 Nights deluxe hotel accommodation on twin-sharing (CP Plan)",
+      "Complimentary Photoshoot at Corbyn's Cove Beach",
+      "Private transfers in non-AC vehicle (Xylo/Ertiga/Scorpio)",
+      "Premium Cruise tickets (Makruzz/Nautika) for inter-island transfers",
+      "All entry permits, forest area fees, and activity tickets",
+      "Meet & Greet assistance at Port Blair Airport"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Port Blair & Cellular Jail Show",
+        "description": "Meet & greet at Port Blair airport. Transfer to hotel for check-in. Afternoon visit to Corbyn's Cove Beach with a complimentary photoshoot, followed by a historical Cellular Jail tour and the evening Light & Sound Show.",
+        "highlights": [],
+        "meals": "Welcome drinks",
+        "stay": "Hotel in Port Blair",
+        "_id": "6a67976afcec4604df4b907a"
+      },
+      {
+        "day": 2,
+        "title": "Cruise to Swaraj Dweep (Havelock Island) & Beaches",
+        "description": "Early breakfast and check-out. Board cruise to Havelock Island. Check-in at resort, then enjoy excursions to Kalapathar Beach and the iconic white sands of Radhanagar Beach (Asia's 7th best beach).",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Resort in Havelock",
+        "_id": "6a67976afcec4604df4b907b"
+      },
+      {
+        "day": 3,
+        "title": "Cruise to Shaheed Dweep (Neil Island) & Sightseeing",
+        "description": "After breakfast, check out and take the inter-island cruise to Neil Island. Explore Neil's top landmarks: the tranquil Laxmanpur Beach, active Bharathpur Beach (water sports), and the iconic Natural Coral Bridge formation.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Resort in Neil Island",
+        "_id": "6a67976afcec4604df4b907c"
+      },
+      {
+        "day": 4,
+        "title": "Return to Port Blair & Chidiya Tapu Sunset",
+        "description": "Breakfast and check-out. Board the cruise back to Port Blair. Check-in to hotel. Afternoon visit to Chidiya Tapu beach, famous for its lush green forests, bird watching, and stunning sunset views.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Hotel in Port Blair",
+        "_id": "6a67976afcec4604df4b907d"
+      },
+      {
+        "day": 5,
+        "title": "Farewell Andaman & Airport Departure",
+        "description": "Post breakfast, check out and transfer to Port Blair Airport for your flight home with beautiful island memories.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b907e"
+      }
+    ],
+    "location": "Port Blair, Havelock Island & Neil Island",
+    "name": "Andaman Islands",
+    "price": "₹ 14,000 PP",
+    "rawPrice": 14000,
+    "slogan": "Emerald Islands, White Sands & Pristine Corals",
+    "title": "Andaman Islands Tropical Paradise",
+    "updatedAt": "2026-07-27T17:37:46.317Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce493",
+    "id": "pkg-thailand-kp",
+    "__v": 0,
+    "badge": "Trending",
+    "bestTimeToVisit": "November to April",
+    "category": "international",
+    "createdAt": "2026-07-27T17:37:46.387Z",
+    "description": "Enjoy a relaxed tropical holiday covering the best highlights of Krabi and Phuket. Features a longtail boat tour of the 4 Islands, Phi Phi Island cruise, Wat Chalong, Phuket Old Town, and the spectacular Phuket Fantasea cultural show.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "International flights and travel insurance",
+      "Thailand Visa fees (if applicable)",
+      "National Park entrance fees (approx. 400 THB per island tour paid locally)",
+      "Personal expenses, drinks, and tipping"
+    ],
+    "faqs": [
+      {
+        "question": "Is the national park fee included?",
+        "answer": "National Park fees for the island tours (400 THB per adult) are excluded and must be paid in cash directly to the rangers at the islands.",
+        "_id": "6a67976afcec4604df4b908e"
+      }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?q=80&w=800",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=800"
+    ],
+    "groupSize": "4 - 16 Travelers",
+    "highlights": [
+      "4 Islands Longtail Boat Tour",
+      "Phi Phi Islands Snorkeling",
+      "Phuket City Landmarks",
+      "Phuket Fantasea Show"
+    ],
+    "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?q=80&w=1200",
+    "included": [
+      "2 Nights accommodation in Krabi & 3 Nights in Phuket (4-Star hotels)",
+      "Daily Buffet Breakfast at hotels",
+      "Full-day Krabi 4 Islands Tour by Longtail Boat with Lunch",
+      "Full-day Phi Phi Island Tour by Speedboat with Lunch",
+      "Half-day Phuket City Tour covering Wat Chalong and Phuket Old Town",
+      "Phuket Fantasea Show ticket with Buffet Dinner",
+      "Private airport transfers and inter-city Krabi to Phuket transfer"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Phuket & Transfer to Krabi",
+        "description": "Arrive at Phuket International Airport. Meet & greet, followed by private transfer to Krabi (approx 2.5-3 hours). Check in to hotel and relax. Evening at leisure.",
+        "highlights": [],
+        "meals": "Dinner included",
+        "stay": "4★ Hotel in Krabi",
+        "_id": "6a67976afcec4604df4b9088"
+      },
+      {
+        "day": 2,
+        "title": "Krabi 4 Islands Longtail Boat Tour",
+        "description": "Full-day 4 Islands Tour by Longtail Boat. Explore Phra Nang Cave Beach, Chicken Island, Tup Island, and Poda Island. Enjoy swimming, snorkeling, and sunbathing. Lunch served during tour.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "4★ Hotel in Krabi",
+        "_id": "6a67976afcec4604df4b9089"
+      },
+      {
+        "day": 3,
+        "title": "Krabi to Phuket Transfer & City Tour",
+        "description": "Breakfast and check-out. Private transfer to Phuket. En route enjoy a Phuket City Tour covering Wat Chalong (Chalong Temple), Phuket Old Town, Karon Viewpoint, and Cashew Nut Factory. Check-in at Phuket hotel.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b908a"
+      },
+      {
+        "day": 4,
+        "title": "Phi Phi Islands Speedboat Tour",
+        "description": "Full-day Phi Phi Island Tour by Speedboat. Visit Maya Bay, Pileh Lagoon, Viking Cave, and Monkey Beach. Swim, snorkel, and enjoy breathtaking island scenery. Lunch included.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b908b"
+      },
+      {
+        "day": 5,
+        "title": "Phuket Leisure & Fantasea Cultural Show",
+        "description": "Free day to relax at the beach, explore local markets, or enjoy optional water activities. In the evening, visit Phuket Fantasea Show, a world-class cultural theme park, with a buffet dinner.",
+        "highlights": [],
+        "meals": "Breakfast & Buffet Dinner",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b908c"
+      },
+      {
+        "day": 6,
+        "title": "Departure from Phuket",
+        "description": "Breakfast, check-out, and free time for shopping. Private transfer to Phuket Airport for flight home.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b908d"
+      }
+    ],
+    "location": "Krabi & Phuket, Thailand",
+    "name": "Krabi & Phuket Gateway",
+    "price": "₹ 32,500 PP",
+    "rawPrice": 32500,
+    "slogan": "Uncover the Best of Thailand's Andaman Coast",
+    "title": "Krabi & Phuket Coastal Spectacle",
+    "updatedAt": "2026-07-27T17:37:46.387Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce494",
+    "id": "pkg-thailand-phuket",
+    "__v": 0,
+    "badge": "Relaxed",
+    "bestTimeToVisit": "November to April",
+    "category": "international",
+    "createdAt": "2026-07-27T17:37:46.461Z",
+    "description": "Spend 5 nights exploring the largest island of Thailand. Swim in Maya Bay, canoe through limestone caves of Phang Nga Bay at James Bond Island, visit the majestic Big Buddha, and experience Patong Beach's electric nightlife.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "International airfare and travel insurance",
+      "National Park fee (approx. 400 THB per tour paid on spot)",
+      "Personal expenses, laundry, and dinners not mentioned"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800"
+    ],
+    "groupSize": "2 - 12 Travelers",
+    "highlights": [
+      "Phi Phi Island Speedboat Cruise",
+      "James Bond Island Canoeing",
+      "Big Buddha & Wat Chalong",
+      "Patong Beach Nightlife"
+    ],
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1200",
+    "included": [
+      "5 Nights in a 4-Star Phuket hotel (e.g. Patong area)",
+      "Daily Buffet Breakfast",
+      "Full-day Phi Phi Island Tour by Speedboat with Lunch",
+      "Full-day James Bond Island Tour by Speedboat/Longtail with Canoeing and Lunch",
+      "Half-day Phuket City Tour (Big Buddha, Wat Chalong, Karon Viewpoint, Old Town)",
+      "Phuket Fantasea Show ticket with Buffet Dinner",
+      "Private round-trip Phuket Airport transfers"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Phuket",
+        "description": "Arrive at Phuket Airport. Meet & greet, followed by private transfer to your hotel. Check in and relax. Spend the evening exploring Patong Beach or Bangla Road at your own pace.",
+        "highlights": [],
+        "meals": "Dinner included",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b9096"
+      },
+      {
+        "day": 2,
+        "title": "Phi Phi Island speedboat Tour",
+        "description": "Breakfast at hotel. Full-day Phi Phi Island Tour by Speedboat. Visit Maya Bay, Pileh Lagoon, Viking Cave, and Monkey Beach. Snorkeling and lunch included.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b9097"
+      },
+      {
+        "day": 3,
+        "title": "Phuket City Tour & Fantasea Show",
+        "description": "Half-day Phuket City Tour covering Wat Chalong, Big Buddha, Karon Viewpoint, and Phuket Old Town. Return to hotel. In the evening, visit Phuket Fantasea Show with Buffet Dinner.",
+        "highlights": [],
+        "meals": "Breakfast & Buffet Dinner",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b9098"
+      },
+      {
+        "day": 4,
+        "title": "James Bond Island Tour",
+        "description": "Full-day James Bond Island Tour by Speedboat. Explore Phang Nga Bay, Panak Island, and Hong Island. Enjoy canoeing through limestone caves and mangroves. Visit James Bond Island. Lunch included.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b9099"
+      },
+      {
+        "day": 5,
+        "title": "Phuket Leisure Day",
+        "description": "Enjoy a free day to relax or choose optional activities like Coral Island tour, Elephant Sanctuary, Water Park, or shopping at Central Phuket.",
+        "highlights": [],
+        "meals": "Breakfast & Farewell Dinner",
+        "stay": "4★ Hotel in Phuket",
+        "_id": "6a67976afcec4604df4b909a"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "description": "Breakfast, check-out. Private transfer to Phuket Airport for onward flight home.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b909b"
+      }
+    ],
+    "location": "Phuket, Thailand",
+    "name": "Phuket Serenity Escape",
+    "price": "₹ 34,900 PP",
+    "rawPrice": 34900,
+    "slogan": "Crystal Waters, Limestone Caves & Electric Nightlife",
+    "title": "Phuket Serenity Escape & Island Wonders",
+    "updatedAt": "2026-07-27T17:37:46.461Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce495",
+    "id": "pkg-bali-honeymoon",
+    "__v": 0,
+    "badge": "Honeymoon Special",
+    "bestTimeToVisit": "April to October",
+    "category": "international",
+    "createdAt": "2026-07-27T17:37:46.560Z",
+    "description": "Designed for couples, this romantic Bali getaway combines beach relaxation, cultural discoveries, and nature excursions with a stay at a deluxe hotel in Kuta and a romantic private pool villa in Ubud.",
+    "duration": "6N / 7D",
+    "excluded": [
+      "International flights and travel insurance",
+      "Bali tourist tax (approx $10 paid on arrival)",
+      "Lunch & dinners not explicitly listed",
+      "Tipping and personal expenses"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800",
+      "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=800"
+    ],
+    "groupSize": "2 Travelers (Private Couple)",
+    "highlights": [
+      "Private Pool Villa in Ubud",
+      "Nusa Penida West Coast Tour",
+      "Tegalalang Rice Swing",
+      "Lempuyang Gate of Heaven"
+    ],
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1200",
+    "included": [
+      "4 Nights in Kuta (4-Star Eden Hotel) & 2 Nights in Ubud Private Pool Villa",
+      "Daily Breakfast (including 1 Floating Breakfast in Ubud Villa)",
+      "Romantic Candlelit Seafood Dinner at Jimbaran Beach",
+      "Nusa Penida West Island excursion with fast boat transfers and lunch",
+      "Ubud Day Tour: Tegalalang Rice Terrace, Bali Swing, ATV Ride, Tegenungan Waterfall",
+      "East Bali Tour: Lempuyang Temple (Gate of Heaven), Tirta Gangga Water Palace, Kanto Lampo Waterfall",
+      "All tours and transfers in private air-conditioned vehicle"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Bali & Transfer to Kuta",
+        "description": "Arrive at Denpasar Airport. Private airport transfer to Eden Hotel in Kuta. Check-in and relax.",
+        "highlights": [],
+        "meals": "Welcome drinks",
+        "stay": "Eden Hotel Kuta",
+        "_id": "6a67976afcec4604df4b90a2"
+      },
+      {
+        "day": 2,
+        "title": "South Bali Beach, Water Sports & Jimbaran Dinner",
+        "description": "Explore Nusa Dua beach for exciting water sports (seawalk included). Visit Pandawa Beach, attend the Kecak Dance Show in the evening, and enjoy a romantic candlelit seafood dinner on Jimbaran Beach.",
+        "highlights": [],
+        "meals": "Breakfast & Seafood Dinner",
+        "stay": "Eden Hotel Kuta",
+        "_id": "6a67976afcec4604df4b90a3"
+      },
+      {
+        "day": 3,
+        "title": "East Bali Temple & Waterfall Tour",
+        "description": "Early morning drive to East Bali to visit Lempuyang Temple (famous Gate of Heaven). Visit Tirta Gangga water palace and explore Kanto Lampo waterfall. Overnight in Kuta.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Eden Hotel Kuta",
+        "_id": "6a67976afcec4604df4b90a4"
+      },
+      {
+        "day": 4,
+        "title": "Nusa Penida West Coast Day Trip",
+        "description": "Take a fast boat from Sanur port to Nusa Penida. Tour the iconic Kelingking Beach, Broken Beach, Angel's Billabong, and swim in Crystal Bay. Fast boat back to Sanur and return to hotel.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "Eden Hotel Kuta",
+        "_id": "6a67976afcec4604df4b90a5"
+      },
+      {
+        "day": 5,
+        "title": "Ubud Nature, ATV Ride & Pool Villa Check-in",
+        "description": "Check out Kuta. Visit Tegalalang Rice Terraces, take a ride on the Bali Swing, try an ATV ride, and visit Tegenungan waterfall. Check in to a romantic Private Pool Villa in Ubud.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Private Pool Villa in Ubud",
+        "_id": "6a67976afcec4604df4b90a6"
+      },
+      {
+        "day": 6,
+        "title": "Private Villa Relaxation & Floating Breakfast",
+        "description": "Enjoy a free day to relax in your villa, swim in your private pool, and experience a special floating breakfast. Optional spa therapies.",
+        "highlights": [],
+        "meals": "Floating Breakfast",
+        "stay": "Private Pool Villa in Ubud",
+        "_id": "6a67976afcec4604df4b90a7"
+      },
+      {
+        "day": 7,
+        "title": "Bali Departure",
+        "description": "Breakfast at the villa, check out, and private transfer to Denpasar Airport for onward flight home.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b90a8"
+      }
+    ],
+    "location": "Kuta, Ubud & Nusa Penida, Bali",
+    "name": "Bali Honeymoon Tour",
+    "price": "₹ 44,500 PP",
+    "rawPrice": 44500,
+    "slogan": "Explore Kuta Beach, Nusa Penida Cliffs & Tropical Ubud",
+    "title": "Romantic Bali Escape with Private Pool Villa",
+    "updatedAt": "2026-07-27T17:37:46.560Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce496",
+    "id": "pkg-malaysia",
+    "__v": 0,
+    "badge": "Couples Choice",
+    "bestTimeToVisit": "November to August",
+    "category": "international",
+    "createdAt": "2026-07-27T17:37:46.652Z",
+    "description": "This beautifully planned package blends Kuala Lumpur's architectural wonders with Langkawi's tropical beaches. Highlights include Petronas Towers, Batu Caves, Langkawi Cable Car & Sky Bridge, and Kilim Mangrove Forest tour.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "International flights and domestic flight (KL to Langkawi)",
+      "Malaysia tourism tax (10 MYR per room per night paid directly to hotels)",
+      "Personal expenses, drinks, and tipping"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1596422846543-75c6fc18a523?q=80&w=800"
+    ],
+    "groupSize": "2 - 10 Travelers",
+    "highlights": [
+      "Petronas Twin Towers & Batu Caves",
+      "Langkawi Sky Bridge Cable Car",
+      "Kilim Mangrove Boat Tour",
+      "Pantai Cenang Sunset"
+    ],
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc18a523?q=80&w=1200",
+    "included": [
+      "2 Nights in Kuala Lumpur & 3 Nights in Langkawi (4-Star Hotels)",
+      "Daily Buffet Breakfast",
+      "Full-day Kuala Lumpur City Tour (Batu Caves, Petronas, King's Palace, Merdeka)",
+      "Langkawi Cable Car & Sky Bridge entrance tickets",
+      "Private boat tour of Kilim Mangrove Forest & Eagle feeding",
+      "All airport and hotel transfers on private basis"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Kuala Lumpur",
+        "description": "Pickup from airport, private transfer to hotel. Check-in and relax for the rest of the day.",
+        "highlights": [],
+        "meals": "Welcome drinks",
+        "stay": "4★ Hotel in Kuala Lumpur",
+        "_id": "6a67976afcec4604df4b90b0"
+      },
+      {
+        "day": 2,
+        "title": "Kuala Lumpur City Tour & Batu Caves",
+        "description": "8-hour tour covering Batu Caves, King's Palace, Dataran Merdeka, National Mosque, KL Tower, and Petronas Twin Towers. Watch the Petronas Towers illuminate at night.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "4★ Hotel in Kuala Lumpur",
+        "_id": "6a67976afcec4604df4b90b1"
+      },
+      {
+        "day": 3,
+        "title": "Fly to Langkawi Island",
+        "description": "Check out from KL hotel. Private transfer to airport for flight to Langkawi. Arrive in Langkawi, check in at beach hotel and relax.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "4★ Resort in Langkawi",
+        "_id": "6a67976afcec4604df4b90b2"
+      },
+      {
+        "day": 4,
+        "title": "Langkawi Sky Bridge & Seven Wells",
+        "description": "Visit Langkawi Sky Bridge by taking the scenic Cable Car. Explore Seven Wells waterfall, and relax at Pantai Cenang beach in the evening.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "4★ Resort in Langkawi",
+        "_id": "6a67976afcec4604df4b90b3"
+      },
+      {
+        "day": 5,
+        "title": "Kilim Mangrove Boat Tour",
+        "description": "Enjoy a private boat tour of Kilim Mangrove Forest. Explore limestone caves, watch eagle feeding, and explore the Langkawi night market at your own pace in the evening.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "4★ Resort in Langkawi",
+        "_id": "6a67976afcec4604df4b90b4"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "description": "Breakfast at the resort, check out, and private transfer to Langkawi Airport for return journey.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b90b5"
+      }
+    ],
+    "location": "Kuala Lumpur & Langkawi, Malaysia",
+    "name": "Malaysia Highlights",
+    "price": "₹ 29,800 PP",
+    "rawPrice": 29800,
+    "slogan": "Vibrant Kuala Lumpur Skylines & Serene Langkawi Beaches",
+    "title": "Malaysia City & Beach Romance",
+    "updatedAt": "2026-07-27T17:37:46.652Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce497",
+    "id": "pkg-vietnam-cross",
+    "__v": 0,
+    "badge": "Premium Class",
+    "bestTimeToVisit": "October to April",
+    "category": "international",
+    "createdAt": "2026-07-27T17:37:46.720Z",
+    "description": "Venture on a cross-country tour from Ho Chi Minh City in the South to Hanoi in the North. Highlights include Notre Dame Cathedral, Hoi An lantern town, Hue tombs, Phong Nha Cave, Trang An karst landscapes, and Hanoi Old Quarter.",
+    "duration": "6N / 7D",
+    "excluded": [
+      "International flights and domestic flights (Saigon-Da Nang, Hue-Hanoi)",
+      "Vietnam E-Visa fees",
+      "Personal expenses, drinks, tips and additional laundry"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=800"
+    ],
+    "groupSize": "4 - 16 Travelers",
+    "highlights": [
+      "Saigon River Dinner Cruise",
+      "Trang An Scenic Complex",
+      "Imperial Tombs of Hue",
+      "UNESCO Phong Nha Caves"
+    ],
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200",
+    "included": [
+      "6 Nights accommodation in Premium 4-Star Hotels",
+      "Daily Breakfast, 2 Lunches & Saigon River Cruise Dinner",
+      "Guided excursions to Trang An Scenic Complex and Bai Dinh Pagoda",
+      "Phong Nha Cave boat excursion and entry ticket",
+      "Hue Imperial City walking tour & Ca Hue traditional performance",
+      "All inter-city private AC coach transfers"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Saigon & Dinner Cruise",
+        "description": "Arrive in Saigon (Ho Chi Minh City). Visit Notre Dame Cathedral, Independence Palace, Thien Hau Pagoda, and Ho Thi Ky flower market. In the evening, enjoy a dinner cruise along Saigon River.",
+        "highlights": [],
+        "meals": "Dinner cruise",
+        "stay": "Hotel in Saigon",
+        "_id": "6a67976afcec4604df4b90bc"
+      },
+      {
+        "day": 2,
+        "title": "Saigon to Da Nang & Hoi An Lantern Town",
+        "description": "Private airport transfer and fly to Da Nang. Visit the Marble Mountains, then drive to Hoi An. Check-in and enjoy an evening walking tour of lantern-lit Hoi An Ancient Town.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Hotel in Hoi An",
+        "_id": "6a67976afcec4604df4b90bd"
+      },
+      {
+        "day": 3,
+        "title": "Hoi An to Hue Imperial Tombs",
+        "description": "Visit Japanese Covered Bridge. Drive to Hue. Visit the Imperial Tombs of Minh Mang and Khai Dinh. In the evening, experience a Ca Hue traditional performance.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "stay": "Hotel in Hue",
+        "_id": "6a67976afcec4604df4b90be"
+      },
+      {
+        "day": 4,
+        "title": "Hue Imperial City to Quang Binh",
+        "description": "Visit the historical Hue Imperial City, Thien Mu Pagoda, and Dong Ba market. Private drive to Quang Binh, check-in and relax.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Hotel in Quang Binh",
+        "_id": "6a67976afcec4604df4b90bf"
+      },
+      {
+        "day": 5,
+        "title": "UNESCO Phong Nha Cave to Ninh Binh",
+        "description": "Explore the UNESCO-listed Phong Nha Cave on a scenic river boat ride. View massive stalactites and stalagmites. Afternoon drive to Ninh Binh, check-in.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "Resort in Ninh Binh",
+        "_id": "6a67976afcec4604df4b90c0"
+      },
+      {
+        "day": 6,
+        "title": "Trang An Scenic Boat Ride to Hanoi",
+        "description": "Take a boat ride through caves and karst landscapes at Trang An Scenic Complex. Visit Bai Dinh Pagoda (Vietnam's largest spiritual complex). Drive to Hanoi. Walk through the Old Quarter.",
+        "highlights": [],
+        "meals": "Breakfast & Lunch",
+        "stay": "Hotel in Hanoi",
+        "_id": "6a67976afcec4604df4b90c1"
+      },
+      {
+        "day": 7,
+        "title": "Hanoi City Tour & Departure",
+        "description": "Visit Temple of Literature, Tran Quoc Pagoda, and Hoan Kiem Lake. Private transfer to Hanoi Airport for departure.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b90c2"
+      }
+    ],
+    "location": "Saigon, Hoi An, Hue, Quang Binh, Ninh Binh & Hanoi, Vietnam",
+    "name": "Vietnam Cross-Country",
+    "price": "₹ 52,900 PP",
+    "rawPrice": 52900,
+    "slogan": "Saigon to Hanoi - Imperial Heritage, Caves & Karst Landscapes",
+    "title": "Magnificent Vietnam Cross-Country Expedition",
+    "updatedAt": "2026-07-27T17:37:46.720Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce498",
+    "id": "pkg-srilanka-8d",
+    "__v": 0,
+    "badge": "Family Choice",
+    "bestTimeToVisit": "December to April",
+    "category": "international",
+    "createdAt": "2026-07-27T17:37:46.796Z",
+    "description": "This comprehensive Sri Lankan circle takes you from the Negombo coast to the cultural triangle, through tea hills in Nuwara Eliya and Ella, ending with an epic safari in Yala and whale watching in Mirissa.",
+    "duration": "7N / 8D",
+    "excluded": [
+      "International flights and Sri Lanka ETA Visa fee",
+      "Lunch meals and personal drinks",
+      "Whale watching tour in Mirissa (optional, approx. $45 PP)",
+      "Tipping for driver/guides"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1546708973-b339540b5162?q=80&w=800"
+    ],
+    "groupSize": "2 - 12 Travelers",
+    "highlights": [
+      "Sigiriya Rock Fortress climb",
+      "Nine Arch Bridge train ride",
+      "Yala National Park Safari",
+      "Galle Dutch Fort walk"
+    ],
+    "image": "https://images.unsplash.com/photo-1546708973-b339540b5162?q=80&w=1200",
+    "included": [
+      "7 Nights deluxe hotel accommodations on twin sharing",
+      "Daily Buffet Breakfast and Dinner",
+      "Private transfers in AC Honda Vezel/Premium Sedan",
+      "Sigiriya Rock Fortress and Dambulla Cave entry fees",
+      "Millennium Elephant Foundation admission",
+      "Famous Ella to Demodara Nine Arch Bridge Train Ticket",
+      "Yala National Park Safari Jeep and entrance ticket"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Airport Arrival & Negombo Beach",
+        "description": "Warm meet & greet at Bandaranaike Airport. Private transfer to the coastal town of Negombo. Check-in and relax at resort. Evening walk along Negombo Beach.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Goldi Sands Hotel Negombo",
+        "_id": "6a67976afcec4604df4b90ca"
+      },
+      {
+        "day": 2,
+        "title": "Negombo to Dambulla & Sigiriya Rock",
+        "description": "Breakfast, check-out. Drive to Dambulla. En route enjoy fresh king coconuts and visit Dambulla Royal Cave Temple. Drive to Sigiriya, check-in, then climb the majestic Sigiriya Rock Fortress.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Heritance Kandalama Dambulla",
+        "_id": "6a67976afcec4604df4b90cb"
+      },
+      {
+        "day": 3,
+        "title": "Dambulla to Kandy Cultural Show",
+        "description": "Breakfast and check-out. Drive to Kandy. Visit Millennium Elephant Foundation to learn about elephant care. Check-in. In the evening, watch a Kandyan Cultural Dance & Fire Show.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "4★ Resort in Kandy",
+        "_id": "6a67976afcec4604df4b90cc"
+      },
+      {
+        "day": 4,
+        "title": "Kandy Temple & Drive to Nuwara Eliya & Ella",
+        "description": "Visit Temple of the Tooth Relic in Kandy. Drive to hill country. Visit Ramboda Falls and enjoy a tea plantation & factory tour. Drive to Ella, check-in.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Deluxe Resort in Ella",
+        "_id": "6a67976afcec4604df4b90cd"
+      },
+      {
+        "day": 5,
+        "title": "Nine Arch Bridge Train Ride to Yala",
+        "description": "Take the iconic mountain train ride from Ella to Demodara over the famous Nine Arch Bridge. Board private car and drive to Yala. Check-in and relax.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Safari Resort in Yala",
+        "_id": "6a67976afcec4604df4b90ce"
+      },
+      {
+        "day": 6,
+        "title": "Yala National Park Safari to Mirissa",
+        "description": "Early morning Yala National Park Jeep Safari to spot leopards, elephants, and bears. Drive to Mirissa, check in and enjoy Mirissa beach nightlife.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Mirissa Beach Resort",
+        "_id": "6a67976afcec4604df4b90cf"
+      },
+      {
+        "day": 7,
+        "title": "Mirissa Leisure Day & Whale Watching",
+        "description": "Free day on the beach. Optional morning Whale Watching tour. Visit the beautiful Coconut Tree Hill and secret coves.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Mirissa Beach Resort",
+        "_id": "6a67976afcec4604df4b90d0"
+      },
+      {
+        "day": 8,
+        "title": "Galle Fort Tour & Airport Departure",
+        "description": "Check out. Visit Galle Dutch Fort & Lighthouse. Walk along the ramparts. Drive to Colombo Airport for return flight.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b90d1"
+      }
+    ],
+    "location": "Negombo, Dambulla, Kandy, Nuwara Eliya, Yala & Galle, Sri Lanka",
+    "name": "Sri Lanka Scenic Tour",
+    "price": "₹ 38,400 PP",
+    "rawPrice": 38400,
+    "slogan": "UNESCO Citadels, Epic Train Journeys & Wild Safari",
+    "title": "Discover Sri Lanka's Heritage, Hills & Coast",
+    "updatedAt": "2026-07-27T17:37:46.796Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce499",
+    "id": "pkg-srilanka-12d",
+    "__v": 0,
+    "badge": "Comprehensive",
+    "bestTimeToVisit": "December to April",
+    "category": "international",
+    "createdAt": "2026-07-27T17:37:46.881Z",
+    "description": "For travelers seeking a deep immersion, this 12-day tour covers Sri Lanka's key cultural capitals, spice gardens, tea hills, national parks, and secluded coastal bays.",
+    "duration": "11N / 12D",
+    "excluded": [
+      "International flights and travel insurance",
+      "Sri Lanka ETA visa fees",
+      "Lunch meals (except village lunch) and drinks"
+    ],
+    "faqs": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1544811096-89a14f806d55?q=80&w=800"
+    ],
+    "groupSize": "4 - 15 Travelers",
+    "highlights": [
+      "Sigiriya Buffalo Cart Village Tour",
+      "Polonnaruwa Ancient City ruins",
+      "Little England Gregory Lake",
+      "Jungle Beach Pagoda"
+    ],
+    "image": "https://images.unsplash.com/photo-1544811096-89a14f806d55?q=80&w=1200",
+    "included": [
+      "11 Nights accommodation in Handpicked 4-Star Resorts",
+      "Daily Buffet Breakfast and Dinner",
+      "All internal transport in private AC tourist vehicle",
+      "Guided tours of Polonnaruwa Ancient City & Sigiriya rock",
+      "Sigiriya Village tour with Buffalo Cart ride and local lunch",
+      "Ambewela to Ella train ticket",
+      "Yala National Park Safari with private Jeep"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive in Negombo",
+        "description": "Airport pickup, transfer to Negombo hotel. Relax at Negombo Beach.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Goldi Sands Hotel Negombo",
+        "_id": "6a67976afcec4604df4b90da"
+      },
+      {
+        "day": 2,
+        "title": "Negombo to Habarana (Dambulla)",
+        "description": "Drive to Habarana. En route visit Dambulla Royal Cave Temple. Check-in at hotel.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Habarana Deluxe Resort",
+        "_id": "6a67976afcec4604df4b90db"
+      },
+      {
+        "day": 3,
+        "title": "Anuradhapura Ancient Capital Excursion",
+        "description": "Full day tour of Anuradhapura (UNESCO site), Sri Lanka's first capital. Tour ruins, ancient stupas, monasteries. Return to Habarana.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Habarana Deluxe Resort",
+        "_id": "6a67976afcec4604df4b90dc"
+      },
+      {
+        "day": 4,
+        "title": "Sigiriya Rock climb & Village Buffalo Cart Tour",
+        "description": "Early climb up Sigiriya Rock Fortress. Afternoon Sigiriya village tour with buffalo cart ride, lake canoe ride, cooking class, and homemade local lunch.",
+        "highlights": [],
+        "meals": "Breakfast, Lunch & Dinner",
+        "stay": "Habarana Deluxe Resort",
+        "_id": "6a67976afcec4604df4b90dd"
+      },
+      {
+        "day": 5,
+        "title": "Polonnaruwa Ruins to Pasikuda Beach",
+        "description": "Check out. Guided tour of Polonnaruwa (second capital ruins). Drive to coastal Pasikuda. Relax on white sand beaches.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "The Calm Resort & Spa Pasikuda",
+        "_id": "6a67976afcec4604df4b90de"
+      },
+      {
+        "day": 6,
+        "title": "Pasikuda Beach Water Sports",
+        "description": "Full day at leisure in Pasikuda. Try snorkeling, jet skiing, or sunbathing.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "The Calm Resort & Spa Pasikuda",
+        "_id": "6a67976afcec4604df4b90df"
+      },
+      {
+        "day": 7,
+        "title": "Pasikuda to Kandy",
+        "description": "Check out. Drive to Kandy. Evening attendance of Traditional Kandyan Cultural Dance and Fire Show.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Kandy Hilltop Hotel",
+        "_id": "6a67976afcec4604df4b90e0"
+      },
+      {
+        "day": 8,
+        "title": "Kandy Temple & Peradeniya Gardens",
+        "description": "Visit Temple of the Sacred Tooth Relic. Stroll through royal Peradeniya Botanical Gardens. Explore Kandy markets.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Kandy Hilltop Hotel",
+        "_id": "6a67976afcec4604df4b90e1"
+      },
+      {
+        "day": 9,
+        "title": "Kandy to Nuwara Eliya via Ramboda Falls",
+        "description": "Drive to Nuwara Eliya (Little England). Visit Ramboda Falls and enjoy a tea estate tour. Check-in and relax.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "The Golden Ridge Hotel Nuwara Eliya",
+        "_id": "6a67976afcec4604df4b90e2"
+      },
+      {
+        "day": 10,
+        "title": "Horton Plains Trek & Gregory Lake",
+        "description": "Early morning trek in Horton Plains National Park (World's End cliff). Afternoon walk around Gregory Lake and Victoria Park.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "The Golden Ridge Hotel Nuwara Eliya",
+        "_id": "6a67976afcec4604df4b90e3"
+      },
+      {
+        "day": 11,
+        "title": "Nuwara Eliya to Ella Scenic Train & Yala",
+        "description": "Check out. Take train from Ambewela to Ella over Nine Arch Bridge. Visit Ravana Falls. Private drive to Yala.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Yala Safari Lodge",
+        "_id": "6a67976afcec4604df4b90e4"
+      },
+      {
+        "day": 12,
+        "title": "Yala Safari to Galle Fort & Airport Departure",
+        "description": "Early morning Jeep Safari in Yala. Drive to Galle. Tour Galle Dutch Fort & Lighthouse. Drive via Highway to Colombo Airport for flight home.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b90e5"
+      }
+    ],
+    "location": "Negombo, Habarana, Anuradhapura, Kandy, Nuwara Eliya, Yala & Galle, Sri Lanka",
+    "name": "Sri Lanka Grand Explorer",
+    "price": "₹ 54,900 PP",
+    "rawPrice": 54900,
+    "slogan": "Complete Circle - Heritage, Highlands, Beaches & Hidden Coves",
+    "title": "Sri Lanka Grand Explorer & Cultural Odyssey",
+    "updatedAt": "2026-07-27T17:37:46.881Z"
+  },
+  {
+    "_id": "6a6798134aaa65f4b78ce49a",
+    "id": "pkg-ladakh-bike",
+    "__v": 0,
+    "badge": "Adventure Special",
+    "bestTimeToVisit": "May to September",
+    "category": "domestic",
+    "createdAt": "2026-07-27T17:37:46.955Z",
+    "description": "Conquer Ladakh's epic mountain passes on a Royal Enfield Himalayan. This B2B group bike tour covers Leh local sightseeing, Khardung La pass, Nubra valley sand dunes, Pangong Tso lake, Shyok river ride, and Chang La pass. Complete with mechanic, backup car, and inner line permits.",
+    "duration": "5N / 6D",
+    "excluded": [
+      "Flights or train to Leh",
+      "5% GST extra",
+      "Lunch meals and personal expenses",
+      "Monument and monastery entry tickets"
+    ],
+    "faqs": [
+      {
+        "question": "Why is acclimatization required on Day 1?",
+        "answer": "Leh is located at 11,500 feet. Severe altitude sickness can occur if you perform physical activity immediately. Resting on Day 1 ensures you stay fit for the ride.",
+        "_id": "6a67976afcec4604df4b90f8"
+      }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800"
+    ],
+    "groupSize": "6 - 20 Riders",
+    "highlights": [
+      "Himalayan 411 Bike rental",
+      "Ride over Khardung La Pass (18,380ft)",
+      "Camp at Pangong Lake (14,270ft)",
+      "Hunder Sand Dunes Camel Safari"
+    ],
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=1200",
+    "included": [
+      "5 Nights accommodation (3N Leh, 1N Nubra, 1N Pangong) on triple sharing",
+      "Royal Enfield Himalayan 411 Bike for Day 2 to Day 5",
+      "Backup vehicle, professional mechanic & ride marshal",
+      "Helmet for rider and pillion, riding gear (knee guard, jacket, gloves)",
+      "Daily Breakfast and Dinner",
+      "Inner Line Permit for restricted border areas",
+      "Fuel as per the itinerary"
+    ],
+    "isFixedDeparture": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Leh & Leisure Acclimatization",
+        "description": "Leh airport pickup and check-in. Rest for complete acclimatization to high altitude. Evening visit to Leh Palace, Shanti Stupa, and local Leh market.",
+        "highlights": [],
+        "meals": "Dinner",
+        "stay": "Shanti Home Leh / Nima's Villa",
+        "_id": "6a67976afcec4604df4b90f2"
+      },
+      {
+        "day": 2,
+        "title": "Leh Local Sightseeing Tour",
+        "description": "Test ride of Himalayan bikes. Sightseeing to Hall of Fame, Spituk Monastery, Magnetic Hill, Gurudwara Pathar Sahib, and Sangam Point where Indus & Zanskar rivers meet.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Shanti Home Leh / Nima's Villa",
+        "_id": "6a67976afcec4604df4b90f3"
+      },
+      {
+        "day": 3,
+        "title": "Leh to Nubra Valley via Khardung La Pass",
+        "description": "Ride over Khardung La Top (18,380ft), the world's highest motorable pass. Descend into Nubra Valley. Check-in at Hunder camps. Enjoy double-humped camel safari on sand dunes.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Organic Boutique Camps Nubra",
+        "_id": "6a67976afcec4604df4b90f4"
+      },
+      {
+        "day": 4,
+        "title": "Nubra Valley to Pangong Lake via Shyok",
+        "description": "Ride along the rocky Shyok River route to Pangong Lake (14,270ft). Watch the beautiful lake change color throughout the evening. Overnight stay in lakeside camps.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Aspire Ladakh Cottage Pangong",
+        "_id": "6a67976afcec4604df4b90f5"
+      },
+      {
+        "day": 5,
+        "title": "Pangong Lake to Leh via Changla Pass",
+        "description": "Enjoy sunrise views at the lake. Check out and ride to Leh via Changla Pass (17,500ft). En route visit Rancho's School, Sindhu Ghat, and Thiksey Monastery.",
+        "highlights": [],
+        "meals": "Breakfast & Dinner",
+        "stay": "Shanti Home Leh / Nima's Villa",
+        "_id": "6a67976afcec4604df4b90f6"
+      },
+      {
+        "day": 6,
+        "title": "Leh Airport Departure Drop",
+        "description": "Breakfast, check out, and private transfer to Leh Airport for return flight home.",
+        "highlights": [],
+        "meals": "Breakfast",
+        "_id": "6a67976afcec4604df4b90f7"
+      }
+    ],
+    "location": "Leh, Khardung La, Nubra Valley & Pangong Lake",
+    "name": "Ladakh Bike Tour",
+    "price": "₹ 15,999 PP",
+    "rawPrice": 15999,
+    "slogan": "Ride the Highest Motor Road & Camp by the Indigo Lake",
+    "title": "Ladakh Bike Tour (Leh, Nubra & Pangong)",
+    "updatedAt": "2026-07-29T10:25:11.840Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "6a6397823f23c3b64e58d382",
+    "code": "SDFDS",
+    "description": "sdfsdf",
+    "discountType": "percentage",
+    "discountValue": 10,
+    "minOrderValue": 499,
+    "isActive": true,
+    "usageCount": 0,
+    "createdAt": "2026-07-24T16:49:06.096Z",
+    "updatedAt": "2026-07-24T16:49:06.096Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a648b01fe4ee25825763bb9",
+    "code": "TEST",
+    "description": "For Testing",
+    "discountType": "percentage",
+    "discountValue": 10,
+    "minOrderValue": 99,
+    "isActive": true,
+    "usageCount": 0,
+    "createdAt": "2026-07-25T10:08:01.693Z",
+    "updatedAt": "2026-07-25T10:08:01.693Z",
+    "__v": 0
+  }
+]

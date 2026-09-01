@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52" fill="none" role="img" aria-label="Everaw Nutrition">
+  <!-- Small leaf/symbol icon -->
+  <g transform="translate(0, 6)">
+    <ellipse cx="18" cy="20" rx="12" ry="18" fill="#9EAB75" transform="rotate(-20, 18, 20)" opacity="0.9"/>
+    <ellipse cx="18" cy="20" rx="7" ry="14" fill="#f49b38" transform="rotate(-20, 18, 20)" opacity="0.7"/>
+    <line x1="18" y1="6" x2="18" y2="34" stroke="#ffffff" strokeWidth="1.2" strokeLinecap="round" transform="rotate(-20, 18, 20)" opacity="0.8"/>
+  </g>
+  <!-- "everaw" wordmark -->
+  <text x="38" y="36" font-family="Montserrat, sans-serif" font-weight="800" font-size="28" fill="#ffffff" letter-spacing="-0.5">everaw</text>
+</svg>
