@@ -74,10 +74,10 @@ export default function Footer() {
               <Image
                 src="/images/sustento-logo-black.png"
                 alt="Sustento Logo"
-                width={150}
-                height={35}
+                width={200}
+                height={50}
                 priority
-                className="h-9 w-auto object-contain"
+                className="w-[120px] sm:w-[150px] h-auto object-contain"
               />
             </Link>
           </div>

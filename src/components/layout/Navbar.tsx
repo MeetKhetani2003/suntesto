@@ -60,10 +60,10 @@ function SustentoLogo({ variant }: { variant: "white" | "dark" }) {
       <Image
         src={variant === "white" ? "/images/sustento-logo-white.png" : "/images/sustento-logo-black.png"}
         alt="Sustento"
-        width={100}
-        height={20}
+        width={200}
+        height={50}
         priority
-        className="h-6 sm:h-9 w-auto object-contain"
+        className="w-[110px] sm:w-[140px] md:w-[160px] h-auto object-contain"
       />
     </Link>
   );
