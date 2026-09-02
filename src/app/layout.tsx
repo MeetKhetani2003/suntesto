@@ -27,8 +27,8 @@ const kalam = Kalam({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Sustento | 100% Real Fruit Snacks - No Added Sugar",
+  metadataBase: new URL("https://sustentofood.com"),
+  title: "Sustento | 100% Real Fruit Snacks - No Added Sugar",
   description:
     "Sustento kid-first clean label nutrition brand. We craft India's first freeze-dried whole fruit snacks with zero added sugar or preservatives. Real freeze-dried fruits for guilt-free nutrition. Kid-approved, parent trusted.",
   keywords: [
@@ -44,6 +44,7 @@ export const metadata: Metadata = {
     title: "Sustento | 100% Real Fruit Snacks - No Added Sugar",
     description:
       "India's first clean-label freeze-dried whole fruit snacks and chocolate-dipped fruit snacks.",
+    url: "https://sustentofood.com",
   },
 };
 
@@ -52,6 +53,7 @@ import CartDrawer from "@/components/layout/CartDrawer";
 import AuthProvider from "@/components/providers/AuthProvider";
 import ScrollReveal from "@/components/common/ScrollReveal";
 import WhatsAppWidget from "@/components/layout/WhatsAppWidget";
+import GlobalLoginPopup from "@/components/layout/GlobalLoginPopup";
 
 export default function RootLayout({
   children,
@@ -69,6 +71,7 @@ export default function RootLayout({
             {children}
             <CartDrawer />
             <ScrollReveal />
+            <GlobalLoginPopup />
             <WhatsAppWidget />
           </CartProvider>
         </AuthProvider>
