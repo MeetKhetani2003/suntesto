@@ -6,10 +6,15 @@ export default function FreezeDryingProcess() {
       title: "Pick and Prep",
       description: "Fresh fruits are carefully picked, washed, and sliced.",
       icon: (
-        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-          {/* Strawberry / Fruit outline */}
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l-.707.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 6c-2 0-3 1-3 3s1 3 3 3 3-1 3-3-1-3-3-3z" opacity="0.5" />
+        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3">
+          <g transform="rotate(30, 12, 12)">
+            {/* Pineapple Body */}
+            <ellipse cx="12" cy="14.5" rx="5.5" ry="7.5" />
+            {/* Crown Leaves */}
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 7L8 2l2.5 3L12 1.5l1.5 3.5L16 2l-1 5" />
+            {/* Texture marks */}
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10 11l.5.5.5-.5M13 11l.5.5.5-.5M11.5 14l.5.5.5-.5M9.5 16l.5.5.5-.5M13.5 16l.5.5.5-.5" />
+          </g>
         </svg>
       )
     },
@@ -17,10 +22,19 @@ export default function FreezeDryingProcess() {
       title: "Freeze Quickly",
       description: "Frozen at -30°C to lock in nutrients and flavour.",
       icon: (
-        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-          {/* Snowflake + Thermometer */}
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18m9-9H3m15.5-3.5l-13 7m0-7l13 7" />
-          <circle cx="12" cy="12" r="2.5" fill="white" className="stroke-[#9EAB75]" strokeWidth="1.5" />
+        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3">
+          {/* Thermometer */}
+          <path strokeLinecap="round" strokeLinejoin="round" d="M16 5a2 2 0 012 2v7.5a3.5 3.5 0 11-4 0V7a2 2 0 012-2z" />
+          <circle cx="16" cy="16.5" r="1.5" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M16 15v-4" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M18 8h1.5M18 10h1.5M18 12h1.5" />
+          {/* Snowflake */}
+          <g transform="translate(7.5, 11)">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M0 -5v10M-4.33 -2.5l8.66 5M4.33 -2.5l-8.66 5" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M0 -5l-.8.8M0 -5l.8.8 M0 5l-.8-.8M0 5l.8-.8" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M-4.33 -2.5l0 1.2M-4.33 -2.5l1.2.6 M4.33 2.5l0 -1.2M4.33 2.5l-1.2-.6" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4.33 -2.5l0 1.2M4.33 -2.5l-1.2.6 M-4.33 2.5l0 -1.2M-4.33 2.5l1.2-.6" />
+          </g>
         </svg>
       )
     },
@@ -28,9 +42,18 @@ export default function FreezeDryingProcess() {
       title: "Create Vacuum",
       description: "Low pressure removes air for precise drying.",
       icon: (
-        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-          {/* Air flow / Low pressure */}
-          <path strokeLinecap="round" strokeLinejoin="round" d="M3 8.25h12.5A2.25 2.25 0 0017.75 6v0a2.25 2.25 0 00-2.25-2.25H12m-9 9.5h15.5A2.25 2.25 0 0020.75 11v0a2.25 2.25 0 00-2.25-2.25H15M3 17.25h9.5A2.25 2.25 0 0014.75 15v0a2.25 2.25 0 00-2.25-2.25H11" />
+        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3">
+          {/* Snowflake */}
+          <g transform="translate(8, 8) scale(0.9)">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M0 -5v10M-4.33 -2.5l8.66 5M4.33 -2.5l-8.66 5" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M0 -5l-.8.8M0 -5l.8.8 M0 5l-.8-.8M0 5l.8-.8" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M-4.33 -2.5l0 1.2M-4.33 -2.5l1.2.6 M4.33 2.5l0 -1.2M4.33 2.5l-1.2-.6" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4.33 -2.5l0 1.2M4.33 -2.5l-1.2.6 M-4.33 2.5l0 -1.2M-4.33 2.5l1.2-.6" />
+          </g>
+          {/* Wind Lines */}
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13 10h5a2.5 2.5 0 010 5h-2" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M10 14h8a2.5 2.5 0 010 5h-2" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M5 19h7a2 2 0 100-4h-2" />
         </svg>
       )
     },
@@ -38,9 +61,18 @@ export default function FreezeDryingProcess() {
       title: "Gentle Heating",
       description: "Ice sublimates (turns into vapour) without melting.",
       icon: (
-        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-          {/* Heat Waves + Fruit slice */}
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9 19c0-1.5 1-2.5 1-4s-1-2.5-1-4 1-2.5 1-4m4 12c0-1.5 1-2.5 1-4s-1-2.5-1-4 1-2.5 1-4m-9 8.5a6 6 0 100-12 6 6 0 000 12z" />
+        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3">
+          {/* Fruit Slice */}
+          <g transform="translate(8, 14)">
+            <circle cx="0" cy="0" r="6" />
+            <circle cx="0" cy="0" r="4.5" strokeDasharray="1.5 2.5" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M0 -6v12M-5.2 -3l10.4 6M5.2 -3l-10.4 6" />
+            <circle cx="0" cy="0" r="1.5" fill="none" />
+          </g>
+          {/* Heat Vapour Lines */}
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 13c0-1-1-1.5-1-2.5s1-1.5 1-2.5s-1-1.5-1-2.5" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M18 11c0-1-1-1.5-1-2.5s1-1.5 1-2.5s-1-1.5-1-2.5" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M21 9c0-1-1-1.5-1-2.5s1-1.5 1-2.5s-1-1.5-1-2.5" />
         </svg>
       )
     },
@@ -48,10 +80,16 @@ export default function FreezeDryingProcess() {
       title: "Repeat and Perfect",
       description: "Process Continue until all moisture is gone.",
       icon: (
-        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-          {/* Sync loop arrows */}
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.656 48.656 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7C4.547 9.547 4.5 10.768 4.5 12s.047 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.092-1.209.138-2.43.138-3.662z" />
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9 10.5l3 3 3-3" />
+        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3">
+          {/* Circular Arrows */}
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6.5 8.5a8 8 0 0112 6" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M14.5 15l4-.5.5-4" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M17.5 15.5a8 8 0 01-12-6" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 9l-4 .5-.5 4" />
+          {/* Target Center */}
+          <circle cx="12" cy="12" r="1" />
+          <circle cx="12" cy="12" r="3" />
+          <circle cx="12" cy="12" r="5" />
         </svg>
       )
     },
@@ -59,10 +97,17 @@ export default function FreezeDryingProcess() {
       title: "Crunchy Goodness",
       description: "fruits are left dry, crisp and nutrient-rich",
       icon: (
-        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-          {/* Crunchy starburst / Sparkle + Fruit */}
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 21l8.904-4.887M18 18l.896-5.113L11.896 9M3 3l16.5 16.5" />
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3" opacity="0.3" />
+        <svg className="w-12 h-12 text-[#9EAB75]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3">
+          {/* Powder Pile */}
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 15L7 6l2.5 4 2-1 2 4" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6.5 9.5l1.5 2M10 11l.5 1" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M2 15h11" />
+          
+          {/* Scoop */}
+          <path strokeLinecap="round" strokeLinejoin="round" d="M14 13h7a1 1 0 010 2h-7" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M10 11h4a2 2 0 012 2v2h-6v-2a2 2 0 010-2z" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M10 15v1a1 1 0 001 1h3a1 1 0 001-1v-1" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M11 11c.5-1.5 1.5-1.5 2 0" />
         </svg>
       )
     }

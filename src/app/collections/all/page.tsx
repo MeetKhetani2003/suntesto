@@ -100,11 +100,10 @@ function ProductCard({ product, index = 0, isCentered = false }: { product: Prod
   };
 
   return (
-    <div className={`reveal-card reveal-delay-${(index % 4) * 100} group relative flex flex-col justify-between w-[270px] sm:w-[280px] shrink-0 snap-center min-h-[390px] mx-0 lg:mx-auto rounded-t-3xl rounded-b-3xl shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-black/[0.04] p-4 transition-all duration-500 mt-0 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-[2px] ${
-      isCentered
-        ? "lg:w-[280px] lg:shrink-0 lg:grow-0"
-        : "lg:w-full lg:max-w-[280px] lg:shrink"
-    } ${theme.archClass}`}>
+    <div className={`reveal-card reveal-delay-${(index % 4) * 100} group relative flex flex-col justify-between w-[270px] sm:w-[280px] shrink-0 snap-center min-h-[390px] mx-0 lg:mx-auto rounded-t-3xl rounded-b-3xl shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-black/[0.04] p-4 transition-all duration-500 mt-0 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-[2px] ${isCentered
+      ? "lg:w-[280px] lg:shrink-0 lg:grow-0"
+      : "lg:w-full lg:max-w-[280px] lg:shrink"
+      } ${theme.archClass}`}>
       {/* Image */}
       <div className="relative z-10 flex flex-col items-center w-full pt-8">
         <Link href={`/products/${product.slug}`} className="group/img relative w-[180px] h-[180px] -mt-[110px] transition-all duration-500 hover:scale-[1.1] hover:-translate-y-2 flex items-center justify-center z-20">
@@ -132,7 +131,7 @@ function ProductCard({ product, index = 0, isCentered = false }: { product: Prod
             {product.buttonLabel}
           </button>
         ) : product.buttonLabel === "Add To Cart" ? (
-          <button 
+          <button
             onClick={handleAddToCart}
             className="group/btn relative overflow-hidden flex items-center justify-center gap-2 w-full rounded-full py-3 border border-charcoal/20 hover:border-dark font-primary text-[13px] font-black uppercase tracking-wider text-charcoal bg-white hover:bg-dark hover:text-white transition-all duration-300 shadow-sm hover:shadow cursor-pointer"
           >
@@ -148,8 +147,8 @@ function ProductCard({ product, index = 0, isCentered = false }: { product: Prod
             </svg>
           </button>
         ) : (
-          <Link 
-            href={`/products/${product.slug}`} 
+          <Link
+            href={`/products/${product.slug}`}
             className="group/btn relative overflow-hidden flex items-center justify-center gap-2 w-full rounded-full py-3 border border-charcoal/20 hover:border-dark font-primary text-[13px] font-black uppercase tracking-wider text-charcoal bg-white hover:bg-dark hover:text-white transition-all duration-300 shadow-sm hover:shadow"
           >
             <span>{product.buttonLabel}</span>
@@ -697,7 +696,7 @@ export default function CollectionsAllPage() {
         {/* ── FILTER CATEGORY TABS ──────────────────────────────── */}
         <section className="w-full bg-[#fffff9] py-8 px-6 border-b border-black/5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6 max-w-[1200px] mx-auto w-full">
-            
+
             {/* Category tabs */}
             <div className="flex items-center gap-3 flex-wrap">
               {categoriesList.map((cat) => {
@@ -706,11 +705,10 @@ export default function CollectionsAllPage() {
                   <button
                     key={cat}
                     onClick={() => setSelectedCategory(cat)}
-                    className={`font-primary font-black text-xs uppercase tracking-wider px-5 py-2.5 rounded-full border transition-all duration-200 cursor-pointer ${
-                      isActive
-                        ? "bg-dark text-white border-dark shadow-md"
-                        : "border-charcoal/20 bg-white text-charcoal hover:bg-dark hover:text-white hover:border-dark"
-                    }`}
+                    className={`font-primary font-black text-xs uppercase tracking-wider px-5 py-2.5 rounded-full border transition-all duration-200 cursor-pointer ${isActive
+                      ? "bg-dark text-white border-dark shadow-md"
+                      : "border-charcoal/20 bg-white text-charcoal hover:bg-dark hover:text-white hover:border-dark"
+                      }`}
                   >
                     {cat}
                   </button>
@@ -778,11 +776,10 @@ export default function CollectionsAllPage() {
                       {(() => {
                         const isCentered = categoryProducts.length > 0 && categoryProducts.length < 4;
                         return (
-                          <div className={`flex overflow-x-auto scroll-hide gap-6 pb-6 pt-32 snap-x snap-mandatory px-2 -mx-2 sm:px-4 sm:-mx-4 lg:px-0 lg:mx-0 lg:overflow-visible ${
-                            isCentered
-                              ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
-                              : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
-                          }`}>
+                          <div className={`flex overflow-x-auto scroll-hide gap-6 pb-6 pt-32 snap-x snap-mandatory px-2 -mx-2 sm:px-4 sm:-mx-4 lg:px-0 lg:mx-0 lg:overflow-visible ${isCentered
+                            ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
+                            : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
+                            }`}>
                             {categoryProducts.map((product, idx) => (
                               <ProductCard key={product.id} product={product} index={idx} isCentered={isCentered} />
                             ))}
@@ -912,7 +909,7 @@ export default function CollectionsAllPage() {
           <div className="relative z-10 max-w-[1280px] mx-auto flex flex-col md:flex-row items-center justify-between min-h-[380px] md:min-h-[440px] px-8 md:px-16 gap-8">
 
             {/* LEFT — Copy */}
-            <div className="flex flex-col items-start justify-center shrink-0 max-w-[340px] py-14">
+            <div className="flex flex-col items-start justify-center shrink-0 max-w-[340px]  pt-14">
               <h2 className="font-primary font-black text-[36px] sm:text-[44px] md:text-[52px] text-dark uppercase leading-[0.9] tracking-[-1px] select-none">
                 {assortedConfig?.title ? (
                   assortedConfig.title.split("\n").map((line, i) => (
@@ -987,7 +984,7 @@ export default function CollectionsAllPage() {
                     alt="Assorted Box Banner Mobile"
                     fill
                     sizes="100vw"
-                    className="object-cover"
+                    className="object-cover -mb-20 "
                     unoptimized={true}
                   />
                 </div>
@@ -1014,78 +1011,78 @@ export default function CollectionsAllPage() {
             <div className="min-w-[540px] md:min-w-0 px-1">
               <table className="w-full border-collapse font-primary text-[13px] md:text-[14px]">
 
-              {/* ── Header Row ── */}
-              <thead>
-                <tr>
-                  {/* Row-label column spacer */}
-                  <th className="w-[28%] pb-6" />
+                {/* ── Header Row ── */}
+                <thead>
+                  <tr>
+                    {/* Row-label column spacer */}
+                    <th className="w-[28%] pb-6" />
 
-                  {/* Sustento column header */}
-                  <th className="w-[24%] pb-0 align-bottom">
-                    <div className="bg-[#9EAB75] rounded-t-2xl px-4 pt-5 pb-4 flex flex-col items-center">
-                      <span className="font-primary font-black text-[22px] md:text-[28px] text-dark italic tracking-[-0.5px] leading-none uppercase">
-                        sustento
+                    {/* Sustento column header */}
+                    <th className="w-[24%] pb-0 align-bottom">
+                      <div className="bg-[#9EAB75] rounded-t-2xl px-4 pt-5 pb-4 flex flex-col items-center">
+                        <span className="font-primary font-black text-[22px] md:text-[28px] text-dark italic tracking-[-0.5px] leading-none uppercase">
+                          sustento
+                        </span>
+                        <span className="font-primary font-bold text-[9px] uppercase tracking-[2px] text-dark/60 mt-1">
+                          FREEZE-DRIED FRUIT
+                        </span>
+                      </div>
+                    </th>
+
+                    {/* Alternatives column header */}
+                    <th className="w-[24%] pb-6 align-bottom text-center px-3">
+                      <span className="font-primary font-black text-[12px] md:text-[13px] uppercase tracking-wide text-charcoal leading-tight">
+                        ALTERNATIVES<br />
+                        <span className="font-bold text-[11px] text-body normal-case tracking-normal">(Sun-Dried)</span>
                       </span>
-                      <span className="font-primary font-bold text-[9px] uppercase tracking-[2px] text-dark/60 mt-1">
-                        FREEZE-DRIED FRUIT
+                    </th>
+
+                    {/* Other Snacks column header */}
+                    <th className="w-[24%] pb-6 align-bottom text-center px-3">
+                      <span className="font-primary font-black text-[12px] md:text-[13px] uppercase tracking-wide text-charcoal leading-tight">
+                        OTHER SNACKS<br />
+                        <span className="font-bold text-[11px] text-body normal-case tracking-normal">(Chips, Namkeens)</span>
                       </span>
-                    </div>
-                  </th>
-
-                  {/* Alternatives column header */}
-                  <th className="w-[24%] pb-6 align-bottom text-center px-3">
-                    <span className="font-primary font-black text-[12px] md:text-[13px] uppercase tracking-wide text-charcoal leading-tight">
-                      ALTERNATIVES<br />
-                      <span className="font-bold text-[11px] text-body normal-case tracking-normal">(Sun-Dried)</span>
-                    </span>
-                  </th>
-
-                  {/* Other Snacks column header */}
-                  <th className="w-[24%] pb-6 align-bottom text-center px-3">
-                    <span className="font-primary font-black text-[12px] md:text-[13px] uppercase tracking-wide text-charcoal leading-tight">
-                      OTHER SNACKS<br />
-                      <span className="font-bold text-[11px] text-body normal-case tracking-normal">(Chips, Namkeens)</span>
-                    </span>
-                  </th>
-                </tr>
-              </thead>
-
-              {/* ── Body Rows ── */}
-              <tbody>
-                {[
-                  { label: "Nutrients", sustento: "Retained (95%+)", alt: "Moderate", other: "Low" },
-                  { label: "Additives", sustento: "None", alt: "Sometimes", other: "Yes" },
-                  { label: "Artificial Flavour", sustento: "No", alt: "No", other: "Yes" },
-                  { label: "Preservatives", sustento: "No", alt: "Sometimes", other: "Yes" },
-                  { label: "Added Sugar", sustento: "None", alt: "Present", other: "High" },
-                  { label: "Shelf Life", sustento: "2 Years", alt: "6-12 Months", other: "6-12 Months" },
-                  { label: "Taste", sustento: "Natural, Crunchy", alt: "Sweet, Chewy", other: "Artificially Flavoured" },
-                  { label: "Healthy", sustento: "Yes", alt: "Moderate", other: "No", lastRow: true },
-                ].map((row, i) => (
-                  <tr key={i} className="border-t border-black/[0.06]">
-                    {/* Row label */}
-                    <td className="py-3.5 pr-4 font-black text-dark text-[13px] md:text-[14px] whitespace-nowrap">
-                      {row.label}
-                    </td>
-                    {/* Sustento cell — amber highlight */}
-                    <td
-                      className={`py-3.5 px-4 text-center font-bold text-dark text-[13px] md:text-[14px] bg-[#9EAB75] ${(row as { lastRow?: boolean }).lastRow ? "rounded-b-2xl" : ""
-                        }`}
-                    >
-                      {row.sustento}
-                    </td>
-                    {/* Alternatives cell */}
-                    <td className="py-3.5 px-3 text-center font-bold text-body text-[13px] md:text-[14px]">
-                      {row.alt}
-                    </td>
-                    {/* Other Snacks cell */}
-                    <td className="py-3.5 px-3 text-center font-bold text-body text-[13px] md:text-[14px]">
-                      {row.other}
-                    </td>
+                    </th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+
+                {/* ── Body Rows ── */}
+                <tbody>
+                  {[
+                    { label: "Nutrients", sustento: "Retained (95%+)", alt: "Moderate", other: "Low" },
+                    { label: "Additives", sustento: "None", alt: "Sometimes", other: "Yes" },
+                    { label: "Artificial Flavour", sustento: "No", alt: "No", other: "Yes" },
+                    { label: "Preservatives", sustento: "No", alt: "Sometimes", other: "Yes" },
+                    { label: "Added Sugar", sustento: "None", alt: "Present", other: "High" },
+                    { label: "Shelf Life", sustento: "2 Years", alt: "6-12 Months", other: "6-12 Months" },
+                    { label: "Taste", sustento: "Natural, Crunchy", alt: "Sweet, Chewy", other: "Artificially Flavoured" },
+                    { label: "Healthy", sustento: "Yes", alt: "Moderate", other: "No", lastRow: true },
+                  ].map((row, i) => (
+                    <tr key={i} className="border-t border-black/[0.06]">
+                      {/* Row label */}
+                      <td className="py-3.5 pr-4 font-black text-dark text-[13px] md:text-[14px] whitespace-nowrap">
+                        {row.label}
+                      </td>
+                      {/* Sustento cell — amber highlight */}
+                      <td
+                        className={`py-3.5 px-4 text-center font-bold text-dark text-[13px] md:text-[14px] bg-[#9EAB75] ${(row as { lastRow?: boolean }).lastRow ? "rounded-b-2xl" : ""
+                          }`}
+                      >
+                        {row.sustento}
+                      </td>
+                      {/* Alternatives cell */}
+                      <td className="py-3.5 px-3 text-center font-bold text-body text-[13px] md:text-[14px]">
+                        {row.alt}
+                      </td>
+                      {/* Other Snacks cell */}
+                      <td className="py-3.5 px-3 text-center font-bold text-body text-[13px] md:text-[14px]">
+                        {row.other}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         </section>
@@ -1110,11 +1107,10 @@ export default function CollectionsAllPage() {
             {(() => {
               const isCentered = trendingProducts.length > 0 && trendingProducts.length < 4;
               return (
-                <div className={`flex overflow-x-auto scroll-hide gap-6 pb-6 pt-32 snap-x snap-mandatory px-4 max-w-[1200px] mx-auto lg:overflow-visible ${
-                  isCentered
-                    ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
-                    : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
-                }`}>
+                <div className={`flex overflow-x-auto scroll-hide gap-6 pb-6 pt-32 snap-x snap-mandatory px-4 max-w-[1200px] mx-auto lg:overflow-visible ${isCentered
+                  ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
+                  : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
+                  }`}>
                   {trendingProducts.map((p, idx) => (
                     <ProductCard key={p.id} product={p} index={idx} isCentered={isCentered} />
                   ))}
@@ -1126,7 +1122,7 @@ export default function CollectionsAllPage() {
             <div className="text-center mt-14">
               <Link
                 href="/collections"
-                className="inline-block font-accent font-bold text-[20px] sm:text-[22px] text-[#E8A825] italic border-b-2 border-[#E8A825] pb-0.5 hover:text-dark hover:border-dark transition-colors duration-200"
+                className="inline-block font-accent font-bold text-[20px] sm:text-[22px] text-[#9EAB75] italic border-b-2 border-[#9EAB75] pb-0.5 hover:text-dark hover:border-dark transition-colors duration-200"
               >
                 Explore collections
               </Link>

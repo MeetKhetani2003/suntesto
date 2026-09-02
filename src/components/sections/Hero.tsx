@@ -296,10 +296,10 @@ export default function Hero() {
           {/* Solid base that matches the next section's background color */}
           <use href="#solid-wave" fill="#fffff9" />
 
-          {/* The Yellow Ribbon */}
+          {/* The Olive Green Ribbon */}
           <use
             href="#text-wave"
-            stroke="#FFCC00"
+            stroke="#9EAB75"
             strokeWidth="45"
             fill="none"
             strokeLinecap="round"

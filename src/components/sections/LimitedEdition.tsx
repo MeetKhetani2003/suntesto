@@ -77,7 +77,7 @@ export default function LimitedEdition() {
               {/* Heading Accent Burst */}
               <svg 
                 viewBox="0 0 40 40" 
-                className="absolute -top-4 lg:-top-6 -right-12 lg:-right-16 w-12 h-12 lg:w-16 lg:h-16 text-[#9EAB75] fill-current select-none pointer-events-none transform rotate-12"
+                className="absolute -top-6 right-0 sm:-top-4 sm:-right-8 lg:-top-6 lg:-right-16 w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-[#9EAB75] fill-current select-none pointer-events-none transform rotate-12"
               >
                 <path d="M 8,24 C 7,20 6,15 5,8 C 8,9 11,11 13,13 C 11,17 9,21 8,24 Z" />
                 <path d="M 13,18 C 16,15 21,11 26,7 C 27,10 27,14 27,17 C 22,18 17,18 13,18 Z" />

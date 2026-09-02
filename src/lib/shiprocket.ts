@@ -36,6 +36,12 @@ export async function getShiprocketToken(): Promise<string> {
   const email = process.env.SHIPROCKET_EMAIL!;
   const password = process.env.SHIPROCKET_PASSWORD!;
 
+  console.log("====== SHIPROCKET AUTH DEBUG ======");
+  console.log("1. Email being sent:", email);
+  console.log("2. Password length:", password?.length);
+  console.log("3. Password exactly as parsed:", password);
+  console.log("===================================");
+
   const res = await fetch(`${SHIPROCKET_BASE_URL}/auth/login`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -44,10 +50,16 @@ export async function getShiprocketToken(): Promise<string> {
 
   if (!res.ok) {
     const err = await res.text();
+    console.error("====== SHIPROCKET API ERROR ======");
+    console.error("HTTP Status Code:", res.status);
+    console.error("Raw Response Text:", err);
+    console.error("==================================");
     throw new Error(`Shiprocket auth failed: ${err}`);
   }
 
   const data = await res.json();
+  console.log("[Shiprocket] Auth Success! Token received and cached.");
+  
   cachedToken = data.token;
   // Token valid for 24h, cache for 23h
   tokenExpiresAt = Date.now() + 23 * 60 * 60 * 1000;

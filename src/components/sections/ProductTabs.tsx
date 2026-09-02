@@ -454,7 +454,7 @@ export default function ProductTabs() {
                 />
 
                 {/* Floating Badge Sticker */}
-                <div className={`absolute -top-1 -right-2 z-20 rounded-full px-3 py-1.5 text-[10px] md:text-[11px] font-black uppercase tracking-wider rotate-12 shadow-md hover:rotate-6 transition-all duration-300 border border-white/40 flex items-center gap-1 ${product.badgeBg} ${product.badgeText}`}>
+                <div className={`absolute -top-3 -right-14 z-20 rounded-full px-3 py-1.5 text-[10px] md:text-[11px] font-black uppercase tracking-wider rotate-12 shadow-md hover:rotate-6 transition-all duration-300 border border-white/40 flex items-center gap-1 ${product.badgeBg} ${product.badgeText}`}>
                   <span>✦</span>
                   <span>{product.badge}</span>
                 </div>

@@ -8,6 +8,7 @@ envContent.split(/\r?\n/).forEach(line => {
   if (match) {
     let val = match[2].trim();
     if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+    val = val.replace('\\$', '$');
     process.env[match[1].trim()] = val;
   }
 });

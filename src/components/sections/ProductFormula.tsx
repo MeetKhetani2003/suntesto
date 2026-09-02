@@ -18,25 +18,25 @@ export default function ProductFormula() {
         </h2>
 
         {/* Formula Layout */}
-        <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-5 max-w-[900px] mx-auto mt-8 font-primary font-black uppercase text-xl sm:text-3xl md:text-4xl leading-none">
+        <div className="flex flex-nowrap items-center justify-center gap-1.5 min-[400px]:gap-2 sm:gap-4 md:gap-5 mx-auto mt-6 sm:mt-8 font-primary font-black uppercase text-[12px] min-[380px]:text-[14px] sm:text-xl md:text-3xl lg:text-4xl leading-none w-full whitespace-nowrap px-2">
           
-          <div className="px-5 py-3 sm:px-8 sm:py-4 border-2 border-[#9EAB75] text-[#9EAB75] animate-formula-1 bg-white shadow-sm hover:shadow-md transition-shadow">
+          <div className="text-[#9EAB75] animate-formula-1">
             Freeze-dried
           </div>
 
-          <div className="text-[#9EAB75] animate-formula-2 px-1">
+          <div className="text-[#9EAB75] animate-formula-2">
             =
           </div>
 
-          <div className="px-5 py-3 sm:px-8 sm:py-4 border-2 border-[#CBDCD0]/60 text-charcoal animate-formula-3 bg-white shadow-sm hover:shadow-md transition-shadow">
+          <div className="text-charcoal animate-formula-3">
             Fruits
           </div>
 
-          <div className="text-[#9EAB75] animate-formula-4 px-1">
+          <div className="text-[#9EAB75] animate-formula-4">
             -
           </div>
 
-          <div className="px-5 py-3 sm:px-8 sm:py-4 border-2 border-[#CBDCD0]/60 text-charcoal animate-formula-5 bg-white shadow-sm hover:shadow-md transition-shadow">
+          <div className="text-charcoal animate-formula-5">
             Only Water
           </div>
 
