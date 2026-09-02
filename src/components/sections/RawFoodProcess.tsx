@@ -7,10 +7,6 @@ export default function RawFoodProcess() {
     <section className="w-full bg-warm-white py-8 px-4 md:py-12 select-none">
       {/* ── Heading Block with Exclamation Mark ────────────────── */}
       <div className="relative max-w-[600px] mx-auto text-center mb-12 reveal-text">
-        {/* Large tilted yellow exclamation mark backdrop */}
-        <span className="absolute left-[54%] top-[-30px] -translate-x-1/2 font-primary font-black text-[130px] text-[#9EAB75] opacity-50 select-none rotate-12 pointer-events-none">
-          ?
-        </span>
         <h2 className="relative z-10 font-primary font-black text-charcoal leading-none uppercase tracking-tight text-[36px] sm:text-[46px] md:text-[54px]">
           FRESH FRUITS <br />
           SPOILS FAST

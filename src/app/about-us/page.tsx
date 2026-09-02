@@ -316,13 +316,13 @@ export default function AboutUsPage() {
     <>
       {/* ── Navbar Header ───────────────────────────────────── */}
       <Header />
-      
+
       <main className="w-full bg-[#fffff9]">
-        
+
         {/* ── About Us Hero Section ───────────────────────────── */}
         <section className="about-img_text relative w-full overflow-hidden select-none min-h-[580px] bg-[#fffff9] pt-32 pb-16 flex items-center">
           <div className="w-full max-w-[1200px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-            
+
             {/* Left Column: Slogans (cols 4) */}
             <div className="lg:col-span-4 flex flex-col items-start text-left">
               <span className="font-primary font-bold text-sm tracking-widest text-charcoal/70 uppercase">
@@ -366,13 +366,13 @@ export default function AboutUsPage() {
             <div className="lg:col-span-3 relative w-full min-h-[140px] flex flex-col justify-start lg:pl-4 text-left">
               {!slidesLoading && slides.map((slide, idx) => (
                 <div key={idx} className={`textblock-${idx} absolute inset-0 flex flex-col items-start`}>
-                  <h3 
+                  <h3
                     className="font-primary font-black text-[14px] sm:text-[16px] uppercase tracking-widest leading-none mb-2 whitespace-pre-line"
                     style={{ color: slide.titleColor }}
                   >
                     {slide.title}
                   </h3>
-                  <p className="font-accent text-sm sm:text-md text-charcoal/50 italic leading-snug whitespace-pre-line">
+                  <p className="font-accent text-md sm:text-lg lg:text-xl text-charcoal/60 italic leading-snug whitespace-pre-line">
                     {slide.description}
                   </p>
                 </div>
@@ -385,7 +385,7 @@ export default function AboutUsPage() {
         {/* ── What We Put In Section ───────────────────────────── */}
         <section className="hidden w-full py-16 px-6 bg-[#fffff9] border-t border-black/5 select-none">
           <div className="max-w-[1000px] mx-auto text-center">
-            
+
             {/* Header copy */}
             <h2 className="font-primary font-black text-2xl sm:text-[36px] text-charcoal leading-none mb-4 uppercase tracking-tight">
               What We Put In
@@ -399,31 +399,28 @@ export default function AboutUsPage() {
             <div className="flex items-center justify-center gap-6 md:gap-10 mb-14 font-primary text-[16px] font-black uppercase tracking-wider">
               <button
                 onClick={() => setActiveTab("smoothies")}
-                className={`transition-all duration-150 py-1.5 px-4 rounded-full ${
-                  activeTab === "smoothies"
-                    ? "bg-[#9EAB75] text-dark shadow-sm border border-black/5"
-                    : "text-charcoal/60 hover:text-dark"
-                }`}
+                className={`transition-all duration-150 py-1.5 px-4 rounded-full ${activeTab === "smoothies"
+                  ? "bg-[#9EAB75] text-dark shadow-sm border border-black/5"
+                  : "text-charcoal/60 hover:text-dark"
+                  }`}
               >
                 smoothies
               </button>
               <button
                 onClick={() => setActiveTab("snacks")}
-                className={`transition-all duration-150 py-1.5 px-4 rounded-full ${
-                  activeTab === "snacks"
-                    ? "bg-[#9EAB75] text-dark shadow-sm border border-black/5"
-                    : "text-charcoal/60 hover:text-dark"
-                }`}
+                className={`transition-all duration-150 py-1.5 px-4 rounded-full ${activeTab === "snacks"
+                  ? "bg-[#9EAB75] text-dark shadow-sm border border-black/5"
+                  : "text-charcoal/60 hover:text-dark"
+                  }`}
               >
                 snacks
               </button>
               <button
                 onClick={() => setActiveTab("spreads")}
-                className={`transition-all duration-150 py-1.5 px-4 rounded-full ${
-                  activeTab === "spreads"
-                    ? "bg-[#9EAB75] text-dark shadow-sm border border-black/5"
-                    : "text-charcoal/60 hover:text-dark"
-                }`}
+                className={`transition-all duration-150 py-1.5 px-4 rounded-full ${activeTab === "spreads"
+                  ? "bg-[#9EAB75] text-dark shadow-sm border border-black/5"
+                  : "text-charcoal/60 hover:text-dark"
+                  }`}
               >
                 spreads
               </button>
@@ -455,51 +452,54 @@ export default function AboutUsPage() {
         <PureJoyLifestyle />
 
         {/* ── Brand Video / Story Section ────────────────────────── */}
-        {!videoLoading && videoConfig && (
-          <section className="w-full py-8 px-6 bg-[#fffff9] border-t border-black/5 select-none">
-            <div className="max-w-[800px] mx-auto text-center flex flex-col items-center">
-              
-              {/* Header */}
-              <h2 className="font-primary font-black text-2xl sm:text-[36px] text-charcoal leading-none mb-6 uppercase tracking-tight relative inline-block">
-                <span className="relative inline-block">
-                  {videoConfig.heading}
-                  {/* Heading Accent Burst */}
-                  <svg 
-                    viewBox="0 0 40 40" 
-                    className="absolute -top-7 -right-8 w-8 h-8 text-[#9EAB75] fill-current select-none pointer-events-none transform rotate-12"
-                  >
-                    <path d="M 8,24 C 7,20 6,15 5,8 C 8,9 11,11 13,13 C 11,17 9,21 8,24 Z" />
-                    <path d="M 13,18 C 16,15 21,11 26,7 C 27,10 27,14 27,17 C 22,18 17,18 13,18 Z" />
-                    <path d="M 16,21 C 21,21 27,21 32,22 C 31,24 28,26 26,27 C 22,25 19,23 16,21 Z" />
-                  </svg>
-                </span>
-              </h2>
+        {!videoLoading && videoConfig && videoConfig.videoUrl && (
+          <div className="w-full flex flex-col">
+            {/* Full Bleed Background Video (Boxed on Desktop) */}
+            <section className="relative w-full h-[80vh] min-h-[400px] md:h-[75vh] md:min-h-[600px] md:max-w-7xl mx-auto md:rounded-[40px] md:mt-12 overflow-hidden bg-black select-none">
+              <video
+                src={videoConfig.videoUrl}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover z-0"
+              />
+            </section>
 
-              {/* Video Player */}
-              {videoConfig.videoUrl && (
-                <div className="w-full aspect-video rounded-3xl overflow-hidden bg-black border border-black/5 shadow-lg relative my-6 max-w-[760px]">
-                  <video
-                    src={videoConfig.videoUrl}
-                    controls
-                    playsInline
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              )}
+            {/* Content Below Video */}
+            <section className="w-full py-12 px-6 bg-[#fffff9] border-t border-black/5 select-none text-center">
+              <div className="max-w-[800px] mx-auto flex flex-col items-center">
 
-              {/* Description */}
-              <p className="font-primary text-[13px] sm:text-sm text-charcoal/70 leading-relaxed max-w-[650px] mx-auto font-semibold">
-                {videoConfig.description}
-              </p>
+                {/* Header */}
+                <h2 className="font-primary font-black text-3xl sm:text-[40px] md:text-[48px] text-charcoal leading-[1.05] mb-6 uppercase tracking-tight relative inline-block">
+                  <span className="relative inline-block">
+                    {videoConfig.heading}
+                    {/* Heading Accent Burst */}
+                    <svg
+                      viewBox="0 0 40 40"
+                      className="absolute -top-6 -right-8 w-8 h-8 text-[#9EAB75] fill-current select-none pointer-events-none transform rotate-12"
+                    >
+                      <path d="M 8,24 C 7,20 6,15 5,8 C 8,9 11,11 13,13 C 11,17 9,21 8,24 Z" />
+                      <path d="M 13,18 C 16,15 21,11 26,7 C 27,10 27,14 27,17 C 22,18 17,18 13,18 Z" />
+                      <path d="M 16,21 C 21,21 27,21 32,22 C 31,24 28,26 26,27 C 22,25 19,23 16,21 Z" />
+                    </svg>
+                  </span>
+                </h2>
 
-            </div>
-          </section>
+                {/* Description */}
+                <p className="font-primary text-[14px] sm:text-[15px] text-charcoal/70 leading-relaxed max-w-[650px] mx-auto font-semibold">
+                  {videoConfig.description}
+                </p>
+
+              </div>
+            </section>
+          </div>
         )}
 
         {/* ── What We Leave Out Section ────────────────────────── */}
         <section className="w-full py-16 px-6 bg-[#fffff9] border-t border-black/5 select-none">
           <div className="max-w-[760px] mx-auto text-center">
-            
+
             {/* Header Copy */}
             <h2 className="font-primary font-black text-2xl sm:text-[36px] text-charcoal leading-none mb-4 uppercase tracking-tight">
               What We Leave Out
@@ -533,9 +533,8 @@ export default function AboutUsPage() {
                       strokeWidth="3"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className={`text-charcoal/70 transition-transform duration-200 ${
-                        expandedId === item.id ? "rotate-180" : ""
-                      }`}
+                      className={`text-charcoal/70 transition-transform duration-200 ${expandedId === item.id ? "rotate-180" : ""
+                        }`}
                     >
                       <path d="M6 9l6 6 6-6" />
                     </svg>
@@ -543,9 +542,8 @@ export default function AboutUsPage() {
 
                   {/* Expanded Content Box */}
                   <div
-                    className={`transition-all duration-300 overflow-hidden ${
-                      expandedId === item.id ? "max-h-[300px] border-t border-black/5" : "max-h-0"
-                    }`}
+                    className={`transition-all duration-300 overflow-hidden ${expandedId === item.id ? "max-h-[300px] border-t border-black/5" : "max-h-0"
+                      }`}
                   >
                     <div className="px-6 py-4 text-left font-primary text-xs sm:text-[13px] text-charcoal/70 leading-relaxed font-bold">
                       {item.description}
@@ -568,7 +566,7 @@ export default function AboutUsPage() {
 
             {/* Team Members Arch Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-[900px] mx-auto">
-              
+
               {/* Card 1: Raj Kotadiya */}
               <div className="relative flex flex-col items-center justify-between w-full max-w-[260px] h-[380px] mx-auto bg-[#CBDCD0] rounded-t-[130px] rounded-b-[130px] p-6 shadow-sm border border-white/20 select-none">
                 <p className="font-accent text-[15px] sm:text-[16px] text-charcoal leading-relaxed text-center px-1 italic">
@@ -577,7 +575,7 @@ export default function AboutUsPage() {
                   <span className="font-bold font-primary not-italic text-[13px] uppercase tracking-wider block my-0.5 text-dark">Blue Vanilla Spread</span>
                   and his superpower is turning chaos into clarity.
                 </p>
-                
+
                 {/* Raj Kotadiya Vector illustration portrait */}
                 <div className="w-full flex items-end justify-center mt-auto h-[160px] relative overflow-hidden">
                   <svg viewBox="0 0 120 120" className="w-[140px] h-[140px] text-charcoal/90 fill-current">
@@ -705,11 +703,10 @@ export default function AboutUsPage() {
             (() => {
               const isCentered = boughtProducts.length > 0 && boughtProducts.length < 4;
               return (
-                <div className={`flex overflow-x-auto scroll-hide gap-6 pb-6 pt-32 snap-x snap-mandatory px-4 max-w-[1200px] mx-auto lg:overflow-visible ${
-                  isCentered
-                    ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
-                    : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
-                }`}>
+                <div className={`flex overflow-x-auto scroll-hide gap-6 pb-6 pt-32 snap-x snap-mandatory px-4 max-w-[1200px] mx-auto lg:overflow-visible ${isCentered
+                  ? "lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8 lg:gap-y-36"
+                  : "lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-36"
+                  }`}>
                   {boughtProducts.map((product, idx) => {
                     const rawPrice = parseInt(product.price.replace(/[₹,]/g, "")) || 0;
                     const rawOriginalPrice = parseInt(product.originalPrice.replace(/[₹,]/g, "")) || 0;
@@ -717,11 +714,10 @@ export default function AboutUsPage() {
                     return (
                       <div
                         key={product.id}
-                        className={`reveal-card reveal-delay-${(idx % 4) * 100} group relative flex flex-col justify-between w-[270px] sm:w-[280px] shrink-0 snap-center min-h-[390px] mx-0 lg:mx-auto rounded-t-3xl rounded-b-3xl shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-black/[0.04] p-4 transition-all duration-500 mt-0 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-[2px] ${
-                          isCentered
-                            ? "lg:w-[285px] lg:shrink-0 lg:grow-0"
-                            : "lg:w-full lg:max-w-[285px] lg:shrink"
-                        } ${theme.archClass}`}
+                        className={`reveal-card reveal-delay-${(idx % 4) * 100} group relative flex flex-col justify-between w-[270px] sm:w-[280px] shrink-0 snap-center min-h-[390px] mx-0 lg:mx-auto rounded-t-3xl rounded-b-3xl shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-black/[0.04] p-4 transition-all duration-500 mt-0 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-[2px] ${isCentered
+                          ? "lg:w-[285px] lg:shrink-0 lg:grow-0"
+                          : "lg:w-full lg:max-w-[285px] lg:shrink"
+                          } ${theme.archClass}`}
                       >
 
                         {/* Top Section: Image */}

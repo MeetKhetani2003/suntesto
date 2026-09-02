@@ -453,10 +453,15 @@ export default function ProductTabs() {
                   unoptimized={true}
                 />
 
-                {/* Floating Badge Sticker */}
-                <div className={`absolute -top-3 -right-14 z-20 rounded-full px-3 py-1.5 text-[10px] md:text-[11px] font-black uppercase tracking-wider rotate-12 shadow-md hover:rotate-6 transition-all duration-300 border border-white/40 flex items-center gap-1 ${product.badgeBg} ${product.badgeText}`}>
-                  <span>✦</span>
-                  <span>{product.badge}</span>
+                {/* Cloud Bubble Hand-Drawn Badge */}
+                <div className="absolute -top-4 -right-6 sm:-right-8 z-20 w-[64px] h-[64px] sm:w-[72px] sm:h-[72px] flex items-center justify-center transform rotate-6 hover:rotate-0 transition-all duration-300">
+                  {/* SVG Cloud Background */}
+                  <svg viewBox="0 0 200 200" className="absolute inset-0 w-full h-full text-[#fffaf0] drop-shadow-md" fill="currentColor">
+                    <path d="M100 20 C130 20 150 40 150 60 C170 60 190 80 180 110 C190 140 170 160 150 160 C140 180 110 190 90 180 C70 190 40 180 30 160 C10 160 -10 140 0 110 C-10 80 10 60 30 60 C30 40 60 20 90 20 Z" />
+                  </svg>
+                  <span className="relative z-10 font-accent text-[11px] sm:text-[12px] text-dark text-center leading-[1.05] font-bold px-2 whitespace-pre-line -rotate-6 pt-1">
+                    {product.badge ? product.badge.replace(" ", "\n") : ""}
+                  </span>
                 </div>
               </Link>
 

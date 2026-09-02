@@ -18,8 +18,8 @@ export default function ProductFormula() {
         </h2>
 
         {/* Formula Layout */}
-        <div className="flex flex-nowrap items-center justify-center gap-1.5 min-[400px]:gap-2 sm:gap-4 md:gap-5 mx-auto mt-6 sm:mt-8 font-primary font-black uppercase text-[12px] min-[380px]:text-[14px] sm:text-xl md:text-3xl lg:text-4xl leading-none w-full whitespace-nowrap px-2">
-          
+        <div className="flex flex-nowrap items-center justify-center gap-1.5 min-[400px]:gap-2 sm:gap-4 md:gap-5 mx-auto mt-6 sm:mt-8 font-accent font-black uppercase text-[12px] min-[380px]:text-[14px] sm:text-xl md:text-3xl lg:text-4xl leading-none w-full whitespace-nowrap px-2">
+
           <div className="text-[#9EAB75] animate-formula-1">
             Freeze-dried
           </div>
@@ -42,7 +42,8 @@ export default function ProductFormula() {
 
         </div>
 
-        <style dangerouslySetInnerHTML={{ __html: `
+        <style dangerouslySetInnerHTML={{
+          __html: `
           @keyframes formulaFadeInUp {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }

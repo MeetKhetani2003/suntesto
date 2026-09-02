@@ -88,7 +88,7 @@ export default function SmoothiesCTA() {
     <section className="w-full bg-warm-white py-8 px-4 md:py-12 select-none overflow-hidden relative">
       {/* ── Section Header ─────────────────────────────────────── */}
       <div className="text-center mb-12 md:mb-16">
-        <div className="inline-block bg-[#9EAB75] text-dark shadow-sm border border-black/5 -rotate-1 px-8 py-3 rounded-full">
+        <div className="inline-block bg-[#9EAB75] text-dark shadow-sm border border-black/5 px-8 py-3 rounded-full">
           <h2 className="font-primary font-black text-lg sm:text-[22px] tracking-wider uppercase leading-none">
             TRY OUR FRUIT SNACKS NOW!
           </h2>

@@ -51,6 +51,7 @@ import { CartProvider } from "@/context/CartContext";
 import CartDrawer from "@/components/layout/CartDrawer";
 import AuthProvider from "@/components/providers/AuthProvider";
 import ScrollReveal from "@/components/common/ScrollReveal";
+import WhatsAppWidget from "@/components/layout/WhatsAppWidget";
 
 export default function RootLayout({
   children,
@@ -60,14 +61,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${kalam.variable}`}
+      className={`${montserrat.variable} ${kalam.variable} overflow-x-hidden max-w-[100vw]`}
     >
-      <body className="antialiased" suppressHydrationWarning>
+      <body className="antialiased overflow-x-hidden max-w-[100vw] w-full relative" suppressHydrationWarning>
         <AuthProvider>
           <CartProvider>
             {children}
             <CartDrawer />
             <ScrollReveal />
+            <WhatsAppWidget />
           </CartProvider>
         </AuthProvider>
       </body>

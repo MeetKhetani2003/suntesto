@@ -294,15 +294,6 @@ export default function CollectionsPage() {
 
       </main>
 
-      {/* ── Floating Ask Sustento Chat Widget ─────────────────── */}
-      <div className="fixed bottom-6 left-6 z-50">
-        <button className="bg-[#9EAB75] text-dark font-primary text-[13px] font-black uppercase tracking-wider px-4 py-2.5 rounded-full shadow-lg border border-black/10 flex items-center gap-2 hover:scale-105 active:scale-95 transition-transform duration-150">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-dark">
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-          </svg>
-          Ask Sustento
-        </button>
-      </div>
 
       <Footer />
     </>

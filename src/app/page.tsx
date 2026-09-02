@@ -30,7 +30,7 @@ export default function HomePage() {
         <Hero />
 
         {/* ── Magic of Freeze Drying Section ─────────────────── */}
-        <FreezeDryingMagic />
+
 
         {/* ── Product Formula Section ───────────────────────── */}
         <ProductFormula />
@@ -65,7 +65,7 @@ export default function HomePage() {
 
         {/* ── Frequently Bought Together Section ─────────────── */}
         <FrequentlyBought />
-
+        <FreezeDryingMagic />
         {/* ── Instagram Photo Grid Section ───────────────────── */}
         <InstagramGrid />
 
