@@ -6,6 +6,7 @@ import Product from "@/models/Product";
 import User from "@/models/User";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/lib/auth";
+import { sendLowStockEmail } from "@/lib/email";
 
 export async function POST(req: Request) {
   try {
@@ -86,8 +87,15 @@ export async function POST(req: Request) {
       if (item.id && item.id.match(/^[0-9a-fA-F]{24}$/)) {
         const prod = await Product.findById(item.id);
         if (prod) {
+          const oldStock = prod.stockQuantity;
           prod.stockQuantity = Math.max(0, prod.stockQuantity - item.quantity);
           await prod.save();
+
+          // Trigger low stock alert if it drops to 10 or below (and wasn't already)
+          if (oldStock > 10 && prod.stockQuantity <= 10) {
+            // Run asynchronously so it doesn't block the checkout response
+            sendLowStockEmail(prod.title || item.title, prod.stockQuantity).catch(console.error);
+          }
         }
       }
     }
@@ -95,7 +103,11 @@ export async function POST(req: Request) {
     // ── Trigger Shiprocket shipment creation asynchronously ──────
     // Fire-and-forget: don't await so customer gets instant response.
     // If this fails, admin can manually trigger from the orders panel.
-    const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
+    // Resolution order: NEXTAUTH_URL → NEXT_PUBLIC_SITE_URL → localhost
+    const baseUrl =
+      process.env.NEXTAUTH_URL ||
+      process.env.NEXT_PUBLIC_SITE_URL ||
+      "http://localhost:3000";
     fetch(`${baseUrl}/api/shiprocket/create-order`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

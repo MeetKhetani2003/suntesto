@@ -248,7 +248,7 @@ export interface ShiprocketOrderPayload {
   order_date: string;          // "YYYY-MM-DD HH:mm"
   pickup_location: string;     // Matches pickup address name in Shiprocket dashboard
   billing_customer_name: string;
-  billing_last_name?: string;
+  billing_last_name: string;
   billing_address: string;
   billing_city: string;
   billing_pincode: string;

@@ -75,11 +75,18 @@ export async function POST(req: Request) {
     const pad = (n: number) => String(n).padStart(2, "0");
     const formattedDate = `${orderDate.getFullYear()}-${pad(orderDate.getMonth() + 1)}-${pad(orderDate.getDate())} ${pad(orderDate.getHours())}:${pad(orderDate.getMinutes())}`;
 
+    // Shiprocket requires billing_last_name to always be present (validation.present).
+    // Split the full name into first + last; last defaults to "" if single-word name.
+    const nameParts = (order.customerInfo.name || "").trim().split(/\s+/);
+    const billingFirstName = nameParts[0] || "";
+    const billingLastName = nameParts.slice(1).join(" ") || "";
+
     const payload: ShiprocketOrderPayload = {
       order_id: order.orderNumber,
       order_date: formattedDate,
       pickup_location: process.env.SHIPROCKET_PICKUP_LOCATION || "Test Warehouse",
-      billing_customer_name: order.customerInfo.name,
+      billing_customer_name: billingFirstName,
+      billing_last_name: billingLastName,
       billing_address: order.customerInfo.address,
       billing_city: order.customerInfo.city,
       billing_pincode: order.customerInfo.zip,

@@ -49,6 +49,7 @@ function AdminLayoutContent({ children }: { children: React.ReactNode }) {
   const navItems = [
     { label: "Dashboard", href: "/admin", icon: "📊" },
     { label: "Orders", href: "/admin/orders", icon: "🛍️" },
+    { label: "Inquiries", href: "/admin/inquiries", icon: "📨" },
     { label: "All Products", href: "/admin/products", icon: "📦" },
     { label: "Categories", href: "/admin/categories", icon: "📁" },
     { label: "Coupons", href: "/admin/coupons", icon: "🏷️" },

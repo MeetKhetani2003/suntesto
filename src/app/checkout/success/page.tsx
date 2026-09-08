@@ -31,6 +31,7 @@ function SuccessContent() {
   const { clearCart } = useCart();
   const [orderData, setOrderData] = useState<OrderData | null>(null);
   const [loadingTracking, setLoadingTracking] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   // Use orderId (order number) as display until API responds
   const displayOrderNumber = orderData?.orderNumber || orderId || "SU-XXXXXX";
@@ -68,7 +69,13 @@ function SuccessContent() {
     setTimeout(() => poll(4), 2000);
   }, [orderId]);
 
-
+  const handleCopyAwb = () => {
+    if (!orderData?.awbCode) return;
+    navigator.clipboard.writeText(orderData.awbCode).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
 
   return (
     <div className="bg-white rounded-[40px] p-8 md:p-10 shadow-[0_12px_48px_rgba(0,0,0,0.03)] border border-black/5 flex flex-col items-center text-center">
@@ -123,27 +130,54 @@ function SuccessContent() {
         </div>
       </div>
 
-      {/* Shipping info — shown once AWB is available */}
-      {orderData?.awbCode && (
-        <div className="w-full bg-[#FAF9F5] border border-black/5 rounded-2xl p-4 mb-5 flex flex-col gap-3 text-left">
-          {orderData.courierName && (
-            <div className="flex items-center justify-between text-xs font-bold text-charcoal/50 uppercase tracking-wider">
-              <span>Courier</span>
-              <span className="font-black text-dark text-sm">{orderData.courierName}</span>
-            </div>
-          )}
-          <div className="flex items-center justify-between text-xs font-bold text-charcoal/50 uppercase tracking-wider border-t border-black/5 pt-3">
-            <span>AWB / Tracking No.</span>
-            <span className="font-black text-dark text-sm tracking-wider">{orderData.awbCode}</span>
-          </div>
-        </div>
-      )}
-
       {/* Shiprocket still processing badge */}
       {loadingTracking && !orderData?.awbCode && (
         <div className="w-full flex items-center gap-3 bg-yellow-50 border border-yellow-100 rounded-2xl px-5 py-3 mb-5">
           <div className="w-4 h-4 border-2 border-yellow-400 border-t-transparent rounded-full animate-spin shrink-0" />
           <p className="text-xs font-bold text-yellow-700 uppercase tracking-wide">Assigning courier partner...</p>
+        </div>
+      )}
+
+      {/* Shipping / AWB info — shown once AWB is available */}
+      {orderData?.awbCode && (
+        <div className="w-full mb-5">
+          {/* "On its way" banner */}
+          <div className="bg-gradient-to-r from-[#9EAB75] to-[#b8c98a] rounded-t-2xl px-5 py-4 flex items-center gap-3">
+            <span className="text-2xl">🚚</span>
+            <div className="text-left">
+              <p className="font-primary font-black text-sm uppercase tracking-wider text-dark">Your package is on its way!</p>
+              {orderData.courierName && (
+                <p className="text-xs font-semibold text-dark/70 mt-0.5">Dispatched via {orderData.courierName}</p>
+              )}
+            </div>
+          </div>
+          {/* AWB detail row */}
+          <div className="bg-[#FAF9F5] border border-t-0 border-black/5 rounded-b-2xl px-5 py-4 flex flex-col gap-3 text-left">
+            {orderData.courierName && (
+              <div className="flex items-center justify-between text-xs font-bold text-charcoal/50 uppercase tracking-wider">
+                <span>Courier Partner</span>
+                <span className="font-black text-dark text-sm">{orderData.courierName}</span>
+              </div>
+            )}
+            <div className="flex items-center justify-between text-xs font-bold text-charcoal/50 uppercase tracking-wider border-t border-black/5 pt-3">
+              <div>
+                <span className="block mb-0.5">AWB / Tracking No.</span>
+                <span className="font-black text-dark text-base tracking-widest">{orderData.awbCode}</span>
+              </div>
+              <button
+                onClick={handleCopyAwb}
+                className="ml-3 shrink-0 px-3 py-1.5 bg-white border border-black/10 hover:border-black/30 rounded-lg font-black text-[10px] uppercase tracking-wider text-charcoal/70 hover:text-dark transition-all cursor-pointer"
+              >
+                {copied ? "✓ Copied!" : "Copy AWB"}
+              </button>
+            </div>
+            {orderData.shiprocketStatus && (
+              <div className="flex items-center justify-between text-xs font-bold text-charcoal/50 uppercase tracking-wider border-t border-black/5 pt-3">
+                <span>Courier Status</span>
+                <span className="font-black text-[#5a6b3b] text-xs">{orderData.shiprocketStatus}</span>
+              </div>
+            )}
+          </div>
         </div>
       )}
 

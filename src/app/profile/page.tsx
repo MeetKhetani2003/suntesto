@@ -27,6 +27,31 @@ interface Order {
   };
   createdAt: string;
   items: OrderItem[];
+  // Shipping / tracking fields
+  awbCode?: string;
+  courierName?: string;
+  trackingUrl?: string;
+  shiprocketStatus?: string;
+}
+
+function getStatusColor(status: string) {
+  switch (status) {
+    case "Delivered": return "bg-green-100 text-green-700";
+    case "Cancelled": return "bg-red-100 text-red-700";
+    case "Shipped": return "bg-purple-100 text-purple-700";
+    case "Out For Delivery": return "bg-orange-100 text-orange-700";
+    default: return "bg-yellow/20 text-yellow-800";
+  }
+}
+
+function getStatusIcon(status: string) {
+  switch (status) {
+    case "Delivered": return "✅";
+    case "Cancelled": return "❌";
+    case "Shipped": return "🚚";
+    case "Out For Delivery": return "🛵";
+    default: return "📦";
+  }
 }
 
 export default function ProfilePage() {
@@ -53,6 +78,8 @@ export default function ProfilePage() {
   const [saveLoading, setSaveLoading] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState("");
   const [saveError, setSaveError] = useState("");
+  const [expandedOrder, setExpandedOrder] = useState<string | null>(null);
+  const [copiedAwb, setCopiedAwb] = useState<string | null>(null);
 
   // Route protection
   useEffect(() => {
@@ -133,6 +160,13 @@ export default function ProfilePage() {
     }
   };
 
+  const handleCopyAwb = (awb: string) => {
+    navigator.clipboard.writeText(awb).then(() => {
+      setCopiedAwb(awb);
+      setTimeout(() => setCopiedAwb(null), 2000);
+    });
+  };
+
   if (status === "loading" || status === "unauthenticated" || loadingProfile) {
     return (
       <div className="min-h-screen bg-warm-white flex items-center justify-center font-primary text-charcoal">
@@ -166,7 +200,7 @@ export default function ProfilePage() {
               )}
               <div>
                 <h1 className="font-primary font-black text-2xl sm:text-3xl text-charcoal leading-none uppercase tracking-tight">
-                  HEllo, {session?.user?.name?.split(" ")[0] || "User"}!
+                  Hello, {session?.user?.name?.split(" ")[0] || "User"}!
                 </h1>
                 <p className="text-sm font-medium text-charcoal/50 mt-1">{session?.user?.email}</p>
               </div>
@@ -231,7 +265,7 @@ export default function ProfilePage() {
                       {orders.map((order) => (
                         <div key={order._id} className="bg-white border border-black/5 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                           {/* Card Header Bar */}
-                          <div className="bg-stone-50 border-b border-black/5 px-6 py-4.5 flex flex-wrap items-center justify-between gap-4">
+                          <div className="bg-stone-50 border-b border-black/5 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
                             <div className="flex flex-wrap items-center gap-x-6 gap-y-1">
                               <div>
                                 <span className="text-[10px] font-bold text-charcoal/40 uppercase tracking-widest block">Order ID</span>
@@ -246,43 +280,81 @@ export default function ProfilePage() {
                                 </span>
                               </div>
                               <div>
-                                <span className="text-[10px] font-bold text-charcoal/40 uppercase tracking-widest block">Total Price</span>
+                                <span className="text-[10px] font-bold text-charcoal/40 uppercase tracking-widest block">Total</span>
                                 <span className="font-primary font-black text-sm text-dark">₹{order.pricing.total}</span>
                               </div>
                             </div>
                             <div className="flex items-center gap-2">
-                              <span className={`inline-flex items-center px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider ${
-                                order.orderStatus === "Delivered" 
-                                  ? "bg-green-100 text-green-700" 
-                                  : order.orderStatus === "Cancelled"
-                                  ? "bg-red-100 text-red-700"
-                                  : "bg-yellow/20 text-yellow-800"
-                              }`}>
+                              <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider ${getStatusColor(order.orderStatus)}`}>
+                                <span>{getStatusIcon(order.orderStatus)}</span>
                                 {order.orderStatus}
                               </span>
                             </div>
                           </div>
 
                           {/* Card Body */}
-                          <div className="p-6 flex flex-col md:flex-row md:items-center justify-between gap-6">
-                            <div className="flex-1 flex flex-col gap-3">
+                          <div className="p-6 flex flex-col gap-4">
+                            {/* Items */}
+                            <div className="flex flex-col gap-2">
                               {order.items.map((item, idx) => (
                                 <div key={idx} className="flex items-center gap-3">
                                   <span className="font-primary font-black text-xs text-charcoal">{item.title}</span>
                                   <span className="text-[10px] font-bold text-charcoal/40 uppercase tracking-wider bg-black/5 px-2 py-0.5 rounded">
-                                    {item.variant === "single" ? "Single Pouch" : item.variant === "pack3" ? "Pack of 3" : "Pack of 5"} × {item.quantity}
+                                    {item.variant === "single" ? "Single" : item.variant === "pack3" ? "Pack of 3" : "Pack of 5"} × {item.quantity}
                                   </span>
                                 </div>
                               ))}
                             </div>
-                            
-                            <div className="flex items-center gap-3">
+
+                            {/* Tracking Info — shown when AWB exists */}
+                            {order.awbCode && (
+                              <div className="bg-gradient-to-r from-[#9EAB75]/10 to-[#FFC933]/10 border border-[#9EAB75]/30 rounded-2xl px-4 py-3 flex flex-col gap-2">
+                                <div className="flex items-center gap-2">
+                                  <span className="text-sm">🚚</span>
+                                  <span className="font-primary font-black text-[11px] uppercase tracking-wider text-[#5a6b3b]">Shipment Dispatched</span>
+                                  {order.courierName && (
+                                    <span className="text-[10px] font-bold text-charcoal/50 bg-white/70 px-2 py-0.5 rounded-full">{order.courierName}</span>
+                                  )}
+                                </div>
+                                <div className="flex items-center justify-between">
+                                  <div>
+                                    <span className="text-[10px] font-bold text-charcoal/40 uppercase tracking-widest block">AWB / Tracking No.</span>
+                                    <span className="font-primary font-black text-sm text-dark tracking-wider">{order.awbCode}</span>
+                                  </div>
+                                  <button
+                                    onClick={() => handleCopyAwb(order.awbCode!)}
+                                    className="text-[10px] font-black uppercase tracking-wider px-3 py-1.5 rounded-lg bg-white border border-black/10 hover:border-black/25 text-charcoal/70 hover:text-dark transition-all cursor-pointer"
+                                  >
+                                    {copiedAwb === order.awbCode ? "✓ Copied!" : "Copy AWB"}
+                                  </button>
+                                </div>
+                                {order.shiprocketStatus && (
+                                  <div className="flex items-center gap-2 border-t border-[#9EAB75]/20 pt-2">
+                                    <span className="text-[10px] font-bold text-charcoal/40 uppercase tracking-widest">Courier Status:</span>
+                                    <span className="text-[11px] font-bold text-[#5a6b3b]">{order.shiprocketStatus}</span>
+                                  </div>
+                                )}
+                              </div>
+                            )}
+
+                            {/* Actions row */}
+                            <div className="flex items-center gap-3 pt-1">
                               <Link
                                 href={`/track/${order.orderNumber}`}
-                                className="px-6 py-3.5 bg-[#9EAB75] hover:bg-[#FFC933] text-dark font-primary font-black text-xs uppercase tracking-wider rounded-full shadow-sm text-center block transition-all"
+                                className="px-5 py-2.5 bg-[#9EAB75] hover:bg-[#FFC933] text-dark font-primary font-black text-[11px] uppercase tracking-wider rounded-full shadow-sm text-center transition-all hover:scale-105 active:scale-95"
                               >
-                                Track Order 🚚
+                                Track Package 🚚
                               </Link>
+                              {order.trackingUrl && !order.awbCode?.startsWith("MOCK") && (
+                                <a
+                                  href={order.trackingUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="px-5 py-2.5 border border-black/10 hover:border-dark text-charcoal/70 hover:text-dark font-primary font-black text-[11px] uppercase tracking-wider rounded-full text-center transition-all hover:scale-105 active:scale-95"
+                                >
+                                  Courier Site →
+                                </a>
+                              )}
                             </div>
                           </div>
                         </div>
