@@ -31,6 +31,7 @@ export interface IProduct extends Document {
   nutritionList?: { name: string; value: string; rda: string }[];
   isBestSeller?: boolean;
   isTrending?: boolean;
+  comboDiscountPercent?: number;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -58,6 +59,7 @@ const ProductSchema = new Schema<IProduct>(
     stockQuantity: { type: Number, required: true, default: 0, min: 0 },
     inStock: { type: Boolean, default: true },
     lowStockThreshold: { type: Number, default: 5 },
+    comboDiscountPercent: { type: Number, default: 0, min: 0, max: 100 },
 
     description: { type: String },
     images: { type: [String], default: [] },

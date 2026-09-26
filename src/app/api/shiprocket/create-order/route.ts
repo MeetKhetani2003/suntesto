@@ -44,23 +44,33 @@ export async function POST(req: Request) {
     let maxLength = 15, maxBreadth = 10, maxHeight = 5;
 
     for (const item of order.items as any[]) {
-      let weightGrams = 100;
-      let length = 15, breadth = 10, height = 5;
+      const subItems = item.variant === "combo" && item.comboItems ? item.comboItems : [item];
+      
+      let itemTotalWeightGrams = 0;
+      let itemMaxLength = 15;
+      let itemMaxBreadth = 10;
+      let itemMaxHeight = 5;
 
-      if (item.id && item.id.match(/^[0-9a-fA-F]{24}$/)) {
-        const prod = await Product.findById(item.id).lean() as any;
-        if (prod) {
-          weightGrams = prod.weightGrams || 100;
-          length   = prod.dimensions?.length  || 15;
-          breadth  = prod.dimensions?.breadth || 10;
-          height   = prod.dimensions?.height  || 5;
+      for (const subItem of subItems) {
+        if (subItem.id && subItem.id.match(/^[0-9a-fA-F]{24}$/)) {
+          const prod = await Product.findById(subItem.id).lean() as any;
+          if (prod) {
+            itemTotalWeightGrams += prod.weightGrams || 100;
+            itemMaxLength  = Math.max(itemMaxLength,  prod.dimensions?.length  || 15);
+            itemMaxBreadth = Math.max(itemMaxBreadth, prod.dimensions?.breadth || 10);
+            itemMaxHeight  = Math.max(itemMaxHeight,  prod.dimensions?.height  || 5);
+          } else {
+            itemTotalWeightGrams += 100;
+          }
+        } else {
+          itemTotalWeightGrams += 100;
         }
       }
 
-      totalWeightKg += (weightGrams / 1000) * item.quantity;
-      maxLength  = Math.max(maxLength,  length);
-      maxBreadth = Math.max(maxBreadth, breadth);
-      maxHeight  = Math.max(maxHeight,  height);
+      totalWeightKg += (itemTotalWeightGrams / 1000) * item.quantity;
+      maxLength  = Math.max(maxLength,  itemMaxLength);
+      maxBreadth = Math.max(maxBreadth, itemMaxBreadth);
+      maxHeight  = Math.max(maxHeight,  itemMaxHeight);
 
       orderItems.push({
         name:          item.title,

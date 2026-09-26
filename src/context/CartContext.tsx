@@ -9,9 +9,10 @@ export interface CartItem {
   price: number;
   originalPrice: number;
   imageSrc: string;
-  variant: "single" | "pack3" | "pack5";
+  variant: "single" | "pack3" | "pack5" | "combo";
   quantity: number;
   archClass?: string;
+  comboItems?: { id: string; title: string; imageSrc: string }[];
 }
 
 interface CartContextType {
@@ -19,8 +20,8 @@ interface CartContextType {
   cartOpen: boolean;
   setCartOpen: (open: boolean) => void;
   addItem: (item: Omit<CartItem, "quantity">, quantity?: number) => void;
-  removeItem: (id: string, variant: "single" | "pack3" | "pack5") => void;
-  updateQuantity: (id: string, variant: "single" | "pack3" | "pack5", quantity: number) => void;
+  removeItem: (id: string, variant: "single" | "pack3" | "pack5" | "combo") => void;
+  updateQuantity: (id: string, variant: "single" | "pack3" | "pack5" | "combo", quantity: number) => void;
   clearCart: () => void;
   cartTotal: number;
   cartCount: number;
@@ -74,13 +75,13 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     setCartOpen(true); // Open drawer automatically on add
   };
 
-  const removeItem = (id: string, variant: "single" | "pack3" | "pack5") => {
+  const removeItem = (id: string, variant: "single" | "pack3" | "pack5" | "combo") => {
     setCart((prevCart) => prevCart.filter((i) => !(i.id === id && i.variant === variant)));
   };
 
   const updateQuantity = (
     id: string,
-    variant: "single" | "pack3" | "pack5",
+    variant: "single" | "pack3" | "pack5" | "combo",
     quantity: number
   ) => {
     if (quantity <= 0) {

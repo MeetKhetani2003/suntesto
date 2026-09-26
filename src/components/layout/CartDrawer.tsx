@@ -113,8 +113,14 @@ export default function CartDrawer() {
                       {item.title}
                     </h4>
                     <span className="inline-block text-[10px] font-black uppercase tracking-wider text-[#ebb904] bg-[#ebb904]/10 rounded-full px-2.5 py-0.5 w-max">
-                      {item.variant === "single" ? "Single Pouch" : item.variant === "pack3" ? "Pack of 3" : "Pack of 5"}
+                      {item.variant === "single" ? "Single Pouch" : item.variant === "pack3" ? "Pack of 3" : item.variant === "combo" ? "Custom Box" : "Pack of 5"}
                     </span>
+                    
+                    {item.variant === "combo" && item.comboItems && (
+                      <div className="mt-1 text-[10px] text-charcoal/60 font-semibold leading-tight max-w-[180px]">
+                        {item.comboItems.map(ci => ci.title).join(", ")}
+                      </div>
+                    )}
 
                     {/* Price & Quantity adjust block */}
                     <div className="flex items-center justify-between mt-2.5">

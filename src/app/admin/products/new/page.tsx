@@ -43,6 +43,8 @@ export default function CreateProductPage() {
   const [stockQuantity, setStockQuantity] = useState<number | "">(25);
   const [lowStockThreshold, setLowStockThreshold] = useState<number | "">(5);
 
+  const [comboDiscountPercent, setComboDiscountPercent] = useState<number | "">(2.5);
+
   const [description, setDescription] = useState("");
   const [badge, setBadge] = useState("Fresh Pack");
   const [archClass, setArchClass] = useState("bg-[#FCE2EC]");
@@ -247,6 +249,7 @@ export default function CreateProductPage() {
           nutritionList: nutritionList.filter((item) => item.name.trim() !== ""),
           isBestSeller,
           isTrending,
+          comboDiscountPercent: Number(comboDiscountPercent) || 0,
         }),
       });
 
@@ -513,6 +516,28 @@ export default function CreateProductPage() {
                 Actual price customer pays at checkout on store.
               </p>
             </div>
+          </div>
+
+          <div className="mt-6 bg-blue-50/50 p-4 rounded-2xl border border-blue-100">
+            <label className="block text-xs font-bold uppercase tracking-wider text-blue-950 mb-1">
+              Combo Discount (%)
+            </label>
+            <div className="relative">
+              <input
+                type="number"
+                min="0"
+                max="100"
+                step="0.1"
+                placeholder="2.5"
+                value={comboDiscountPercent}
+                onChange={(e) => setComboDiscountPercent(e.target.value === "" ? "" : Number(e.target.value))}
+                className="w-full pl-4 pr-8 py-3 rounded-xl border border-blue-200 text-sm font-black text-blue-900 focus:outline-none focus:border-blue-600 bg-white"
+              />
+              <span className="absolute right-3.5 top-3 text-sm font-bold text-blue-900">%</span>
+            </div>
+            <p className="text-[10px] font-semibold text-blue-800/70 mt-1.5">
+              Percentage discount this product adds when included in a Combo Box.
+            </p>
           </div>
         </div>
 

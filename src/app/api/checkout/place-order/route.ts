@@ -84,17 +84,22 @@ export async function POST(req: Request) {
 
     // Deduct stock levels for purchased items
     for (const item of items) {
-      if (item.id && item.id.match(/^[0-9a-fA-F]{24}$/)) {
-        const prod = await Product.findById(item.id);
-        if (prod) {
-          const oldStock = prod.stockQuantity;
-          prod.stockQuantity = Math.max(0, prod.stockQuantity - item.quantity);
-          await prod.save();
+      const itemsToDeduct = item.variant === "combo" && item.comboItems 
+        ? item.comboItems 
+        : [item];
 
-          // Trigger low stock alert if it drops to 10 or below (and wasn't already)
-          if (oldStock > 10 && prod.stockQuantity <= 10) {
-            // Run asynchronously so it doesn't block the checkout response
-            sendLowStockEmail(prod.title || item.title, prod.stockQuantity).catch(console.error);
+      for (const subItem of itemsToDeduct) {
+        if (subItem.id && subItem.id.match(/^[0-9a-fA-F]{24}$/)) {
+          const prod = await Product.findById(subItem.id);
+          if (prod) {
+            const oldStock = prod.stockQuantity;
+            prod.stockQuantity = Math.max(0, prod.stockQuantity - item.quantity); // Deduct by the combo quantity
+            await prod.save();
+
+            // Trigger low stock alert if it drops to 10 or below (and wasn't already)
+            if (oldStock > 10 && prod.stockQuantity <= 10) {
+              sendLowStockEmail(prod.title || subItem.title, prod.stockQuantity).catch(console.error);
+            }
           }
         }
       }

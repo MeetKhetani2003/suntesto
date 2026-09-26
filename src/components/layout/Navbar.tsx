@@ -260,6 +260,12 @@ export default function Navbar() {
 
             {/* Desktop Right: Icons */}
             <div className="hidden flex-1 items-center justify-end gap-5 lg:flex">
+              <Link
+                href="/combo"
+                className={`font-primary text-[13px] font-bold tracking-wide uppercase transition-all duration-200 hover:opacity-75 ${textColor} mr-2`}
+              >
+                BUILD YOUR OWN BOX
+              </Link>
               <button 
                 onClick={() => setSearchOpen(true)}
                 className="text-charcoal hover:scale-110 transition-transform duration-200 cursor-pointer" 
@@ -402,6 +408,14 @@ export default function Navbar() {
                 </Link>
               )
             )}
+
+            <Link
+              href="/combo"
+              className="block rounded-xl px-4 py-3 font-primary text-[15px] font-bold uppercase tracking-wide text-[#9EAB75] hover:bg-[#9EAB75]/10"
+              onClick={() => setMobileOpen(false)}
+            >
+              Build Your Own Box
+            </Link>
 
             <div className="my-4 h-[1px] bg-black/5 mx-4" />
 
