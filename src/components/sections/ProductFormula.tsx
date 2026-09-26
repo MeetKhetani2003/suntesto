@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ProductFormula() {
   return (
-    <section className="w-full bg-[#fffff9] py-12 md:py-16 border-t border-black/5 select-none relative overflow-hidden">
+    <section className="w-full bg-[#fffff9] py-12 md:py-16 select-none relative overflow-hidden">
       {/* Background radial accent */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#9EAB75]/5 rounded-full blur-3xl pointer-events-none" />
 
