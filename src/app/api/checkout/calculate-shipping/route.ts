@@ -5,7 +5,7 @@ import { calculateShiprocketRate } from "@/lib/shiprocket";
 
 export async function POST(req: Request) {
   try {
-    const { pincode, items } = await req.json();
+    const { pincode, items, paymentMethod = "ONLINE" } = await req.json();
 
     if (!pincode || !items || !Array.isArray(items)) {
       return NextResponse.json(
@@ -35,15 +35,14 @@ export async function POST(req: Request) {
     // Default minimum weight in kg is 0.1
     totalWeightKg = Math.max(0.1, parseFloat(totalWeightKg.toFixed(2)));
 
-    // Calculate Shiprocket Rate for COD
+    // Calculate Shiprocket Rate
     const rate = await calculateShiprocketRate({
       delivery_pincode: pincode,
       weight: totalWeightKg,
-      cod: true,
+      cod: paymentMethod === "COD",
     });
 
-    // Multiply the shipping rate by 2 (e.g. 50 -> 100)
-    const finalShippingCost = Math.round(rate * 2);
+    const finalShippingCost = Math.round(rate);
 
     return NextResponse.json({
       success: true,

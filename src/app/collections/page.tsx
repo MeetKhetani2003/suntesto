@@ -204,7 +204,8 @@ export default function CollectionsPage() {
                             isCentered
                               ? "lg:w-[285px] lg:shrink-0 lg:grow-0"
                               : "lg:w-full lg:max-w-[285px] lg:shrink"
-                          } ${theme.archClass}`}
+                          } ${theme.archClass && !theme.archClass.startsWith("bg-[#") ? theme.archClass : ""}`}
+                          style={theme.archClass && theme.archClass.startsWith("bg-[#") ? { backgroundColor: theme.archClass.replace('bg-[', '').replace(']', '') } : undefined}
                         >
                           <div className="relative z-10 flex flex-col items-center w-full pt-8">
                             <Link href={`/products/${product.slug}`} className="group/img relative w-[180px] h-[180px] -mt-[110px] transition-all duration-500 hover:scale-[1.1] hover:-translate-y-2 flex items-center justify-center z-20">

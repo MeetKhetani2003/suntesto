@@ -102,8 +102,9 @@ function ProductCard({ product, index = 0, isCentered = false }: { product: Prod
   return (
     <div className={`reveal-card reveal-delay-${(index % 4) * 100} group relative flex flex-col justify-between w-[270px] sm:w-[280px] shrink-0 snap-center min-h-[390px] mx-0 lg:mx-auto rounded-t-3xl rounded-b-3xl shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-black/[0.04] p-4 transition-all duration-500 mt-0 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-[2px] ${isCentered
       ? "lg:w-[280px] lg:shrink-0 lg:grow-0"
-      : "lg:w-full lg:max-w-[280px] lg:shrink"
-      } ${theme.archClass}`}>
+      } ${theme.archClass && !theme.archClass.startsWith("bg-[#") ? theme.archClass : ""}`}
+      style={theme.archClass && theme.archClass.startsWith("bg-[#") ? { backgroundColor: theme.archClass.replace('bg-[', '').replace(']', '') } : undefined}
+    >
       {/* Image */}
       <div className="relative z-10 flex flex-col items-center w-full pt-8">
         <Link href={`/products/${product.slug}`} className="group/img relative w-[180px] h-[180px] -mt-[110px] transition-all duration-500 hover:scale-[1.1] hover:-translate-y-2 flex items-center justify-center z-20">

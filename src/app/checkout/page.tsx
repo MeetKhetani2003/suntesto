@@ -44,16 +44,10 @@ export default function CheckoutPage() {
   const [calculatingShipping, setCalculatingShipping] = useState(false);
   const [shippingError, setShippingError] = useState("");
 
-  // Calculate dynamic shipping cost for COD orders
+  // Calculate dynamic shipping cost for all orders
   useEffect(() => {
-    if (paymentMethod === "ONLINE") {
-      setShippingCost(0);
-      setShippingError("");
-      return;
-    }
-
     // Only calculate when pincode is exactly 6 digits (standard Indian pincode)
-    if (paymentMethod === "COD" && formData.zip.trim().length === 6) {
+    if (formData.zip.trim().length === 6) {
       const fetchShippingCost = async () => {
         setCalculatingShipping(true);
         setShippingError("");
@@ -64,6 +58,7 @@ export default function CheckoutPage() {
             body: JSON.stringify({
               pincode: formData.zip,
               items: cart.map((i) => ({ id: i.id, quantity: i.quantity })),
+              paymentMethod: paymentMethod,
             }),
           });
           const data = await res.json();
@@ -152,7 +147,7 @@ export default function CheckoutPage() {
 
   // Calculate pricing
   const subtotal = cartTotal;
-  const actualShippingCost = paymentMethod === "ONLINE" ? 0 : shippingCost;
+  const actualShippingCost = shippingCost;
   const discountAmount = appliedCoupon ? appliedCoupon.discountAmount : 0;
   const total = Math.max(0, subtotal + actualShippingCost - discountAmount);
 
@@ -218,13 +213,13 @@ export default function CheckoutPage() {
   const handlePlaceOrder = async () => {
     if (!validateForm()) return;
 
-    if (paymentMethod === "COD" && calculatingShipping) {
+    if (calculatingShipping) {
       alert("Please wait until the shipping charges are calculated.");
       return;
     }
 
-    if (paymentMethod === "COD" && formData.zip.trim().length !== 6) {
-      alert("A valid 6-digit pincode is required for COD shipping calculation.");
+    if (formData.zip.trim().length !== 6) {
+      alert("A valid 6-digit pincode is required for shipping calculation.");
       return;
     }
 
@@ -614,7 +609,6 @@ export default function CheckoutPage() {
                   />
                   <div>
                     <span className="font-primary font-black text-[13px] text-dark uppercase block">Pay Online (Card / UPI / NetBanking)</span>
-                    <span className="text-[11px] font-bold text-green-600 uppercase tracking-wide">🔥 Get Free Shipping on Online Orders!</span>
                   </div>
                 </label>
 
@@ -636,7 +630,7 @@ export default function CheckoutPage() {
                   />
                   <div>
                     <span className="font-primary font-black text-[13px] text-dark uppercase block">Cash on Delivery (COD)</span>
-                    <span className="text-[11px] font-bold text-charcoal/40 uppercase tracking-wide">Pay cash when shipment is delivered (Shipping charges calculated by Shiprocket)</span>
+                    <span className="text-[11px] font-bold text-charcoal/40 uppercase tracking-wide">Pay cash when shipment is delivered</span>
                   </div>
                 </label>
               </div>
@@ -712,9 +706,7 @@ export default function CheckoutPage() {
                 <div className="flex items-center justify-between">
                   <span className="font-medium text-charcoal/60">Shipping</span>
                   <span className="font-semibold text-dark">
-                    {paymentMethod === "ONLINE" ? (
-                      <span className="text-green-600 font-bold uppercase text-[11px] tracking-wider bg-green-50 px-2.5 py-0.5 rounded-full">FREE</span>
-                    ) : calculatingShipping ? (
+                    {calculatingShipping ? (
                       <span className="text-xs text-charcoal/40 animate-pulse font-bold uppercase tracking-wider">Calculating...</span>
                     ) : shippingError ? (
                       <span className="text-xs text-red-500 font-bold">{shippingError}</span>
@@ -757,7 +749,7 @@ export default function CheckoutPage() {
               {/* Place Order CTA */}
               <button
                 onClick={handlePlaceOrder}
-                disabled={loading || (paymentMethod === "COD" && calculatingShipping)}
+                disabled={loading || calculatingShipping}
                 className="w-full bg-black hover:bg-dark/95 text-white font-primary font-black text-[13px] uppercase tracking-wider py-4 rounded-full shadow-md hover:-rotate-1 transition-all duration-200 cursor-pointer text-center block disabled:opacity-50"
               >
                 {loading ? (
@@ -765,8 +757,10 @@ export default function CheckoutPage() {
                     <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
                     {paymentMethod === "COD" ? "Processing Shipping Fee..." : "Processing Payment..."}
                   </span>
+                ) : calculatingShipping ? (
+                  "Calculating Shipping..."
                 ) : paymentMethod === "COD" ? (
-                  calculatingShipping ? "Calculating Shipping..." : "Pay Shipping & Complete Order"
+                  "Pay Shipping & Complete Order"
                 ) : (
                   "Pay & Complete Order"
                 )}

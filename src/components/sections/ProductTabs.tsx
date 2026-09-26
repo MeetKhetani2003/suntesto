@@ -437,7 +437,8 @@ export default function ProductTabs() {
             className={`reveal-card reveal-delay-${(idx % 4) * 100} group relative flex flex-col justify-between w-[270px] sm:w-[280px] shrink-0 snap-center min-h-[390px] mx-0 lg:mx-auto rounded-t-3xl rounded-b-3xl shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-black/[0.04] p-4 transition-all duration-500 mt-0 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-[2px] ${isCentered
               ? "lg:w-[285px] lg:shrink-0 lg:grow-0"
               : "lg:w-full lg:max-w-[285px] lg:shrink"
-              } ${product.archClass}`}
+              } ${product.archClass && !product.archClass.startsWith("bg-[#") ? product.archClass : ""}`}
+            style={product.archClass && product.archClass.startsWith("bg-[#") ? { backgroundColor: product.archClass.replace('bg-[', '').replace(']', '') } : undefined}
           >
 
             {/* Top Section: Image, Badge */}

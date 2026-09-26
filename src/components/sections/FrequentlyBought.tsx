@@ -151,7 +151,8 @@ export default function FrequentlyBought() {
                   isCentered
                     ? "lg:w-[285px] lg:shrink-0 lg:grow-0"
                     : "lg:w-full lg:max-w-[285px] lg:shrink"
-                } ${product.archClass}`}
+                } ${product.archClass && !product.archClass.startsWith("bg-[#") ? product.archClass : ""}`}
+                style={product.archClass && product.archClass.startsWith("bg-[#") ? { backgroundColor: product.archClass.replace('bg-[', '').replace(']', '') } : undefined}
               >
 
                 {/* Top Section: Image */}
