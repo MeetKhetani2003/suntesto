@@ -5,13 +5,31 @@ import { calculateShiprocketRate } from "@/lib/shiprocket";
 
 export async function POST(req: Request) {
   try {
-    const { pincode, items, paymentMethod = "ONLINE" } = await req.json();
+    const { pincode, items, paymentMethod = "ONLINE", subtotal } = await req.json();
 
     if (!pincode || !items || !Array.isArray(items)) {
       return NextResponse.json(
         { error: "Pincode and items are required." },
         { status: 400 }
       );
+    }
+
+    // Orders above ₹600 get free shipping
+    const FREE_SHIPPING_THRESHOLD = 600;
+    let computedSubtotal = typeof subtotal === "number" ? subtotal : 0;
+    if (!computedSubtotal && items.length > 0) {
+      computedSubtotal = items.reduce(
+        (sum: number, it: any) => sum + (Number(it.price) || 0) * (Number(it.quantity) || 1),
+        0
+      );
+    }
+
+    if (computedSubtotal > FREE_SHIPPING_THRESHOLD) {
+      return NextResponse.json({
+        success: true,
+        shippingCost: 0,
+        isFreeShipping: true,
+      });
     }
 
     await connectDB();
@@ -47,6 +65,7 @@ export async function POST(req: Request) {
     return NextResponse.json({
       success: true,
       shippingCost: finalShippingCost,
+      isFreeShipping: false,
     });
   } catch (error: any) {
     console.error("[Calculate Shipping] Error:", error);

@@ -298,7 +298,7 @@ function ShippingLabelContent({ order }: { order: Order }) {
             <div>
               <div style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "1.5px", textTransform: "uppercase", opacity: 0.85 }}>Cash on Delivery</div>
               <div style={{ fontSize: "10px", opacity: 0.75, marginTop: "2px" }}>
-                Shipping of ₹{order.pricing.shippingCost} already paid online
+                {order.pricing.shippingCost > 0 ? `Shipping of ₹${order.pricing.shippingCost} already paid online` : 'Free Shipping (No online shipping fee)'}
               </div>
             </div>
           </div>
@@ -846,7 +846,7 @@ export default function AdminOrdersPage() {
 
               {selectedOrder.paymentMethod === "COD" && (
                 <div className="bg-amber-50 border border-amber-100 rounded-2xl p-4 text-xs flex flex-col gap-2.5 font-bold mt-2">
-                  <div className="flex justify-between text-amber-900"><span>Shipping (Paid Online)</span><span>₹{selectedOrder.pricing.shippingCost}</span></div>
+                  <div className="flex justify-between text-amber-900"><span>{selectedOrder.pricing.shippingCost > 0 ? "Shipping (Paid Online)" : "Shipping Fee"}</span><span>{selectedOrder.pricing.shippingCost > 0 ? `₹${selectedOrder.pricing.shippingCost}` : "FREE"}</span></div>
                   <div className="flex justify-between text-[#CC2828] text-sm font-black border-t border-amber-200/50 pt-2 uppercase">
                     <span>COD Collectable</span>
                     <span>₹{selectedOrder.pricing.codAmountToCollect ?? (selectedOrder.pricing.total - selectedOrder.pricing.shippingCost)}</span>

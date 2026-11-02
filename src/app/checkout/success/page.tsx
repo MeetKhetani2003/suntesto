@@ -105,7 +105,11 @@ function SuccessContent() {
           <>
             <div className="flex items-center justify-between text-xs font-bold text-charcoal/50 uppercase tracking-wider border-t border-black/5 pt-3">
               <span>Shipping Fee</span>
-              <span className="font-black text-green-600 text-sm tracking-wide">PAID ONLINE (₹{orderData.pricing.shippingCost})</span>
+              <span className="font-black text-green-600 text-sm tracking-wide">
+                {orderData.pricing.shippingCost > 0
+                  ? `PAID ONLINE (₹${orderData.pricing.shippingCost})`
+                  : "FREE DELIVERY"}
+              </span>
             </div>
             <div className="flex items-center justify-between text-xs font-bold text-[#CC2828] uppercase tracking-wider border-t border-black/5 pt-3">
               <span>Cash on Delivery</span>

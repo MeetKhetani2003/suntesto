@@ -60,6 +60,18 @@ export async function POST(req: Request) {
       }
     }
 
+    // Free delivery threshold: above ₹600
+    const FREE_SHIPPING_THRESHOLD = 600;
+    let finalShippingCost = Number(pricing.shippingCost) || 0;
+    if (pricing.subtotal > FREE_SHIPPING_THRESHOLD) {
+      finalShippingCost = 0;
+    }
+
+    const calculatedTotal = Math.max(
+      0,
+      pricing.subtotal + finalShippingCost - (pricing.discountAmount || 0)
+    );
+
     // Generate unique random order number e.g. SU-582931
     const orderNumber = `SU-${Math.floor(100000 + Math.random() * 900000)}`;
 
@@ -69,8 +81,10 @@ export async function POST(req: Request) {
       items,
       pricing: {
         ...pricing,
-        codAmountToCollect: paymentMethod === "COD" ? Math.max(0, pricing.total - pricing.shippingCost) : 0,
-        shippingPaidOnline: paymentMethod === "COD" ? pricing.shippingCost : 0,
+        shippingCost: finalShippingCost,
+        total: calculatedTotal,
+        codAmountToCollect: paymentMethod === "COD" ? Math.max(0, calculatedTotal - finalShippingCost) : 0,
+        shippingPaidOnline: paymentMethod === "COD" ? finalShippingCost : 0,
       },
       couponCode,
       userId,

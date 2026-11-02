@@ -44,8 +44,20 @@ export default function CheckoutPage() {
   const [calculatingShipping, setCalculatingShipping] = useState(false);
   const [shippingError, setShippingError] = useState("");
 
-  // Calculate dynamic shipping cost for all orders
+  // Free delivery threshold: orders above ₹600 get free shipping
+  const FREE_SHIPPING_THRESHOLD = 600;
+  const isFreeShipping = cartTotal > FREE_SHIPPING_THRESHOLD;
+
+  // Calculate dynamic shipping cost for orders
   useEffect(() => {
+    // If order goes above ₹600, shipping is free!
+    if (isFreeShipping) {
+      setShippingCost(0);
+      setShippingError("");
+      setCalculatingShipping(false);
+      return;
+    }
+
     // Only calculate when pincode is exactly 6 digits (standard Indian pincode)
     if (formData.zip.trim().length === 6) {
       const fetchShippingCost = async () => {
@@ -57,7 +69,8 @@ export default function CheckoutPage() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               pincode: formData.zip,
-              items: cart.map((i) => ({ id: i.id, quantity: i.quantity })),
+              items: cart.map((i) => ({ id: i.id, quantity: i.quantity, price: i.price })),
+              subtotal: cartTotal,
               paymentMethod: paymentMethod,
             }),
           });
@@ -80,7 +93,7 @@ export default function CheckoutPage() {
     } else {
       setShippingCost(0);
     }
-  }, [paymentMethod, formData.zip, cart]);
+  }, [paymentMethod, formData.zip, cart, isFreeShipping, cartTotal]);
 
   useEffect(() => {
     setMounted(true);
@@ -147,7 +160,7 @@ export default function CheckoutPage() {
 
   // Calculate pricing
   const subtotal = cartTotal;
-  const actualShippingCost = shippingCost;
+  const actualShippingCost = isFreeShipping ? 0 : shippingCost;
   const discountAmount = appliedCoupon ? appliedCoupon.discountAmount : 0;
   const total = Math.max(0, subtotal + actualShippingCost - discountAmount);
 
@@ -213,13 +226,13 @@ export default function CheckoutPage() {
   const handlePlaceOrder = async () => {
     if (!validateForm()) return;
 
-    if (calculatingShipping) {
+    if (!isFreeShipping && calculatingShipping) {
       alert("Please wait until the shipping charges are calculated.");
       return;
     }
 
     if (formData.zip.trim().length !== 6) {
-      alert("A valid 6-digit pincode is required for shipping calculation.");
+      alert("A valid 6-digit pincode is required for delivery.");
       return;
     }
 
@@ -326,7 +339,7 @@ export default function CheckoutPage() {
         return;
       }
 
-      // If COD with 0 shipping cost, place order directly
+      // If COD with 0 shipping cost (e.g. free delivery above ₹600), place order directly
       if (paymentMethod === "COD") {
         const orderRes = await fetch("/api/checkout/place-order", {
           method: "POST",
@@ -630,7 +643,11 @@ export default function CheckoutPage() {
                   />
                   <div>
                     <span className="font-primary font-black text-[13px] text-dark uppercase block">Cash on Delivery (COD)</span>
-                    <span className="text-[11px] font-bold text-charcoal/40 uppercase tracking-wide">Pay cash when shipment is delivered</span>
+                    <span className="text-[11px] font-bold text-charcoal/40 uppercase tracking-wide">
+                      {isFreeShipping 
+                        ? "Pay full cash amount when shipment is delivered" 
+                        : "Pay cash when shipment is delivered"}
+                    </span>
                   </div>
                 </label>
               </div>
@@ -647,6 +664,22 @@ export default function CheckoutPage() {
                 <h2 className="text-xl font-black uppercase tracking-tight text-dark">Summary</h2>
               </div>
 
+              {/* Free delivery badge/banner */}
+              {isFreeShipping ? (
+                <div className="bg-green-50 border border-green-200/80 rounded-2xl p-3.5 text-xs font-bold text-green-700 flex items-center gap-2.5 mb-6">
+                  <span className="text-lg">🎉</span>
+                  <div className="flex flex-col">
+                    <span className="font-primary font-black uppercase tracking-wider text-[11px] text-green-800">Free Delivery Unlocked!</span>
+                    <span className="text-[11px] text-green-700 font-semibold">Your order is above ₹600, so delivery charges are completely free.</span>
+                  </div>
+                </div>
+              ) : cartTotal > 0 ? (
+                <div className="bg-[#FAF9F5] border border-black/5 rounded-2xl p-3 text-xs font-semibold text-charcoal/60 flex items-center justify-between mb-6">
+                  <span>Free delivery on orders above ₹600</span>
+                  <span className="font-bold text-[#9EAB75]">Add ₹{601 - cartTotal} more</span>
+                </div>
+              ) : null}
+
               {/* Cart List */}
               <div className="flex flex-col gap-3.5 mb-6 max-h-[220px] overflow-y-auto pr-1 border-b border-black/5 pb-6">
                 {cart.map((item) => (
@@ -657,7 +690,7 @@ export default function CheckoutPage() {
                     <div className="flex-1 min-w-0">
                       <span className="font-primary font-black text-xs text-dark uppercase block truncate">{item.title}</span>
                       <span className="text-[10px] font-bold text-charcoal/40 uppercase tracking-wide">
-                        {item.variant === "single" ? "Single Pouch" : item.variant === "pack3" ? "Pack of 3" : "Pack of 5"} × {item.quantity}
+                        {item.variant === "single" ? "Single Pouch" : item.variant === "pack3" ? "Pack of 3" : item.variant === "combo" ? "Custom Box" : "Pack of 5"} × {item.quantity}
                       </span>
                     </div>
                     <span className="font-primary font-black text-xs text-dark shrink-0">₹{item.price * item.quantity}</span>
@@ -706,7 +739,11 @@ export default function CheckoutPage() {
                 <div className="flex items-center justify-between">
                   <span className="font-medium text-charcoal/60">Shipping</span>
                   <span className="font-semibold text-dark">
-                    {calculatingShipping ? (
+                    {isFreeShipping ? (
+                      <span className="text-xs font-black text-green-700 bg-green-100/70 px-2.5 py-0.5 rounded-full border border-green-300 uppercase tracking-wider inline-flex items-center">
+                        FREE
+                      </span>
+                    ) : calculatingShipping ? (
                       <span className="text-xs text-charcoal/40 animate-pulse font-bold uppercase tracking-wider">Calculating...</span>
                     ) : shippingError ? (
                       <span className="text-xs text-red-500 font-bold">{shippingError}</span>
@@ -733,34 +770,50 @@ export default function CheckoutPage() {
                 <span className="font-primary font-black text-2xl text-dark">₹{total}</span>
               </div>
 
-              {paymentMethod === "COD" && actualShippingCost > 0 && (
+              {paymentMethod === "COD" && (
                 <div className="bg-[#FAF9F5] border border-black/5 rounded-2xl p-4 text-xs font-semibold text-charcoal/60 mb-6 flex flex-col gap-2.5 text-left">
-                  <div className="flex justify-between items-center text-dark font-bold">
-                    <span>Pay Shipping Charge Online</span>
-                    <span className="text-sm">₹{actualShippingCost}</span>
-                  </div>
-                  <div className="flex justify-between items-center text-[#CC2828] border-t border-black/5 pt-2.5 font-bold">
-                    <span>Pay remaining amount at delivery (COD)</span>
-                    <span className="text-sm">₹{total - actualShippingCost}</span>
-                  </div>
+                  {actualShippingCost > 0 ? (
+                    <>
+                      <div className="flex justify-between items-center text-dark font-bold">
+                        <span>Pay Shipping Charge Online</span>
+                        <span className="text-sm">₹{actualShippingCost}</span>
+                      </div>
+                      <div className="flex justify-between items-center text-[#CC2828] border-t border-black/5 pt-2.5 font-bold">
+                        <span>Pay remaining amount at delivery (COD)</span>
+                        <span className="text-sm">₹{total - actualShippingCost}</span>
+                      </div>
+                    </>
+                  ) : (
+                    <div className="flex justify-between items-center text-dark font-bold">
+                      <span className="flex items-center gap-1.5">
+                        <span className="text-green-600 font-bold">✓ Free Delivery</span>
+                        <span>• Pay full amount on delivery (COD)</span>
+                      </span>
+                      <span className="text-sm">₹{total}</span>
+                    </div>
+                  )}
                 </div>
               )}
 
               {/* Place Order CTA */}
               <button
                 onClick={handlePlaceOrder}
-                disabled={loading || calculatingShipping}
+                disabled={loading || (!isFreeShipping && calculatingShipping)}
                 className="w-full bg-black hover:bg-dark/95 text-white font-primary font-black text-[13px] uppercase tracking-wider py-4 rounded-full shadow-md hover:-rotate-1 transition-all duration-200 cursor-pointer text-center block disabled:opacity-50"
               >
                 {loading ? (
                   <span className="flex items-center justify-center gap-2">
                     <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                    {paymentMethod === "COD" ? "Processing Shipping Fee..." : "Processing Payment..."}
+                    {paymentMethod === "COD" && actualShippingCost > 0
+                      ? "Processing Shipping Fee..."
+                      : "Processing Payment..."}
                   </span>
-                ) : calculatingShipping ? (
+                ) : !isFreeShipping && calculatingShipping ? (
                   "Calculating Shipping..."
-                ) : paymentMethod === "COD" ? (
+                ) : paymentMethod === "COD" && actualShippingCost > 0 ? (
                   "Pay Shipping & Complete Order"
+                ) : paymentMethod === "COD" ? (
+                  "Confirm COD Order"
                 ) : (
                   "Pay & Complete Order"
                 )}

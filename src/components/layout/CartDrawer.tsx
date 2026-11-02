@@ -176,14 +176,20 @@ export default function CartDrawer() {
         {/* ── STICKY BOTTOM CHECKOUT SUMMARY ─────────────────────── */}
         {cart.length > 0 && (
           <div className="p-6 bg-white border-t border-black/5 shadow-[0_-8px_24px_rgba(0,0,0,0.03)] sticky bottom-0 z-20">
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center justify-between mb-3">
               <span className="font-primary font-black text-xs uppercase tracking-wider text-charcoal/50">Estimated Total</span>
               <span className="font-primary font-black text-2xl text-dark">₹{cartTotal}</span>
             </div>
 
-            <p className="text-[11px] font-bold text-charcoal/40 leading-normal text-left mb-6 uppercase tracking-wider">
-              🎁 Free shipping on order values above ₹499! GST calculated at checkout.
-            </p>
+            {cartTotal > 600 ? (
+              <div className="bg-green-50 border border-green-200 text-green-700 text-xs font-black rounded-xl p-2.5 text-center mb-5 flex items-center justify-center gap-1.5 uppercase tracking-wide">
+                <span>🎉</span> You unlocked FREE Delivery!
+              </div>
+            ) : (
+              <p className="text-[11px] font-bold text-charcoal/40 leading-normal text-left mb-5 uppercase tracking-wider">
+                🎁 Free shipping on order values above ₹600! Add ₹{601 - cartTotal} more for free delivery.
+              </p>
+            )}
 
             <Link
               href="/checkout"

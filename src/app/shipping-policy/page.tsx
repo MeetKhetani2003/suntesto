@@ -96,10 +96,10 @@ export default function ShippingPolicyPage() {
               <div className="text-charcoal/85 font-bold text-xs sm:text-[13px] leading-relaxed w-full flex flex-col gap-4">
                 <ul className="list-disc pl-5 flex flex-col gap-2 text-charcoal/80">
                   <li>
-                    <strong className="text-charcoal">Free Shipping:</strong> On all orders above ₹499.
+                    <strong className="text-charcoal">Free Shipping:</strong> On all orders above ₹600.
                   </li>
                   <li>
-                    <strong className="text-charcoal">Standard Shipping Fee:</strong> ₹100 for orders below ₹499.
+                    <strong className="text-charcoal">Standard Shipping Fee:</strong> ₹100 for orders below or equal to ₹600.
                   </li>
                 </ul>
                 <p className="bg-stone-50 border border-stone-200/50 rounded-2xl p-4.5 text-charcoal/80 leading-relaxed font-bold">
@@ -244,4 +244,5 @@ export default function ShippingPolicyPage() {
     </>
   );
 }
+
 

@@ -674,7 +674,7 @@ export default function ProductDetailPage() {
             <div className="flex flex-col sm:flex-row gap-4 w-full max-w-[420px] mb-8">
               {/* Ticket 1 */}
               <div className="flex-1 border-[3px] border-dashed border-[#9EAB75] rounded-2xl p-3 flex flex-col items-center justify-center text-center bg-[#9EAB75]/5 relative rotate-[-1deg]">
-                <span className="font-primary font-black text-[10px] text-charcoal/40 uppercase tracking-widest leading-none mb-1">ORDER VALUE 499/-</span>
+                <span className="font-primary font-black text-[10px] text-charcoal/40 uppercase tracking-widest leading-none mb-1">ORDER VALUE ABOVE 600/-</span>
                 <span className="font-primary font-black text-sm text-charcoal uppercase tracking-wide leading-none">FREE SHIPPING</span>
               </div>
               {/* Ticket 2 */}
