@@ -416,6 +416,12 @@ export default function AdminDashboardOverview() {
         >
           <span>🏷️ Manage Store Coupons</span>
         </Link>
+        <Link
+          href="/admin/users"
+          className="bg-white border border-black/10 hover:bg-gray-50 text-charcoal font-black uppercase text-xs px-6 py-3.5 rounded-xl transition-all flex items-center gap-2"
+        >
+          <span>👥 View Users & Customers</span>
+        </Link>
       </div>
     </div>
   );
